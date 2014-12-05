@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+    <head>
+        <title>414Ц04308</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body class="body">
+        <header class="header">
+            <a>414Ц04308 &#124 КФХ Семенов В.О. &#124 напитки Саврушка 1,5 л (в ассортименте)</a>
+        </header>
+    <div class="block">
+    <p class="block-header">Ассортимент</p>
+    <div class="tabs">
+    <table>
+            <tr>
+                <th class="table">п/п</td>
+                <th class="table">Наименование</td>
+                <th class="table">Присвоить паспорт</td>
+                <th class="table">Файл из паспорта</td>
+                <th class="table">Выполнить из паспорта</td>
+            </tr>
+            <tr>
+                <td class="table">1</td>
+                <td class="table">напиток Апельсин 1,5л</td>
+                <td class="table">D4327004</td>
+                <td class="table"></td>
+                <td class="table"></td>
+            </tr>
+            <tr class="even-content">
+                <td class="table">2</td>
+                <td class="table">напиток Малина 1,5л</td>
+                <td class="table">D4327004</td>
+                <td class="table"></td>
+                <td class="table"></td>
+            </tr>
+            <tr>
+                <td class="table">3</td>
+                <td class="table">напиток Зеленый чай 1,5л</td>
+                <td class="table">D4327004</td>
+                <td class="table"></td>
+                <td class="table"></td>
+            </tr>
+            <tr class="even-content">
+                <td class="table">4</td>
+                <td class="table">напиток Квас</td>
+                <td class="table">D4327004</td>
+                <td class="table"></td>
+                <td class="table"></td>
+            </tr>
+            <tr>
+                <td class="table">5</td>
+                <td class="table">напиток Груша-Дюшес 1,5л</td>
+                <td class="table">D4327004</td>
+                <td class="table"></td>
+                <td class="table"></td>
+            </tr>
+            <tr class="even-content">
+                <td class="table">6</td>
+                <td class="table">вода газированная Саврушка 1,5л</td>
+                <td class="table">D4327004</td>
+                <td class="table"></td>
+                <td class="table"></td>
+            </tr>
+            <tr>
+                <td class="table">7</td>
+                <td class="table">вода негазированная Саврушка 1,5л</td>
+                <td class="table">D4327004</td>
+                <td class="table"></td>
+                <td class="table"></td>
+            </tr>
+            <tr class="even-content">
+                <td class="table">8</td>
+                <td class="table">лимонад Саврушка 1,5л</td>
+                <td class="table">D4327004</td>
+                <td class="table">4327003</td>
+                <td class="table"></td>
+            </tr>
+          </table>
+       </div>
+    </div>
+        <div class="block2">
+                <p class="block-header">Технология</p>
+                
+                <div class="block3">
+                        <p>Печать
+                            <select name="print_type" size="1" multiple>
+                                <option value="digital">цифровая</option>
+                                <option value="flexo">флексо</option>
+                            </select>
+                        </p>
+                        <p>Этикетка
+                              <select name="label_type" size="1" multiple>
+								<option>самоклеящаяся</option>
+								<option>термоусадочная</option>
+								<option>в оборот</option>
+                                    <option>in-mold</option>
+                               </select>
+                         </p>
+                         <p>Высечка
+							<select name="label_type" size="1" multiple>
+								<option>готовая</option>
+								<option>заказная</option>
+                                    <option>порез</option>
+								<option>плоттер</option>
+								<option>без высекания</option>
+							</select>
+						</p>
+                           <p>Номер штампа
+							<input name="cut_number" type="text">
+						</p>	
+					</div>
+                </div>
+        </div>
+        
+        <footer class="header">
+            <a href="#" class="button" >Проверить</a>
+        </footer>
+    </body>
+</html>
+
+<!--						
+					<div class="row">
+						<div class="col-md-6">
+							<label for="size_x" class="col-md-0 control-label">Размер_X
+							</label>
+							<div>
+								<input name="size_x" id="size_x" class="form-control" type="text">
+							</div>
+						</div>	
+						<div class="col-md-6">
+							<label for="size_y" class="col-md-0 control-label">Размер_Y
+							</label>
+							<div>
+								<input name="size_y" id="size_y" class="form-control" type="text">
+							</div>
+						</div>
+					</div>
+              </div>
+        </div>
+        
+					<div class="row">
+						<div class="col-md-5">
+							<label for="inks" class="col-md-0 control-label">Красочность_тиража</label>
+							<div class="checkbox" ng-repeat="ink in order.inks">
+								<label>
+									<input name="ink_{{$index}}" ng-model="ink.used" type="checkbox">{{ink.name}}
+								</label>
+							</div>
+						</div>
+
+						<p>
+						</p>
+
+						<div class="col-md-7">
+							<div>					
+								<label for="pms_1" class="col-md-4 control-label">PMS
+								</label>
+								<div class="col-md-8">
+									<input name="pms_1" id="pms_1" class="form-control" type="text">
+								</div>
+							</div>
+
+							<div>
+								<label for="pms_2" class="col-md-4 control-label">PMS
+								</label>
+								<div class="col-md-8">
+									<input name="pms_2" id="pms_2" class="form-control" type="text">
+								</div>
+							</div>
+
+							<div>
+								<label for="pms_3" class="col-md-4 control-label">PMS
+								</label>
+								<div class="col-md-8"><input name="pms_3" id="pms_3" class="form-control" type="text">
+								</div>
+							</div>
+
+							<div>
+								<label for="pms_4" class="col-md-4 control-label">PMS
+								</label>
+								<div class="col-md-8"><input name="pms_4" id="pms_4" class="form-control" type="text">
+								</div>
+							</div>
+
+							<div>
+								<label for="pms_5" class="col-md-4 control-label">PMS
+								</label>
+								<div class="col-md-8">
+									<input name="pms_5" id="pms_5" class="form-control" type="text">
+								</div>
+							</div>
+
+							<div>
+								<label for="pms_6" class="col-md-4 control-label">PMS
+								</label>
+								<div class="col-md-8">
+									<input name="pms_6" id="pms_6" class="form-control" type="text">
+								</div>
+							</div>
+
+							<div>
+								<label for="pms_7" class="col-md-4 control-label">PMS
+								</label>
+								<div class="col-md-8">
+									<input name="pms_7" id="pms_7" class="form-control" type="text">
+								</div>
+							</div>
+						</div>
+					</div>	
+
+					<div class="row">
+						<div class="col-md-12">
+							<label for="lak" class="col-md-0 control-label">Лакирование
+							</label>
+						</div>
+						<div class="col-md-3">
+							<div class="radio">
+								<label>
+									<input ng-model="order.lak" name="lak" value="free" id="free" type="radio">без_лака
+								</label>
+							</div>
+						</div>						
+						<div class="col-md-3">
+							<div class="radio">
+								<label>
+									<input ng-model="order.lak" name="lak" value="solid" id="solid" type="radio">сплошной
+								</label>
+							</div>
+						</div>				
+						<div class="col-md-3">
+							<div class="radio">
+								<label>
+									<input ng-model="order.lak" name="lak" value="select" id="select" type="radio">выборочн.
+								</label>
+							</div>
+						</div>				
+						<div class="col-md-3">
+							<div class="radio">
+								<label>
+									<input ng-model="order.lak" name="lak" value="both" id="both" type="radio">оба
+								</label>
+							</div>
+						</div>					
+					</div>				
+
+					<div class="row">
+						<div class="col-md-12">
+							<label for="tis" class="col-md-0 control-label">Тиснение
+							</label>
+						</div>
+						<div class="col-md-4">
+							<div class="radio">
+								<label>
+									<input name="tis" value="free" id="free" type="radio">без_тиснения
+								</label>
+							</div>
+						</div>						
+						<div class="col-md-4">
+							<div class="radio">
+								<label>
+									<input name="tis" value="hot" id="hot" type="radio">горячее
+								</label>
+							</div>
+						</div>				
+						<div class="col-md-4">
+							<div class="radio">
+								<label>
+									<input name="tisnenie" value="cold" id="cold" type="radio">холодное
+								</label>
+							</div>
+						</div>								
+					</div>					
+					<p>
+					</p>
+					<div class="row">
+						<div class="col-md-6">
+							<label for="roll">Намотка
+							</label>
+							<div>
+								<div class="radio">
+									<label>
+										<input name="roll" value="hand" id="hand" type="radio">ручная
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input name="roll" value="auto" id="auto" type="radio">автоматическая
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<label for="roll_type">Тип_намотки
+							</label>
+							<div>
+								<div class="radio">
+									<label><input name="roll_type" value="outside" id="outside" type="radio">наружная
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input name="roll_type" value="inside" id="inside" type="radio">внутреняя
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<p>
+						</p>
+						<div class="col-md-6">
+							<img ng-src="images/{{ getRollImage(order.roll_dir) }}" alt="Расположение этикетки на сборке">
+						</div>
+
+						<div class="col-md-6">
+							<label for="roll_dir">Направление_намотки
+							</label>
+							<div>
+								<div class="radio">
+									<label>
+										<input ng-click="setRollImage('head_mashine')" name="roll_dir" value="head_mashine" id="head_mashine" type="radio">головой к машине
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input ng-click="setRollImage('foot_mashine')" name="roll_dir" value="foot_mashine" id="foot_mashine" type="radio">ногами к машине
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input ng-click="setRollImage('foot_forward')" name="roll_dir" value="foot_forward" id="foot_forward" type="radio">ногами к вперед
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input ng-click="setRollImage('head_forward')" name="roll_dir" value="head_forward" id="head_forward" type="radio">головой к вперед
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+-->

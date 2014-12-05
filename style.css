@@ -1,0 +1,164 @@
+﻿*{
+  margin:0;
+  padding:0;
+}
+@font-face {
+    font-family: 'latolight';
+    src: url('fonts/lato-light.eot');
+    src: url('fonts/lato-light.eot?#iefix') format('embedded-opentype'),
+          url('fonts/lato-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.body
+{
+  left:0px;
+  top:0px;
+  margin: 0 auto;
+  padding:0;
+  width:850px;
+}
+.header
+{
+  font-family: latolight;
+  font-size : 18px;
+  color: #404040;
+  text-align: center;
+  height:60px;
+  line-height: 60px; 
+}
+.cursor {
+  cursor: pointer;
+}
+.button {
+  font-family: latolight;
+  font-size: 16px;
+  color: gray; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  background: #f1f1f1; /* фон кнопки */
+  padding: 6px 10.35px; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  border-radius: 5px;
+} 
+.button:hover {
+    background: #f5f5f5;
+} /* при наведении курсора мышки */
+.button:active {
+    background: #fff;
+} /* при нажатии */
+.block {
+  border: solid 1px #ccc;
+  height: 300px;
+  margin: 5px 0px;
+}
+.block2 {
+  border: solid 1px #ccc;
+  height: 500px;
+  margin: 5px 0px;
+}
+.block3 {
+  width: 270px;
+  border: solid 1px #ccc;
+  margin: 0px 10px;
+  padding: 15px ;
+  float: left; /* Выравнивание по левому краю */
+  font-family: latolight;
+  font-size: 14px;
+}
+.block-header {
+    font-family: latolight;
+    font-size: 14px;
+    color: #404040;
+    padding: 10px 20px;
+}
+.table {
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 15px;
+}
+.even {
+    background: #E6F0EE; /* Цвет фона четных строк */
+}
+.even-content {
+    background: #F6EDE9; /* Цвет фона четных строк */
+}
+.tabs {
+    width: 100%;
+    height: 550px;
+}
+.tabs ul,
+.tabs li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.tabs,
+.tabs input[type="radio"]:checked + label {
+    position: relative;
+}
+.tabs li,
+.tabs input[type="radio"] + label {
+    display: inline-block;
+}
+.tabs li > div,
+.tabs input[type="radio"] {
+    position: absolute;
+}
+.tabs li > div,
+.tabs input[type="radio"] + label {
+    border: solid 1px #ccc;
+}
+.tabs {
+    font-family: latolight;
+    font-size: 14px;
+    color: #404040;
+}
+.tabs li {
+    vertical-align: top;
+}
+.tabs li:first-child {
+    margin-left: 8px;
+}
+.tabs li > div {
+    top: 33px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+    overflow: auto;
+    background: #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tabs input[type="radio"] + label {
+    margin: 0 2px 0 0;
+    padding: 0 18px;
+    line-height: 32px;
+    background: #f1f1f1;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.tabs input[type="radio"]:checked + label {
+    z-index: 1;
+    background: #fff;
+    border-bottom-color: #fff;
+    cursor: default;
+}
+.tabs input[type="radio"] {
+    opacity: 0;
+}
+.tabs input[type="radio"] ~ div {
+    display: none;
+}
+.tabs input[type="radio"]:checked:not(:disabled) ~ div {
+    display: block;
+}
+.tabs input[type="radio"]:disabled + label {
+    opacity: .5;
+    cursor: no-drop;
+}
