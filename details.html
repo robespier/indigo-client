@@ -284,27 +284,29 @@
 							<input class="form" style="text-align: center" type="text"><br>
                             </p><br>
                             <p>Способ намотки<br>
-                                <select class="form2" name="namotka_metod">
+                                <select class="form2" name="roll_method">
                                     <option value="hand">ручная</option>
                                     <option value="auto">автоматическая</option>
                                 </select>
                             </p><br>
                             <p>Тип намотки<br>
-                                <select class="form2" name="namotka_type">
+                                <select class="form2" name="roll_type">
                                     <option value="outer">наружная</option>
                                     <option value="inner">внутренняя</option>
                                 </select>
                             </p><br>
                             <p>Направление намотки<br>
-                                <select class="form2" name="namotka_direct">
-                                    <option value="outer">головой к машине</option>
-                                    <option value="inner">ногами к машине</option>
-                                    <option value="outer">ногами к вперед</option>
-                                    <option value="inner">головой к вперед</option>
+                                <select class="form2" name="roll_direct" ng-model="roll_direct">
+                                    <option value="head_mashine">головой к машине</option>
+                                    <option value="foot_mashine">ногами к машине</option>
+                                    <option value="foot_forward">ногами к вперед</option>
+                                    <option value="head_forward">головой к вперед</option>
                                 </select>
                              </p><br>
-                                    <div style="text-align: center">
-                                        <img src="images/roll_1_6.png" style alt="Расположение этикетки на сборке">
+                                    <div align="center">
+                                        <div class="roll-dir-container">
+                                            <p class="roll-dir-sample">A</p>
+                                        </div>
                                     </div>
             </div>
       </div>
@@ -317,7 +319,7 @@
             <a href="#" class="button" >Вывести</a>
             <a href="#" class="button" >История</a>
         </footer>
-                <script type="text/javascript" src="angular.min.js"></script>
-                <script type="text/javascript" src="app.js"></script>
+                <script type="text/javascript" src="js/angular.min.js"></script>
+                <script type="text/javascript" src="js/app.js"></script>
     </body>
 </html>

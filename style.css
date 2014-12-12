@@ -112,6 +112,17 @@ padding: 5px 16px;
 .hr {
     border: solid 1px #ccc;
 }
+.roll-dir-container {
+     text-align: center;
+     width: 100px;
+     height: 100px;
+}
+.roll-dir-sample {
+     font-size: 80px;
+     color: gray;
+     font-weight: bold;
+     transform: rotate(0deg);
+}
 .table {
     font-size: 12px;
     text-align: left;
