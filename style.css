@@ -45,6 +45,16 @@
   font-family: latolight;
   font-size: 12px;
 }
+.button-check {
+  font-family: latolight;
+  font-size: 14px;
+  color: white; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  background: red; /* фон кнопки */
+  padding: 6px 10.35px; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  border-radius: 5px;
+} 
 .button {
   font-family: latolight;
   font-size: 14px;
@@ -74,14 +84,14 @@
   font-size: 12px;
 }
 .block2 {
-  height: 360px;
+  height: 370px;
   font-family: latolight;
   font-size: 12px;
 }
 .block3 {
   border: solid 1px #ccc;
   width: 232px;
-  height: 350px;
+  height: 360px;
   margin: 0px 3px;
   padding: 5px 5px ;
   float: left; /* Выравнивание по левому краю */
@@ -96,6 +106,7 @@
 .block-header {
     font-family: latolight;
     font-size: 14px;
+    text-align: center;
     color: #404040;
     padding: 10px 20px;
 }
