@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html ng-app="indigo">
+<html ng-app="indigo" ng-controller="OrderBlank">
 <head>
          <title>414Ц04308</title>
                 <?xml version="1.0" encoding="utf-8"?>
@@ -8,92 +8,92 @@
 </head>
 <body class="body">
         <header class="header">
-                <a>414Ц04308 &#149 КФХ Семенов В.О. &#149 напитки Саврушка 1,5 л (в ассортименте)</a>
+                <a>{{order.order_number}} &#149 {{order.customer}} &#149 {{order.order_name}}</a>
         </header>
         
 <div class="block">
      <p class="block-header">Ассортимент
      </p>
         <table class="block1">
-            <tr>
+            <tr class="table-header">
                 <th><input type="checkbox"></th>
                 <th class="table">п/п</th>
                 <th class="table">Наименование</th>
                 <th class="table">Присвоить паспорт</th>
-                <th class="table">Файл из паспорта</th>
+                <th class="table">Файл из паспорта<br>/из др. источника</th>
                 <th class="table">Выполнить из паспорта</th>
                 <th class="table">Текущее состояние</th>
             </tr>
             <tr>
                 <td><input type="checkbox"></td>
                 <td class="table">1</td>
-                <td class="table">напиток Апельсин 1,5л</td>
-                <td class="table">D4327004</td>
-                <td class="table"></td>
-                <td class="table"></td>
+                <td class="table">{{order.labels[0].name}}</td>
+                <td class="cell-center">{{order.labels[0].placement}}</td>
+                <td class="cell-center"></td>
+                <td class="cell-center"></td>
                 <td class="table">требует правок</td>
             </tr>
             <tr class="even-content">
                 <td><input type="checkbox"></td>
                 <td class="table">2</td>
-                <td class="table">напиток Малина 1,5л</td>
-                <td class="table">D4327004</td>
-                <td class="table"></td>
-                <td class="table"></td>
+                <td class="table">{{order.labels[1].name}}</td>
+                <td class="cell-center">{{order.labels[1].placement}}</td>
+                <td class="cell-center"></td>
+                <td class="cell-center"></td>
                 <td class="table">требует правок</td>
             </tr>
             <tr>
                 <td><input type="checkbox"></td>
                 <td class="table">3</td>
-                <td class="table">напиток Зеленый чай 1,5л</td>
-                <td class="table">D4327004</td>
-                <td class="table"></td>
-                <td class="table"></td>
+                <td class="table">{{order.labels[2].name}}</td>
+                <td class="cell-center">{{order.labels[2].placement}}</td>
+                <td class="cell-center"></td>
+                <td class="cell-center"></td>
                 <td class="table">требует правок</td>
             </tr>
             <tr class="even-content">
                 <td><input type="checkbox"></td>
                 <td class="table">4</td>
-                <td class="table">напиток Квас</td>
-                <td class="table">D4327004</td>
-                <td class="table"></td>
-                <td class="table"></td>
+                <td class="table">{{order.labels[3].name}}</td>
+                <td class="cell-center">{{order.labels[3].placement}}</td>
+                <td class="cell-center"></td>
+                <td class="cell-center"></td>
                 <td class="table">требует правок</td>
             </tr>
             <tr>
                 <td><input type="checkbox"></td>
                 <td class="table">5</td>
-                <td class="table">напиток Груша-Дюшес 1,5л</td>
-                <td class="table">D4327004</td>
-                <td class="table"></td>
-                <td class="table"></td>
+                <td class="table">{{order.labels[4].name}}</td>
+                <td class="cell-center">{{order.labels[4].placement}}</td>
+                <td class="cell-center"></td>
+                <td class="cell-center"></td>
                 <td class="table">требует правок</td>
             </tr>
             <tr class="even-content">
                 <td><input type="checkbox"></td>
                 <td class="table">6</td>
-                <td class="table">вода газированная Саврушка 1,5л</td>
-                <td class="table">D4327004</td>
-                <td class="table"></td>
-                <td class="table"></td>
+                <td class="table">{{order.labels[5].name}}</td>
+                <td class="cell-center">{{order.labels[5].placement}}</td>
+                <td class="cell-center"></td>
+                <td class="cell-center"></td>
                 <td class="table">требует правок</td>
             </tr>
             <tr>
                 <td><input type="checkbox"></td>
                 <td class="table">7</td>
-                <td class="table">вода негазированная Саврушка 1,5л</td>
-                <td class="table">D4327004</td>
-                <td class="table"></td>
-                <td class="table"></td>
+                <td class="table">{{order.labels[6].name}}</td>
+                <td class="cell-center">{{order.labels[6].placement}}</td>
+                <td class="cell-center"></td>
+                <td class="cell-center"></td>
                 <td class="table">требует правок</td>
             </tr>
             <tr class="even-content">
                 <td><input type="checkbox"></td>
                 <td class="table">8</td>
-                <td class="table">лимонад Саврушка 1,5л</td>
-                <td class="table">D4327004</td>
-                <td class="table">4327003</td>
-                <td class="table"></td>
+                <td class="table">{{order.labels[7].name}}</td>
+                <td class="cell-center">{{order.labels[7].placement}}</td>
+                <td class="cell-center">4327003</td>
+                <td class="cell-center"></td>
                 <td class="table">требует правок</td>
             </tr>
       </table>
@@ -298,8 +298,8 @@
                             </p><br>
                             <p>Тип намотки<br>
                                 <select class="form2" name="roll_type">
-                                    <option value="outer">наружная</option>
-                                    <option value="inner">внутренняя</option>
+                                    <option value="outside">наружная</option>
+                                    <option value="inside">внутренняя</option>
                                 </select>
                             </p><br>
                             <p>Направление намотки<br>
@@ -318,8 +318,7 @@
             </div>
       </div>
 </div>
-<footer class="header">
-            <a href="#" class="button-check" >Проверить всё!</a>
+<footer class="block-header">
 </footer>
                 <script type="text/javascript" src="angular.min.js"></script>
                 <script type="text/javascript" src="app.js"></script>
