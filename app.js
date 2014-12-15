@@ -5,9 +5,17 @@
              "order_number": "414Ц04308",
 			"customer": "КФХ Семенов В.О.",
 			"order_name": "Напитки Саврушка 1,5 л (в ассортименте)",
+			"print_type": "digital",
+			"label_type": "self-label",
+             "material_type": "sem",
+             "material_width": "250",
+             "cut_type": "ready",
+             "cut_number": "1084093",
+             "size_x": "98,6",
+             "size_y": "130",
 			"roll_method": "auto", 
 			"roll_type": "outside", 
-			"roll_direct": "head_forward",
+			"roll_direct": "head_mashine",
               labels: [
 				{
 					name: "Апельсин 1,5л",
@@ -65,6 +73,50 @@
 					run: "",
 					status: "undefinded",
 				},
+			],
+            inks: [ 
+				{ name: 'Opaque',
+                     used: false
+                  },
+                  { name: 'Opaque',
+                     used: false
+                  },
+				{ name: 'Cyan',
+                     used: true
+                  },
+                  { name: 'Cyan',
+                     used: false
+                  },
+				{ name: 'Magenta',
+                    used: true
+                  },
+                  { name: 'Magenta',
+                     used: false
+                  },
+				{ name: 'Yellow',
+                     used: true
+                  },
+                  { name: 'Yellow',
+                     used: false
+                  },
+				{ name: 'Black',
+                     used: true
+                  },
+                  { name: 'Black',
+                     used: false
+                  },
+				{ name: 'Orange',
+                     used: false
+                  },
+                  { name: 'Orange',
+                     used: false
+                  },
+				{ name: 'Violet',
+                     used: false
+                  },
+                  { name: 'Violet',
+                     used: false
+                  },
 			],
 		};
 	}]);

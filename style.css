@@ -31,30 +31,20 @@
   cursor: pointer;
 }
 .form {
-  width: 48px;
+  width: 42px;
   font-family: latolight;
   font-size: 12px;
 }
 .form1 {
-  width: 90px;
+  width: 114px;
   font-family: latolight;
   font-size: 12px;
 }
 .form2 {
-  width: 225px;
+  width: 230px;
   font-family: latolight;
   font-size: 12px;
 }
-.button-check {
-  font-family: latolight;
-  font-size: 14px;
-  color: white; /* цвет текста */
-  text-decoration: none; /* убирать подчёркивание у ссылок */
-  background: red; /* фон кнопки */
-  padding: 6px 10.35px; /* отступ от текста */
-  outline: none; /* убирать контур в Mozilla */
-  border-radius: 5px;
-} 
 .button {
   font-family: latolight;
   font-size: 14px;
@@ -64,6 +54,7 @@
   padding: 6px 10.35px; /* отступ от текста */
   outline: none; /* убирать контур в Mozilla */
   border-radius: 5px;
+  border: solid 1px #ccc;
 } 
 .button:hover {
     background: #ddd;
@@ -78,7 +69,7 @@
 }
 .block1 {
   border: solid 1px #ccc;
-  padding: 10px 5px ;
+  padding: 5px 5px ;
   margin: 5px 2px;
   font-family: latolight;
   font-size: 12px;
@@ -140,15 +131,16 @@ padding: 5px 16px;
     padding: 5px 10px;
 }
 .table-header {
+    color: white;
     text-align: center;
-    padding: 5px 10px;
-    background: #eee;
+    padding: 10px 10px;
+    background: #A6CAAE;
 }
 .odd {
     background: #E6F0EE; /* Цвет фона нечетных строк */
 }
 .even {
-    background: #F6EDE9; /* Цвет фона четных строк */
+    background: #F2E5DF; /* Цвет фона четных строк */
 }
 .cell-center {
     font-size: 12px;

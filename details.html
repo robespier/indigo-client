@@ -16,7 +16,7 @@
      </p>
         <table class="block1">
             <tr class="table-header">
-                <th class="table-header"><input type="checkbox"></th>
+                <th class="table-header"><input ng-click="" type="checkbox"></th>
                 <th class="table-header">п/п</th>
                 <th class="table-header">Наименование</th>
                 <th class="table-header">Присвоить паспорт</th>
@@ -24,7 +24,7 @@
                 <th class="table-header">Выполнить из паспорта</th>
                 <th class="table-header">Текущее состояние</th>
             </tr>
-            <tr class="even" ng-repeat="labels in order.labels">
+            <tr ng-class-odd="'odd'" ng-class-even="'even'" ng-repeat="labels in order.labels">
                 <td class="cell-center"><input type="checkbox"></td>
                 <td class="cell-center">{{$index+1}}</td>
                 <td class="table">{{labels.name}}</td>
@@ -50,101 +50,137 @@
                 <div class="block3">
                         <p>Печать<br>
                                 <select class="form2" name="print_type">
-                                    <option value="digital">цифровая</option>
-                                    <option value="flexo">флексо</option>
-                                    <option value="combo">комбинированная</option>
+                                    <option value="digital" ng-selected="{{order.print_type == 'digital'}}">цифровая</option>
+                                    <option value="flexo" ng-selected="{{order.print_type == 'flexo'}}">флексо</option>
+                                    <option value="combo" ng-selected="{{order.print_type == 'combo'}}">комбинированная</option>
                                 </select>
                             </p><br>
                         <p>Этикетка<br>
                               <select class="form2" name="label_type">
-								<option>самоклеящаяся</option>
-								<option>термоусадочная</option>
-								<option>в оборот</option>
-                                    <option>in-mold</option>
+								<option value="self-label" ng-selected="{{order.label_type == 'self-label'}}">самоклеящаяся</option>
+								<option value="termo" ng-selected="{{order.label_type == 'termo'}}">термоусадочная</option>
+								<option value="oborot" ng-selected="{{order.label_type == 'oborot'}}">в оборот</option>
+                                    <option value="in-mold" ng-selected="{{order.label_type == 'in-mold'}}">in-mold</option>
                                </select>
                          </p><br>
                          <p>Материал<br>
                               <select class="form2" name="material_type">
-								<option>sem (бумага п/глянцевая)</option>
-								<option>pew (пленка белая)</option>
-                                    <option>pptr (пленка прозрачная)</option>
-								<option>mps (бумага металл.)</option>
-                                    <option>pps (пленка металл.)</option>
+								<option value="sem" ng-selected="{{order.material_type == 'sem'}}">sem (бумага п/глянцевая)</option>
+								<option value="pew" ng-selected="{{order.material_type == 'pew'}}">pew (пленка белая)</option>
+                                    <option value="pptr" ng-selected="{{order.material_type == 'pptr'}}">pptr (пленка прозрачн.)</option>
+								<option value="mps" ng-selected="{{order.material_type == 'mps'}}">mps (бумага металл.)</option>
+                                    <option value="pps" ng-selected="{{order.material_type == 'pps'}}">pps (пленка металл.)</option>
                                </select>
                           </p><br>
                           <p>Ширина пореза (мм)
-							<input class="form" style="text-align: center" name="material_width" type="text">
+                                <select class="form1" style="text-align: center" name="material_width">
+                                    <option value="170" ng-selected="{{order.material_width == '170'}}">170</option>
+                                    <option value="175" ng-selected="{{order.material_width == '175'}}">175</option>
+                                    <option value="180" ng-selected="{{order.material_width == '180'}}">180</option>
+                                    <option value="185" ng-selected="{{order.material_width == '185'}}">185</option>
+                                    <option value="190" ng-selected="{{order.material_width == '190'}}">190</option>
+                                    <option value="195" ng-selected="{{order.material_width == '195'}}">195</option>
+                                    <option value="200" ng-selected="{{order.material_width == '200'}}">200</option>
+                                    <option value="205" ng-selected="{{order.material_width == '205'}}">205</option>
+                                    <option value="210" ng-selected="{{order.material_width == '210'}}">210</option>
+                                    <option value="215" ng-selected="{{order.material_width == '215'}}">215</option>
+                                    <option value="220" ng-selected="{{order.material_width == '220'}}">220</option>
+                                    <option value="225" ng-selected="{{order.material_width == '225'}}">225</option>
+                                    <option value="230" ng-selected="{{order.material_width == '230'}}">230</option>
+                                    <option value="235" ng-selected="{{order.material_width == '235'}}">235</option>
+                                    <option value="240" ng-selected="{{order.material_width == '240'}}">240</option>
+                                    <option value="245" ng-selected="{{order.material_width == '245'}}">245</option>
+                                    <option value="250" ng-selected="{{order.material_width == '250'}}">250</option>
+                                    <option value="255" ng-selected="{{order.material_width == '255'}}">255</option>
+                                    <option value="260" ng-selected="{{order.material_width == '260'}}">260</option>
+                                    <option value="265" ng-selected="{{order.material_width == '265'}}">265</option>
+                                    <option value="270" ng-selected="{{order.material_width == '270'}}">270</option>
+                                    <option value="275" ng-selected="{{order.material_width == '275'}}">275</option>
+                                    <option value="280" ng-selected="{{order.material_width == '280'}}">280</option>
+                                    <option value="285" ng-selected="{{order.material_width == '285'}}">285</option>
+                                    <option value="290" ng-selected="{{order.material_width == '290'}}">290</option>
+                                    <option value="295" ng-selected="{{order.material_width == '295'}}">295</option>
+                                    <option value="300" ng-selected="{{order.material_width == '300'}}">300</option>
+                                    <option value="305" ng-selected="{{order.material_width == '305'}}">305</option>
+                                    <option value="310" ng-selected="{{order.material_width == '310'}}">310</option>
+                                    <option value="315" ng-selected="{{order.material_width == '315'}}">315</option>
+                                    <option value="320" ng-selected="{{order.material_width == '320'}}">320</option>
+                                    <option value="325" ng-selected="{{order.material_width == '325'}}">325</option>
+                                    <option value="330" ng-selected="{{order.material_width == '330'}}">330</option>
+                                    <option value="333" ng-selected="{{order.material_width == '333'}}">333</option>
+                                </select>
                           </p><br>
                           <p>Высечка<br>
 							<select class="form2" name="cut_type">
-								<option>готовая</option>
-								<option>заказная</option>
-                                    <option>порез</option>
-								<option>плоттер</option>
-								<option>без высекания</option>
+								<option value="ready" ng-selected="{{order.cut_type == 'ready'}}">готовая</option>
+								<option value="new" ng-selected="{{order.cut_type == 'new'}}">заказная</option>
+                                    <option value="porez" ng-selected="{{order.cut_type == 'porez'}}">порез</option>
+								<option value="plotter" ng-selected="{{order.cut_type == 'plotter'}}">плоттер</option>
+								<option value="no_cut" ng-selected="{{order.cut_type == 'no_cut'}}">без высекания</option>
 							</select>
                            </p><br>
-                           <p>Номер высечки
-							<input class="form1" style="text-align: center" name="cut_number" type="text">
+                           <p>Номер штампа высечки<br>
+							<input ng-model="order.cut_number" value="{{order.cut_number}}" class="form1" style="text-align: center" name="cut_number" type="text">
                            </p><br>
                            <p>Размеры этикетки (мм)<br>
-							<input class="form" style="text-align: right; padding: 0px 5px" name="size_x" type="text">
+							<input ng-model="order.size_x" class="form" style="text-align: right; padding: 0px 5px" name="size_x" type="text">
                             x
-							<input class="form" style="padding: 0px 3px" name="size_y" type="text">
+							<input ng-model="order.size_y" class="form" style="padding: 0px 3px" name="size_y" type="text">
 						 </p><br>
-                            <p>Размеры оттиска (мм)<br>
-							<input class="form" style="text-align: right; padding: 0px 5px" name="size_X" type="text">
-                            x
-							<input class="form" style="padding: 0px 3px" name="size_Y" type="text"><br>
-                            </p>
             </div>
         
             <div class="block3">
                 <p>Красочность</p>
                 <p class="block5">
                             <br>
-                                <input type="checkbox" name="opaque1">
-                                <input type="checkbox" name="opaque1">
+                                <input ng-model="order.inks[0].used" ng-click="" type="checkbox" name="Opaque">
+                                <input ng-model="order.inks[1].used" ng-click="" type="checkbox" name="Opaque">
                                     <svg class="ink_sample">
                                         <rect x="0" y="0" style="fill:#FFFFFF;" width="13" height="13"/>
                                     </svg>
-                                    <span class="ink1">Opaque</span><br>
-                                <input type="checkbox" name="cyan1">
-                                <input type="checkbox" name="cyan2">
+                                    <span class="ink1">{{order.inks[0].name}}</span><br>
+                                    
+                                <input ng-model="order.inks[2].used" ng-click="" type="checkbox" name="Cyan">
+                                <input ng-model="order.inks[3].used" ng-click="" type="checkbox" name="Cyan">
                                     <svg class="ink_sample">
                                         <rect x="0" y="0" style="fill:#00AEEF;" width="13" height="13"/>
                                     </svg>
-                                    <span class="ink1">Cyan</span><br>
-                                <input type="checkbox" name="magenta1">
-                                <input type="checkbox" name="magenta2">
+                                    <span class="ink1">{{order.inks[2].name}}</span><br>
+                                    
+                                <input ng-model="order.inks[4].used" ng-click="" type="checkbox" name="Magenta">
+                                <input ng-model="order.inks[5].used" ng-click="" type="checkbox" name="Magenta">
                                     <svg class="ink_sample">
                                         <rect x="0" y="0" style="fill:#EC008C;" width="13" height="13"/>
                                     </svg>
-                                    <span class="ink1">Magenta</span><br>
-                                <input type="checkbox" name="yellow1">
-                                <input type="checkbox" name="yellow2">
+                                    <span class="ink1">{{order.inks[4].name}}</span><br>
+                                    
+                                <input ng-model="order.inks[6].used" ng-click="" type="checkbox" name="Yellow">
+                                <input ng-model="order.inks[7].used" ng-click="" type="checkbox" name="Yellow">
                                     <svg class="ink_sample">
                                         <rect x="0" y="0" style="fill:#FFFF00;" width="13" height="13"/>
                                     </svg>
-                                    <span class="ink1">Yellow</span><br>
-                                <input type="checkbox" name="black1">
-                                <input type="checkbox" name="black2">
+                                    <span class="ink1">{{order.inks[6].name}}</span><br>
+                                    
+                                <input ng-model="order.inks[8].used" ng-click="" type="checkbox" name="Black">
+                                <input ng-model="order.inks[9].used" ng-click="" type="checkbox" name="Black">
                                     <svg class="ink_sample">
                                         <rect x="0" y="0" style="fill:#000000;" width="13" height="13"/>
                                     </svg>
-                                    <span class="ink1">Black</span><br>
-                                <input type="checkbox" name="orange1">
-                                <input type="checkbox" name="orange2">
+                                    <span class="ink1">{{order.inks[8].name}}</span><br>
+                                    
+                                <input ng-model="order.inks[10].used" ng-click="" type="checkbox" name="Orange">
+                                <input ng-model="order.inks[11].used" ng-click="" type="checkbox" name="Orange">
                                     <svg class="ink_sample">
                                         <rect x="0" y="0" style="fill:#FF5000;" width="13" height="13"/>
                                     </svg>
-                                    <span class="ink1">Orange</span><br>
-                                <input type="checkbox" name="violet1">
-                                <input type="checkbox" name="violet2">
+                                    <span class="ink1">{{order.inks[10].name}}</span><br>
+                                    
+                                <input ng-model="order.inks[12].used" ng-click="" type="checkbox" name="violet1">
+                                <input ng-model="order.inks[13].used" ng-click="" type="checkbox" name="violet2">
                                     <svg class="ink_sample">
                                         <rect x="0" y="0" style="fill:#430098;" width="13" height="13"/>
                                     </svg>
-                                    <span class="ink1">Violet</span>
+                                    <span class="ink1">{{order.inks[12].name}}</span>
                 </p>
                 <p class="block5">
                             <br>
@@ -216,6 +252,11 @@
         </div>
         
         <div class="block3">
+                            <p>Размеры оттиска (мм)<br>
+							<input class="form" style="text-align: right; padding: 0px 5px" name="size_X" type="text">
+                            x
+							<input class="form" style="padding: 0px 3px" name="size_Y" type="text"><br>
+                            </p><br>
                             <p>Этикеток на оттиске (штуки)<br>
 							<input class="form" style="text-align: center" name="X" type="text">
                             x
