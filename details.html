@@ -16,85 +16,22 @@
      </p>
         <table class="block1">
             <tr class="table-header">
-                <th><input type="checkbox"></th>
-                <th class="table">п/п</th>
-                <th class="table">Наименование</th>
-                <th class="table">Присвоить паспорт</th>
-                <th class="table">Файл из паспорта<br>/из др. источника</th>
-                <th class="table">Выполнить из паспорта</th>
-                <th class="table">Текущее состояние</th>
+                <th class="table-header"><input type="checkbox"></th>
+                <th class="table-header">п/п</th>
+                <th class="table-header">Наименование</th>
+                <th class="table-header">Присвоить паспорт</th>
+                <th class="table-header" title="или из другого источника">Файл из паспорта</th>
+                <th class="table-header">Выполнить из паспорта</th>
+                <th class="table-header">Текущее состояние</th>
             </tr>
-            <tr>
-                <td><input type="checkbox"></td>
-                <td class="table">1</td>
-                <td class="table">{{order.labels[0].name}}</td>
-                <td class="cell-center">{{order.labels[0].placement}}</td>
-                <td class="cell-center"></td>
-                <td class="cell-center"></td>
-                <td class="table">требует правок</td>
-            </tr>
-            <tr class="even-content">
-                <td><input type="checkbox"></td>
-                <td class="table">2</td>
-                <td class="table">{{order.labels[1].name}}</td>
-                <td class="cell-center">{{order.labels[1].placement}}</td>
-                <td class="cell-center"></td>
-                <td class="cell-center"></td>
-                <td class="table">требует правок</td>
-            </tr>
-            <tr>
-                <td><input type="checkbox"></td>
-                <td class="table">3</td>
-                <td class="table">{{order.labels[2].name}}</td>
-                <td class="cell-center">{{order.labels[2].placement}}</td>
-                <td class="cell-center"></td>
-                <td class="cell-center"></td>
-                <td class="table">требует правок</td>
-            </tr>
-            <tr class="even-content">
-                <td><input type="checkbox"></td>
-                <td class="table">4</td>
-                <td class="table">{{order.labels[3].name}}</td>
-                <td class="cell-center">{{order.labels[3].placement}}</td>
-                <td class="cell-center"></td>
-                <td class="cell-center"></td>
-                <td class="table">требует правок</td>
-            </tr>
-            <tr>
-                <td><input type="checkbox"></td>
-                <td class="table">5</td>
-                <td class="table">{{order.labels[4].name}}</td>
-                <td class="cell-center">{{order.labels[4].placement}}</td>
-                <td class="cell-center"></td>
-                <td class="cell-center"></td>
-                <td class="table">требует правок</td>
-            </tr>
-            <tr class="even-content">
-                <td><input type="checkbox"></td>
-                <td class="table">6</td>
-                <td class="table">{{order.labels[5].name}}</td>
-                <td class="cell-center">{{order.labels[5].placement}}</td>
-                <td class="cell-center"></td>
-                <td class="cell-center"></td>
-                <td class="table">требует правок</td>
-            </tr>
-            <tr>
-                <td><input type="checkbox"></td>
-                <td class="table">7</td>
-                <td class="table">{{order.labels[6].name}}</td>
-                <td class="cell-center">{{order.labels[6].placement}}</td>
-                <td class="cell-center"></td>
-                <td class="cell-center"></td>
-                <td class="table">требует правок</td>
-            </tr>
-            <tr class="even-content">
-                <td><input type="checkbox"></td>
-                <td class="table">8</td>
-                <td class="table">{{order.labels[7].name}}</td>
-                <td class="cell-center">{{order.labels[7].placement}}</td>
-                <td class="cell-center">4327003</td>
-                <td class="cell-center"></td>
-                <td class="table">требует правок</td>
+            <tr class="even" ng-repeat="labels in order.labels">
+                <td class="cell-center"><input type="checkbox"></td>
+                <td class="cell-center">{{$index+1}}</td>
+                <td class="table">{{labels.name}}</td>
+                <td class="cell-center">{{labels.placement}}</td>
+                <td class="cell-center">{{labels.source}}</td>
+                <td class="cell-center">{{labels.run}}</td>
+                <td class="cell-center">{{labels.status}}</td>
             </tr>
       </table>
 </div>
