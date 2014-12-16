@@ -1,22 +1,30 @@
-﻿(function() {
-	var app = angular.module('indigo', []);
-	app.controller('OrderBlank', ['$scope', function($scope) {
+﻿	var app = angular.module('indigo', []);
+	app.controller('orderCtrl', ['$scope', function($scope) {
 		$scope.order = {
-             "order_number": "414Ц04308",
-			"customer": "КФХ Семенов В.О.",
-			"order_name": "Напитки Саврушка 1,5 л (в ассортименте)",
-			"print_type": "digital",
-			"label_type": "self-label",
-             "material_type": "sem",
-             "material_width": "250",
-             "cut_type": "ready",
-             "cut_number": "1084093",
-             "size_x": "98,6",
-             "size_y": "130",
-			"roll_method": "auto", 
-			"roll_type": "outside", 
-			"roll_direct": "head_mashine",
-              labels: [
+            "order_number": "414Ц04308",
+            "customer": "КФХ Семенов В.О.",
+            "order_name": "Напитки Саврушка 1,5 л (в ассортименте)",
+            "print_type": "digital",
+            "label_type": "self-label",
+            "material_type": "sem",
+            "material_width": "250",
+            "cut_type": "ready",
+            "cut_number": "1084093",
+            "size_x": "98,6",
+            "size_y": "130",
+            "roll_method": "auto", 
+            "roll_type": "outside", 
+            "roll_direct": "head_mashine",
+            "polish": "none",
+            "tisnenie": "none",
+            "kongrev": "none",
+            "print_size_X": "210",
+            "print_size_Y": "933.45",
+            "quantity_X": "2",
+            "quantity_Y": "7",
+            "AQ": "4",
+            "AL": "3,35",
+            labels: [
 				{
 					name: "Апельсин 1,5л",
 					placement: "d4327004",
@@ -120,4 +128,3 @@
 			],
 		};
 	}]);
-})();

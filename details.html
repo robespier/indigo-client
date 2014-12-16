@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html ng-app="indigo" ng-controller="OrderBlank">
+<html ng-app="indigo" ng-controller="orderCtrl">
 <head>
          <title>414Ц04308</title>
                 <?xml version="1.0" encoding="utf-8"?>
@@ -48,6 +48,7 @@
        </p>
             <div class="block2">
                 <div class="block3">
+                    <p class="align">Основные параметры</p><br>
                         <p>Печать<br>
                                 <select class="form2" name="print_type">
                                     <option value="digital" ng-selected="{{order.print_type == 'digital'}}">цифровая</option>
@@ -67,9 +68,9 @@
                               <select class="form2" name="material_type">
 								<option value="sem" ng-selected="{{order.material_type == 'sem'}}">sem (бумага п/глянцевая)</option>
 								<option value="pew" ng-selected="{{order.material_type == 'pew'}}">pew (пленка белая)</option>
-                                    <option value="pptr" ng-selected="{{order.material_type == 'pptr'}}">pptr (пленка прозрачн.)</option>
-								<option value="mps" ng-selected="{{order.material_type == 'mps'}}">mps (бумага металл.)</option>
-                                    <option value="pps" ng-selected="{{order.material_type == 'pps'}}">pps (пленка металл.)</option>
+                                    <option value="pptr" ng-selected="{{order.material_type == 'pptr'}}">pptr (пленка прозрачная)</option>
+								<option value="mps" ng-selected="{{order.material_type == 'mps'}}">mps (бумага металлизированая)</option>
+                                    <option value="pps" ng-selected="{{order.material_type == 'pps'}}">pps (пленка металлизированая)</option>
                                </select>
                           </p><br>
                           <p>Ширина пореза (мм)
@@ -123,14 +124,14 @@
 							<input ng-model="order.cut_number" value="{{order.cut_number}}" class="form1" style="text-align: center" name="cut_number" type="text">
                            </p><br>
                            <p>Размеры этикетки (мм)<br>
-							<input ng-model="order.size_x" class="form" style="text-align: right; padding: 0px 5px" name="size_x" type="text">
+							<input ng-model="order.size_x" class="form" name="size_x" type="text">
                             x
-							<input ng-model="order.size_y" class="form" style="padding: 0px 3px" name="size_y" type="text">
+							<input ng-model="order.size_y" class="form" name="size_y" type="text">
 						 </p><br>
             </div>
         
             <div class="block3">
-                <p>Красочность</p>
+                <p class="align">Красочность</p>
                 <p class="block5">
                             <br>
                                 <input ng-model="order.inks[0].used" ng-click="" type="checkbox" name="Opaque">
@@ -222,78 +223,82 @@
                  </p><br>
                             <p>Отделка<br>
                                 <select class="form2" name="polish">
-                                    <option value="none">без отделки</option>
-                                    <option value="laminat">ламинация</option>
-                                    <option value="warnish">лакирование</option>
+                                    <option value="none" ng-model="polish" ng-selected="{{polish == 'none'}}">без отделки</option>
+                                    <option value="laminat" ng-model="polish" ng-selected="{{polish == 'laminat'}}">ламинация</option>
+                                    <option value="warnish" ng-model="polish" ng-selected="{{polish == 'warnish'}}">лакирование</option>
                                 </select>
                   </p><br>
                             <p>Лакирование<br>
                                 <select class="form2" name="lak">
-                                    <option value="none">без лака</option>
-                                    <option value="solid">сплошной лак</option>
-                                    <option value="select">выборочный лак</option>
-                                    <option value="both">сплошной/выборочный лаки</option>
+                                    <option value="none" ng-model="lak" ng-selected="{{lak == 'none'}}">без лака</option>
+                                    <option value="solid" ng-model="lak" ng-selected="{{lak == 'solid'}}">сплошной лак</option>
+                                    <option value="select" ng-model="lak" ng-selected="{{lak == 'select'}}">выборочный лак</option>
+                                    <option value="both" ng-model="lak" ng-selected="{{lak == 'both'}}">сплошной/выборочный лаки</option>
                                 </select>
                   </p><br>
                   <p>Тиснение<br>
                                 <select class="form2" name="tisnenie">
-                                    <option value="none">без тиснения</option>
-                                    <option value="hot">горячее</option>
-                                    <option value="cold">холодное</option>
+                                    <option value="none" ng-model="tisnenie" ng-selected="{{tisnenie == 'none'}}">без тиснения</option>
+                                    <option value="hot" ng-model="tisnenie" ng-selected="{{tisnenie == 'hot'}}">горячее</option>
+                                    <option value="cold" ng-model="tisnenie" ng-selected="{{tisnenie == 'cold'}}">холодное</option>
                                 </select>
                   </p><br>
                   <p>Конгрев<br>
                                 <select class="form2" name="kongrev">
-                                    <option value="none">без конгрева</option>
-                                    <option value="hot">плоский</option>
-                                    <option value="cold">ротационный</option>
+                                    <option value="none" ng-model="kongrev" ng-selected="{{kongrev == 'none'}}">без конгрева</option>
+                                    <option value="flat" ng-model="kongrev" ng-selected="{{kongrev == 'flat'}}">плоский</option>
+                                    <option value="rotation" ng-model="kongrev" ng-selected="{{kongrev == 'rotation'}}">ротационный</option>
                                 </select>
                    </p>
         </div>
         
         <div class="block3">
-                            <p>Размеры оттиска (мм)<br>
-							<input class="form" style="text-align: right; padding: 0px 5px" name="size_X" type="text">
-                            x
-							<input class="form" style="padding: 0px 3px" name="size_Y" type="text"><br>
+                    <p class="align">Оттиск</p><br>
+                            <p>Количество элементов<br>
+							<input ng-model="order.quantity_X" class="form" name="quantity_X" type="text">
+                                    x
+							<input ng-model="order.quantity_Y" class="form" name="quantity_Y" type="text"><br>
                             </p><br>
-                            <p>Этикеток на оттиске (штуки)<br>
-							<input class="form" style="text-align: center" name="X" type="text">
-                            x
-							<input class="form" style="text-align: center" name="Y" type="text"><br>
+                            <p>Размеры оттиска (мм)<br>
+							<input  ng-model="order.print_size_X" class="form" name="print_size_X" type="text">
+                                    x
+							<input  ng-model="order.print_size_Y" class="form" name="print_size_Y" type="text"><br>
                             </p><br>
                             <p>Расстояние между этикетками (мм)<br>
-                            по ширине
-                                <input class="form" style="text-align: center" type="text">
-                            по длине
-							<input class="form" style="text-align: center" type="text"><br>
-                            </p><br>
-                            <p>Способ намотки<br>
-                                <select class="form2" name="roll_method">
-                                    <option value="hand">ручная</option>
-                                    <option value="auto">автоматическая</option>
+                                AQ:
+                                    <input ng-model="order.AQ" class="form" name="AQ" type="text">
+                                AL:
+                                    <input ng-model="order.AL" class="form" name="AL" type="text"><br>
+                            </p><br><br>
+                    <p class="align">Намотка</p>
+                            <div class="block4" style="align: center">
+                                    <br>
+                                        <div class="roll-dir-container">
+                                            <p class="roll-dir-sample" style="transform: rotate()">
+                                                A
+                                            </p>
+                                        </div>
+                            </div>
+                            <p class="block5">Способ намотки<br>
+                                <select class="form1" name="roll_method">
+                                    <option value="hand" ng-model="roll_method" ng-selected="{{roll_method == 'hand'}}">ручная</option>
+                                    <option value="auto" ng-model="roll_method" ng-selected="{{roll_method == 'auto'}}">автоматическая</option>
+                                </select>
+                            </p>
+                            <p class="block5">Тип намотки<br>
+                                <select class="form1" name="roll_type">
+                                    <option value="outside" ng-model="roll_type" ng-selected="{{roll_type == 'outside'}}">наружная</option>
+                                    <option value="inside" ng-model="roll_type" ng-selected="{{roll_type == 'inside'}}">внутренняя</option>
                                 </select>
                             </p><br>
-                            <p>Тип намотки<br>
-                                <select class="form2" name="roll_type">
-                                    <option value="outside">наружная</option>
-                                    <option value="inside">внутренняя</option>
-                                </select>
-                            </p><br>
-                            <p>Направление намотки<br>
-                                <select class="form2" name="roll_direct" ng-model="roll_direct">
-                                    <option value="head_mashine">головой к машине</option>
-                                    <option value="foot_mashine">ногами к машине</option>
-                                    <option value="foot_forward">ногами к вперед</option>
-                                    <option value="head_forward">головой к вперед</option>
+                            <p class="block5">Направление<br>
+                                <select class="form1" name="roll_direct">
+                                    <option value="head_mashine" ng-model="roll_direct" ng-selected="{{roll_direct == 'head_mashine'}}">головой к машине</option>
+                                    <option value="foot_mashine" ng-model="roll_direct" ng-selected="{{roll_direct == 'foot_mashine'}}">ногами к машине</option>
+                                    <option value="foot_forward" ng-model="roll_direct" ng-selected="{{roll_direct == 'foot_forward'}}">ногами к вперед</option>
+                                    <option value="head_forward" ng-model="roll_direct" ng-selected="{{roll_direct == 'head_forward'}}">головой к вперед</option>
                                 </select>
                              </p><br>
-                                    <div align="center">
-                                        <div class="roll-dir-container">
-                                            <p class="roll-dir-sample">A</p>
-                                        </div>
-                                    </div>
-            </div>
       </div>
 </div>
 <footer class="block-header">
