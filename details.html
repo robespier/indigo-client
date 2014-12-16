@@ -12,8 +12,8 @@
         </header>
         
 <div class="block">
-     <p class="block-header">Ассортимент
-     </p>
+     <a href ng-click="show = !show" class="block-header">Ассортимент</a>
+     <div ng-hide="show" class="block2">
         <table class="block1">
             <tr class="table-header">
                 <th class="table-header"><input ng-click="" type="checkbox"></th>
@@ -34,19 +34,20 @@
                 <td class="cell-center">{{labels.status}}</td>
             </tr>
       </table>
-</div>
-<div class="header">
+        <div class="header">
             <a href="#" class="button" >+</a>
             <a href="#" class="button" >–</a>
             <a href="#" class="button" >Внести правки</a>
             <a href="#" class="button" >Отправить корректору</a>
             <a href="#" class="button" >Вывести</a>
             <a href="#" class="button" >История</a>
+        </div>
+    </div>
 </div>
+
 <div class="block">
-       <p class="block-header">Технология
-       </p>
-            <div class="block2">
+       <a href ng-click="hide = !hide" class="block-header">Технология</a>
+            <div ng-hide="hide" class="block2">
                 <div class="block3">
                     <p class="align">Основные параметры</p><br>
                         <p>Печать<br>
@@ -301,8 +302,6 @@
                              </p><br>
       </div>
 </div>
-<footer class="block-header">
-</footer>
                 <script type="text/javascript" src="angular.min.js"></script>
                 <script type="text/javascript" src="app.js"></script>
     </body>
