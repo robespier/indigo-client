@@ -24,6 +24,7 @@
             "quantity_Y": "7",
             "AQ": "4",
             "AL": "3,35",
+            "label_select": "off",
             labels: [
 				{
 					name: "Апельсин 1,5л",

@@ -16,7 +16,7 @@
      <div ng-hide="show" class="block2">
         <table class="block1">
             <tr class="table-header">
-                <th class="table-header"><input ng-click="" type="checkbox"></th>
+                <th class="table-header"><input type="checkbox" ng-model="label_select" ng-true-value="on" ng-false-value="off" ng-change="change()"></th>
                 <th class="table-header">п/п</th>
                 <th class="table-header">Наименование</th>
                 <th class="table-header">Присвоить паспорт</th>
@@ -25,7 +25,7 @@
                 <th class="table-header">Текущее состояние</th>
             </tr>
             <tr ng-class-odd="'odd'" ng-class-even="'even'" ng-repeat="labels in order.labels">
-                <td class="cell-center"><input type="checkbox"></td>
+                <td class="cell-center"><input type="checkbox" ng-model="label_select" ng-true-value="on" ng-false-value="off" ng-change="change()"></td>
                 <td class="cell-center">{{$index+1}}</td>
                 <td class="table">{{labels.name}}</td>
                 <td class="cell-center">{{labels.placement}}</td>
