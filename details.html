@@ -49,7 +49,7 @@
        <a href ng-click="hide = !hide" class="block-header">Технология</a>
             <div ng-hide="hide" class="block2">
                 <div class="block3">
-                    <p class="align">Основные параметры</p><br>
+                    <p>Основные параметры</p><br>
                         <p>Печать<br>
                                 <select class="form2" name="print_type">
                                     <option value="digital" ng-selected="{{order.print_type == 'digital'}}">цифровая</option>
@@ -132,7 +132,7 @@
             </div>
         
             <div class="block3">
-                <p class="align">Красочность</p>
+                <p>Красочность</p>
                 <p class="block5">
                             <br>
                                 <input ng-model="order.inks[0].used" ng-click="" type="checkbox" name="Opaque">
@@ -254,7 +254,7 @@
         </div>
         
         <div class="block3">
-                    <p class="align">Оттиск</p><br>
+                    <p>Оттиск</p><br>
                             <p>Количество элементов<br>
 							<input ng-model="order.quantity_X" class="form" name="quantity_X" type="text">
                                     x
@@ -271,13 +271,11 @@
                                 AL:
                                     <input ng-model="order.AL" class="form" name="AL" type="text"><br>
                             </p><br><br>
-                    <p class="align">Намотка</p>
-                            <div class="block4" style="align: center">
+                    <p>Намотка</p>
+                            <div class="block4">
                                     <br>
                                         <div class="roll-dir-container">
-                                            <p class="roll-dir-sample" style="transform: rotate()">
-                                                A
-                                            </p>
+                                            <p ng-model="order.roll_direct" ng-change="change()" ng-class="order.roll_direct">A</p>
                                         </div>
                             </div>
                             <p class="block5">Способ намотки<br>
@@ -293,11 +291,11 @@
                                 </select>
                             </p><br>
                             <p class="block5">Направление<br>
-                                <select class="form1" name="roll_direct">
-                                    <option value="head_mashine" ng-model="roll_direct" ng-selected="{{roll_direct == 'head_mashine'}}">головой к машине</option>
-                                    <option value="foot_mashine" ng-model="roll_direct" ng-selected="{{roll_direct == 'foot_mashine'}}">ногами к машине</option>
-                                    <option value="foot_forward" ng-model="roll_direct" ng-selected="{{roll_direct == 'foot_forward'}}">ногами к вперед</option>
-                                    <option value="head_forward" ng-model="roll_direct" ng-selected="{{roll_direct == 'head_forward'}}">головой к вперед</option>
+                                <select ng-model="order.roll_direct" ng-change="change()" class="form1" name="roll_direct">
+                                    <option value="head_mashine" ng-model="order.roll_direct" ng-selected="{{order.roll_direct == 'head_mashine'}}">головой к машине</option>
+                                    <option value="foot_mashine" ng-model="order.roll_direct" ng-selected="{{order.roll_direct == 'foot_mashine'}}">ногами к машине</option>
+                                    <option value="foot_forward" ng-model="order.roll_direct" ng-selected="{{order.roll_direct == 'foot_forward'}}">ногами к вперед</option>
+                                    <option value="head_forward" ng-model="order.roll_direct" ng-selected="{{order.roll_direct == 'head_forward'}}">головой к вперед</option>
                                 </select>
                              </p><br>
       </div>
