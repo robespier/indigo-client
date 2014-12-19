@@ -137,8 +137,8 @@
                 <br>
                     <div class="block4">
                         <p class="block5" ng-repeat="inks in order.inks">
-                                <input ng-model="order.inks[$index].used" ng-click="{{order.inks[$index].used}}" type="checkbox">
-                                <input ng-model="order.inks2[$index].used" ng-click="{{order.inks[$index].used}}" type="checkbox">
+                                <input ng-model="order.inks2[$index].used" ng-click="insideController()" type="checkbox">
+                                <input ng-model="order.inks2[$index].used" ng-click="insideController()" type="checkbox">
                                     <svg class="ink_sample">
                                         <rect x="0" y="0" style="fill:{{order.sample_ink[$index].color}};" width="13" height="13"/>
                                     </svg>
