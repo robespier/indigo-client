@@ -198,4 +198,7 @@
                   },
             ],
 		};
+        $scope.insideController = function() {
+            debugger;
+        };
 	}]);
