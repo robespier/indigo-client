@@ -24,7 +24,6 @@
             "quantity_Y": "7",
             "AQ": "4",
             "AL": "3,35",
-            "label_select": "off",
             labels: [
 				{
 					name: "Апельсин 1,5л",
@@ -84,48 +83,119 @@
 				},
 			],
             inks: [ 
-				{ name: 'Opaque',
+				{ name: 'Opaque1',
                      used: false
                   },
-                  { name: 'Opaque',
-                     used: false
-                  },
-				{ name: 'Cyan',
+				{ name: 'Cyan1',
                      used: true
                   },
-                  { name: 'Cyan',
-                     used: false
-                  },
-				{ name: 'Magenta',
+				{ name: 'Magenta1',
                     used: true
                   },
-                  { name: 'Magenta',
+				{ name: 'Yellow1',
+                     used: true
+                  },
+				{ name: 'Black1',
+                     used: true
+                  },
+				{ name: 'Orange1',
                      used: false
+                  },
+                  { name: 'Violet1',
+                     used: false
+                  },
+            ],
+            inks2: [ 
+				{ name: 'Opaque2',
+                     used: false
+                  },
+				{ name: 'Cyan2',
+                     used: false
+                  },
+				{ name: 'Magenta2',
+                    used: false
+                  },
+				{ name: 'Yellow2',
+                     used: false
+                  },
+				{ name: 'Black2',
+                     used: false
+                  },
+				{ name: 'Orange2',
+                     used: false
+                  },
+                  { name: 'Violet2',
+                     used: false
+                  },
+            ],
+            pms: [ 
+				{ name: 'pms1',
+                     used: true
+                  },
+				{ name: 'pms2',
+                     used: true
+                  },
+				{ name: 'pms3',
+                    used: true
+                  },
+				{ name: 'pms4',
+                     used: true
+                  },
+				{ name: 'pms5',
+                     used: true
+                  },
+				{ name: 'pms6',
+                     used: true
+                  },
+                  { name: 'pms7',
+                     used: true
+                  },
+            ],
+            sample_ink: [ 
+				{ name: 'Opaque',
+                     color: '#FFFFFF',
+                  },
+				{ name: 'Cyan',
+                     color: '#00AEEF',
+                  },
+				{ name: 'Magenta',
+                     color: '#EC008C',
                   },
 				{ name: 'Yellow',
-                     used: true
-                  },
-                  { name: 'Yellow',
-                     used: false
+                     color: '#FFFF00',
                   },
 				{ name: 'Black',
-                     used: true
-                  },
-                  { name: 'Black',
-                     used: false
+                     color: '#000000',
                   },
 				{ name: 'Orange',
-                     used: false
-                  },
-                  { name: 'Orange',
-                     used: false
-                  },
-				{ name: 'Violet',
-                     used: false
+                     color: '#FF5000',
                   },
                   { name: 'Violet',
-                     used: false
+                     color: '#430098',
                   },
-			],
+            ],
+            sample_pms: [
+                  { name: '100',
+                      color: '#F4ED7C'
+                  },
+                  { name: '101',
+                      color: '#F4ED47'
+                  },
+                  { name: '102',
+                      color: '#F9E814'
+                  },
+                  { name: '103',
+                      color: '#C6AD0F'
+                  },
+                  { name: '104',
+                      color: '#AD9B0C'
+                  },
+                  { name: '105',
+                      color: '#82750F'
+                  },
+                  { name: '106',
+                      color: '#F7E859'
+                  },
+            ],
 		};
 	}]);

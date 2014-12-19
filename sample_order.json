@@ -85,59 +85,59 @@
 			],
             "inks": [ 
 				{ 
-                        "name": "Opaque",
+                        "name": "Opaque1",
                         "used": false
                   },
                   {
-                        "name": "Opaque",
+                        "name": "Opaque2",
                         "used": false
                   },
 				{
-                        "name": "Cyan",
+                        "name": "Cyan1",
                         "used": true
                   },
                   { 
-                        "name": "Cyan",
+                        "name": "Cyan2",
                         "used": false
                   },
 				{ 
-                        "name": "Magenta",
+                        "name": "Magenta1",
                         "used": true
                   },
                   { 
-                        "name": "Magenta",
+                        "name": "Magenta2",
                         "used": false
                   },
 				{ 
-                        "name": "Yellow",
+                        "name": "Yellow1",
                         "used": true
                   },
                   { 
-                        "name": "Yellow",
+                        "name": "Yellow2",
                         "used": false
                   },
 				{ 
-                        "name": "Black",
+                        "name": "Black1",
                         "used": true
                   },
                   { 
-                        "name": "Black",
+                        "name": "Black2",
                         "used": false
                   },
 				{ 
-                        "name": "Orange",
+                        "name": "Orange1",
                         "used": false
                   },
                   { 
-                        "name": "Orange",
+                        "name": "Orange2",
                         "used": false
                   },
 				{ 
-                        "name": "Violet",
+                        "name": "Violet1",
                         "used": false
                   },
                   { 
-                        "name": "Violet",
+                        "name": "Violet2",
                         "used": false
                   },
 }
