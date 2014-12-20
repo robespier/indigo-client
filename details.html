@@ -34,7 +34,8 @@
                 <td class="cell-center">{{labels.status}}</td>
             </tr>
       </table>
-        <div class="header">
+        <div style="margin: 15px 0px">
+            <a href="#" class="button" >!</a>
             <a href="#" class="button" >Сравнить технологию</a>
             <a href="#" class="button" >+</a>
             <a href="#" class="button" >–</a>
@@ -75,7 +76,7 @@
                                     <option value="pps" ng-selected="{{order.material_type == 'pps'}}">pps (пленка металлизированая)</option>
                                </select>
                           </p><br>
-                          <p>Ширина пореза (мм)
+                          <p>Ширина пореза материала (мм)
                                 <select class="form1" style="text-align: center" name="material_width">
                                     <option value="170" ng-selected="{{order.material_width == '170'}}">170</option>
                                     <option value="175" ng-selected="{{order.material_width == '175'}}">175</option>
@@ -114,7 +115,7 @@
                                 </select>
                           </p><br>
                           <p>Высечка<br>
-							<select class="form2" name="cut_type">
+							<select class="form1" name="cut_type">
 								<option value="ready" ng-selected="{{order.cut_type == 'ready'}}">готовая</option>
 								<option value="new" ng-selected="{{order.cut_type == 'new'}}">заказная</option>
                                     <option value="porez" ng-selected="{{order.cut_type == 'porez'}}">порез</option>
@@ -137,7 +138,7 @@
                 <br>
                     <div class="block4">
                         <p class="block5" ng-repeat="inks in order.inks">
-                                <input ng-model="order.inks2[$index].used" ng-click="insideController()" type="checkbox">
+                                <input ng-model="order.inks[$index].used" ng-click="insideController()" type="checkbox">
                                 <input ng-model="order.inks2[$index].used" ng-click="insideController()" type="checkbox">
                                     <svg class="ink_sample">
                                         <rect x="0" y="0" style="fill:{{order.sample_ink[$index].color}};" width="13" height="13"/>

@@ -33,6 +33,7 @@
 .form {
   text-align: center;
   width: 60px;
+  height: 13px;
   font-family: latolight;
   font-size: 12px;
 }
@@ -49,16 +50,16 @@
 .button {
   font-family: latolight;
   font-size: 14px;
-  color: gray; /* цвет текста */
+  color: white; /* цвет текста */
   text-decoration: none; /* убирать подчёркивание у ссылок */
-  background: #eee; /* фон кнопки */
-  padding: 6px 10.35px; /* отступ от текста */
+  background: #A6CAAE; /* фон кнопки */
+  padding: 6px 12px; /* отступ от текста */
   outline: none; /* убирать контур в Mozilla */
   border-radius: 5px;
-  border: solid 1px #ccc;
 } 
 .button:hover {
     background: #ddd;
+    color: gray;
 } /* при наведении курсора мышки */
 .button:active {
     background: #fff;
@@ -82,7 +83,6 @@
   height: 382px;
   font-family: latolight;
   font-size: 12px;
-  margin: 10px 0px;
 }
 .block3 {
   border: solid 1px #ccc;
@@ -104,6 +104,8 @@
   text-align: left;
 }
 .block-header {
+  height: 30px;
+  line-height: 30px; 
   font-family: latolight;
   font-size: 14px;
   text-align: center;
@@ -127,7 +129,7 @@
 .roll-dir-container {
      text-align: center;
      padding: 0px 5px;
-     width: 50px;
+     width: 70px;
      height: 50px;
      font-size: 80px;
      color: gray;
