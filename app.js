@@ -1,6 +1,19 @@
-﻿	var app = angular.module('indigo', []);
-	app.controller('orderCtrl', ['$scope', function($scope) {
+﻿var app = angular.module('indigo', [/*'ngRoute'*/])
+/*       .config(function($routeProvider){
+            $routeProvider
+                .when('/', {
+                    templateUrl: 'list.html',
+                    controller: 'orderCtrl'
+                })
+                .when('/details', {
+                    templateUrl: 'details.html',
+                    controller: 'orderCtrl'
+                })
+                .otherwise({redirectTo: '/list'});
+        })
+ */       app.controller('orderCtrl', ['$scope', function($scope) {
 		$scope.order = {
+            "designer": "Роман",
             "order_number": "414Ц04308",
             "customer": "КФХ Семенов В.О.",
             "order_name": "Напитки Саврушка 1,5 л (в ассортименте)",

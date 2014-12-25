@@ -169,3 +169,20 @@
     text-align: center;
     padding: 5px 10px;
 }
+.img-container {
+    border-radius: 30px;
+    border: solid 3px #A6CAAE;
+    margin: 0px 5px;
+}
+.name {
+  font-family: latolight;
+  font-size: 14px;
+  text-align: left;
+  color: #black;
+  float: left;
+}
+.search {
+  width: 120px;
+  font-family: latolight;
+  font-size: 12px;
+}
