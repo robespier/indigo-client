@@ -1,5 +1,5 @@
-﻿var app = angular.module('indigo', [/*'ngRoute'*/])
-/*       .config(function($routeProvider){
+﻿var app = angular.module('indigo', ['ngRoute'])
+       .config(function($routeProvider){
             $routeProvider
                 .when('/', {
                     templateUrl: 'list.html',
@@ -11,7 +11,7 @@
                 })
                 .otherwise({redirectTo: '/list'});
         })
- */       app.controller('orderCtrl', ['$scope', function($scope) {
+       app.controller('orderCtrl', ['$scope', function($scope) {
 		$scope.order = {
             "designer": "Роман",
             "order_number": "414Ц04308",
