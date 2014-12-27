@@ -1,6 +1,48 @@
-﻿.tabs {
+﻿.new {
+    background: #FFFFD2;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.job {
+    background: #CCE8FF;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.pause {
+    background: #CECECE;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.agreement {
+    background: #87B7E1;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.agreed {
+    background: #C7E4BA;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.closed {
+    background: #F8BBC7;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.deleted {
+    background: #767676;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.tabs {
     width: 100%;
-    height: 800px;
+    height: 850px;
 }
 .tabs ul,
 .tabs li {
