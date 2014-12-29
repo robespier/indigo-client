@@ -1,7 +1,7 @@
 ﻿        <header class="header">
-            <a href="#" class="button" title="Предыдущий месяц"><</a>
+            <a href="#" style="text-decoration: none" title="Предыдущий месяц"><</a>
             <a>Ноябрь 2014</a>
-            <a href="#" class="button" title="Следующий месяц">></a>
+            <a href="#" style="text-decoration: none" title="Следующий месяц">></a>
         </header>
 <div class="tabs">
   <ul>
@@ -11,7 +11,7 @@
       <div>
         <table>
             <tr>
-                <th class="table"><a>Дата</a></th>
+                <th class="table"><a>Дата/Время</a></th>
                 <th class="table"><a>Номер заказа</a></th>
                 <th class="table"><a>Заказчик</a></th>
                 <th class="table"><a>Наименование</a></th>
@@ -33,7 +33,7 @@
      <div>
         <table>
             <tr>
-                <th class="table"><a>Дата</a></th>
+                <th class="table"><a>Дата/Время</a></th>
                 <th class="table"><a>Номер заказа</a></th>
                 <th class="table"><a>Заказчик</a></th>
                 <th class="table"><a>Наименование</a></th>
@@ -55,7 +55,7 @@
      <div>
         <table>
             <tr>
-                <th class="table"><a>Дата</a></th>
+                <th class="table"><a>Дата/Время</a></th>
                 <th class="table"><a>Номер заказа</a></th>
                 <th class="table"><a>Заказчик</a></th>
                 <th class="table"><a>Наименование</a></th>
@@ -77,7 +77,7 @@
      <div>
         <table>
             <tr>
-                <th class="table"><a>Дата</a></th>
+                <th class="table"><a>Дата/Время</a></th>
                 <th class="table"><a>Номер заказа</a></th>
                 <th class="table"><a>Заказчик</a></th>
                 <th class="table"><a>Наименование</a></th>
@@ -99,7 +99,7 @@
      <div>
         <table>
             <tr>
-                <th class="table"><a>Дата</a></th>
+                <th class="table"><a>Дата/Время</a></th>
                 <th class="table"><a>Номер заказа</a></th>
                 <th class="table"><a>Заказчик</a></th>
                 <th class="table"><a>Наименование</a></th>
@@ -120,7 +120,7 @@
        <div>
         <table>
             <tr>
-                <th class="table"><a>Дата</a></th>
+                <th class="table"><a>Дата/Время</a></th>
                 <th class="table"><a>Номер заказа</a></th>
                 <th class="table"><a>Заказчик</a></th>
                 <th class="table"><a>Наименование</a></th>
@@ -135,4 +135,14 @@
      </div>
    </li>
   </ul>
+</div>
+<div class="block1" style="border: none">
+    <ul class="hr">
+        <li class="table" ng-repeat="status in misc.status">
+            <svg class="status_sample">
+                <rect x="0" y="0" style="fill:{{misc.status[$index].color}}; stroke: #000000" width="20" height="20"/>
+            </svg>
+            {{misc.status[$index].label}}
+        </li>
+    </ul>
 </div>

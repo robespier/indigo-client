@@ -1,5 +1,5 @@
 ﻿.new {
-    background: #FFFFD2;
+    background: #FFFFFF;
     font-size: 12px;
     text-align: left;
     padding: 5px 10px;
@@ -39,6 +39,15 @@
     font-size: 12px;
     text-align: left;
     padding: 5px 10px;
+}
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
 }
 .tabs {
     width: 100%;

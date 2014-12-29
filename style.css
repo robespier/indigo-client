@@ -117,14 +117,15 @@
   width: 13px;
   height: 13px;
 }
+.status_sample {
+  width: 20px;
+  height: 20px;
+}
 .ink1 {
     padding: 5px 0px;
 }
 .ink2 {
     padding: 5px 16px;
-}
-.hr {
-    border: solid 1px #ccc;
 }
 .roll-dir-container {
      text-align: center;

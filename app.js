@@ -12,9 +12,347 @@
                 .otherwise({redirectTo: '/list'});
         })
        app.controller('orderCtrl', ['$scope', function($scope) {
+         $scope.misc = {
+             status: [
+                {
+                    name: "new",
+                    label: "новый",
+                    color: "#FFFFFF",
+                 },
+                {
+                    name: "job",
+                    label: "в работе",
+                    color: "#CCE8FF",
+                 },
+                {
+                    name: "pause",
+                    label: "приостановлен",
+                    color: "#CECECE",
+                 },
+                {
+                    name: "agreement",
+                    label: "на утверждении",
+                    color: "#87B7E1",
+                 },
+                {
+                    name: "agreed",
+                    label: "утвержден",
+                    color: "#C7E4BA",
+                 },
+                {
+                    name: "closed",
+                    label: "завершен",
+                    color: "#F8BBC7",
+                 },
+                {
+                    name: "deleted",
+                    label: "аннулирован",
+                    color: "#767676",
+                 },
+             ],
+         };
          $scope.sortparam = "date";
 		$scope.order = {
+            inks: [ 
+				{ name: 'Opaque1',
+                     used: false
+                  },
+				{ name: 'Cyan1',
+                     used: true
+                  },
+				{ name: 'Magenta1',
+                    used: true
+                  },
+				{ name: 'Yellow1',
+                     used: true
+                  },
+				{ name: 'Black1',
+                     used: true
+                  },
+				{ name: 'Orange1',
+                     used: false
+                  },
+                  { name: 'Violet1',
+                     used: false
+                  },
+            ],
+            inks2: [ 
+				{ name: 'Opaque2',
+                     used: false
+                  },
+				{ name: 'Cyan2',
+                     used: false
+                  },
+				{ name: 'Magenta2',
+                    used: false
+                  },
+				{ name: 'Yellow2',
+                     used: false
+                  },
+				{ name: 'Black2',
+                     used: false
+                  },
+				{ name: 'Orange2',
+                     used: false
+                  },
+                  { name: 'Violet2',
+                     used: false
+                  },
+            ],
+            pms: [ 
+				{ name: 'pms1',
+                     used: true
+                  },
+				{ name: 'pms2',
+                     used: true
+                  },
+				{ name: 'pms3',
+                    used: true
+                  },
+				{ name: 'pms4',
+                     used: true
+                  },
+				{ name: 'pms5',
+                     used: true
+                  },
+				{ name: 'pms6',
+                     used: true
+                  },
+                  { name: 'pms7',
+                     used: true
+                  },
+            ],
+            sample_ink: [ 
+				{ name: 'Opaque',
+                     color: '#FFFFFF',
+                  },
+				{ name: 'Cyan',
+                     color: '#00AEEF',
+                  },
+				{ name: 'Magenta',
+                     color: '#EC008C',
+                  },
+				{ name: 'Yellow',
+                     color: '#FFFF00',
+                  },
+				{ name: 'Black',
+                     color: '#000000',
+                  },
+				{ name: 'Orange',
+                     color: '#FF5000',
+                  },
+                  { name: 'Violet',
+                     color: '#430098',
+                  },
+            ],
             orders: [
+                {
+                    date: "02.12.2014",
+                    number: "414Ц05395",
+                    customer: "Птицефабрика Пермская ОАО",
+                    name: "Стикер EAC",
+                    manager: "Шестакова С.",
+                    master: "",
+                    status: "closed",
+                },
+                {
+                    date: "05.12.2014",
+                    number: "414М05449",
+                    customer: "Артлайф ООО",
+                    name: "Токсфайтер Люкс 300 г",
+                    manager: "Лотфуллина Э.",
+                    master: "",
+                    status: "closed",
+                },
+                {
+                    date: "05.12.2014",
+                    number: "414А05458",
+                    customer: "Мирзаев ИП",
+                    name: "Зелень (в ассортименте)",
+                    manager: "Сабитова Р.",
+                    master: "Галиева В.",
+                    status: "agreement",
+                },
+                {
+                    date: "05.12.2014",
+                    number: "414А05462",
+                    customer: "ИКЕА Индастри Вятка ООО",
+                    name: "Стикер серый",
+                    manager: "Сабитова Р.",
+                    master: "Галиева В.",
+                    status: "closed",
+                },
+                {
+                    date: "10.12.2014",
+                    number: "414Ц05459",
+                    customer: "Аком ЗАО",
+                    name: "Renault 70, Renault 60, Renault 70",
+                    manager: "Лотфуллина Э.",
+                    master: "",
+                    status: "agreement",
+                },
+                {
+                    date: "11.12.2014",
+                    number: "414Ц05456",
+                    customer: "Нижнекамский хлебокомбинат ОАО",
+                    name: "Кекс Мраморный 300 г",
+                    manager: "Лотфуллина Э.",
+                    master: "",
+                    status: "closed",
+                },
+                {
+                    date: "11.12.2014",
+                    number: "414Ц05528",
+                    customer: "Компания Караван ООО",
+                    name: "Арахис, фисташки, коктейль Баварский (Пивная серия)",
+                    manager: "Костюкова В.",
+                    master: "Воронцова М.",
+                    status: "closed",
+                },
+                {
+                    date: "12.12.2014",
+                    number: "414Ц05472",
+                    customer: "Современные полимерные технологии ООО",
+                    name: "жидкое мыло Чистые руки",
+                    manager: "Шестакова С.",
+                    master: "",
+                    status: "closed",
+                },
+                {
+                    date: "12.12.2014",
+                    number: "414Ц05426",
+                    customer: "Нижнекамский хлебокомбинат ОАО",
+                    name: "Торты (в ассортименте)",
+                    manager: "Лотфуллина Э.",
+                    master: "Галиева В.",
+                    status: "closed",
+                },
+                {
+                    date: "12.12.2014",
+                    number: "414Ц05597",
+                    customer: "РК-АЛКО",
+                    name: "стикеры на водку Царская чарка (в ассортименте)",
+                    manager: "Попова Е.",
+                    master: "Галиева В.",
+                    status: "closed",
+                },
+                {
+                    date: "12.12.2014",
+                    number: "414М05609",
+                    customer: "Артлайф ООО",
+                    name: "Кисель Сливовый 300 г",
+                    manager: "Лотфуллина Э.",
+                    master: "Галиева В.",
+                    status: "closed",
+                },
+                {
+                    date: "17.12.2014",
+                    number: "414Ц05642",
+                    customer: "Нижнекамский хлебокомбинат ОАО",
+                    name: "хлеб Раменский 0,5 кг",
+                    manager: "Лотфуллина Э.",
+                    master: "Галиева В.",
+                    status: "closed",
+                },
+                {
+                    date: "18.12.2014",
+                    number: "414Ц05691",
+                    customer: "СоюзАгроПром ПО ООО",
+                    name: "Закуска Новинка (на казахском языке)",
+                    manager: "Сабитова Р.",
+                    master: "Воронцова М.",
+                    status: "agreement",
+                },
+                {
+                    date: "18.12.2014",
+                    number: "414Ц05607",
+                    customer: "Нижнекамский хлебокомбинат ОАО",
+                    name: "Мука пшеничная 2,0 кг",
+                    manager: "Лотфуллина Э.",
+                    master: "",
+                    status: "closed",
+                },
+                {
+                    date: "18.12.2014",
+                    number: "414М05618",
+                    customer: "Артлайф ООО",
+                    name: "Арголайф (на украинском языке)",
+                    manager: "Лотфуллина Э.",
+                    master: "Воронцова М.",
+                    status: "agreed",
+                },
+                {
+                    date: "19.12.2014",
+                    number: "414Ц05694",
+                    customer: "Кураж ООО Издательский дом",
+                    name: "Био Аква Спорт",
+                    manager: "Костюкова В.",
+                    master: "Воронцова М.",
+                    status: "closed",
+                },
+                {
+                    date: "22.12.2014",
+                    number: "414Ц05181",
+                    customer: "Пищехимпродукт ПКП ООО",
+                    name: "Варенье ТМ Абрико (в ассортименте)",
+                    manager: "Шестакова С.",
+                    master: "Воронцова М.",
+                    status: "closed",
+                },
+                {
+                    date: "22.12.2014",
+                    number: "414Ц04787",
+                    customer: "Эстель ООО",
+                    name: "стикер п/ф",
+                    manager: "Костюкова В.",
+                    master: "Воронцова М.",
+                    status: "closed",
+                },
+                {
+                    date: "23.12.2014",
+                    number: "414Ц05762/1 ",
+                    customer: "Татхимфармпрепараты ОАО",
+                    name: "Стикеры с цветной полосой (в ассортименте)",
+                    manager: "Лотфуллина Э.",
+                    master: "",
+                    status: "closed",
+                },
+                {
+                    date: "23.12.2014",
+                    number: "414Ц05762/2",
+                    customer: "Татхимфармпрепараты ОАО",
+                    name: "Стикеры с цветной полосой (в ассортименте)",
+                    manager: "Лотфуллина Э.",
+                    master: "Галиева В.",
+                    status: "closed",
+                },
+                {
+                    date: "25.12.2014",
+                    number: "414П05776",
+                    customer: "Сабинский лесхоз ООО",
+                    name: "Вода Урман (газ./негаз.) ПРОБА",
+                    manager: "Сабитова Р.",
+                    master: "Галиева В.",
+                    status: "closed",
+                },
+                {
+                    date: "25.12.2014",
+                    number: "414М05829",
+                    customer: "Артлайф ООО",
+                    name: "Взвар Вечерний 100 мл",
+                    manager: "Лотфуллина Э.",
+                    master: "Галиева В.",
+                    status: "agreement",
+                },
+                {
+                    date: "27.12.2014",
+                    number: "414Ц05838",
+                    customer: "Кураж ООО Издательский дом",
+                    name: "Био Аква Спорт (в ассортименте)",
+                    manager: "Костюкова В.",
+                    master: "Воронцова М.",
+                    status: "closed",
+                },
                 {
                     date: "07.11.2014",
                     number: "414Ц04866/1",
@@ -468,98 +806,6 @@
 					status: "undefinded",
 				},
 			],
-            inks: [ 
-				{ name: 'Opaque1',
-                     used: false
-                  },
-				{ name: 'Cyan1',
-                     used: true
-                  },
-				{ name: 'Magenta1',
-                    used: true
-                  },
-				{ name: 'Yellow1',
-                     used: true
-                  },
-				{ name: 'Black1',
-                     used: true
-                  },
-				{ name: 'Orange1',
-                     used: false
-                  },
-                  { name: 'Violet1',
-                     used: false
-                  },
-            ],
-            inks2: [ 
-				{ name: 'Opaque2',
-                     used: false
-                  },
-				{ name: 'Cyan2',
-                     used: false
-                  },
-				{ name: 'Magenta2',
-                    used: false
-                  },
-				{ name: 'Yellow2',
-                     used: false
-                  },
-				{ name: 'Black2',
-                     used: false
-                  },
-				{ name: 'Orange2',
-                     used: false
-                  },
-                  { name: 'Violet2',
-                     used: false
-                  },
-            ],
-            pms: [ 
-				{ name: 'pms1',
-                     used: true
-                  },
-				{ name: 'pms2',
-                     used: true
-                  },
-				{ name: 'pms3',
-                    used: true
-                  },
-				{ name: 'pms4',
-                     used: true
-                  },
-				{ name: 'pms5',
-                     used: true
-                  },
-				{ name: 'pms6',
-                     used: true
-                  },
-                  { name: 'pms7',
-                     used: true
-                  },
-            ],
-            sample_ink: [ 
-				{ name: 'Opaque',
-                     color: '#FFFFFF',
-                  },
-				{ name: 'Cyan',
-                     color: '#00AEEF',
-                  },
-				{ name: 'Magenta',
-                     color: '#EC008C',
-                  },
-				{ name: 'Yellow',
-                     color: '#FFFF00',
-                  },
-				{ name: 'Black',
-                     color: '#000000',
-                  },
-				{ name: 'Orange',
-                     color: '#FF5000',
-                  },
-                  { name: 'Violet',
-                     color: '#430098',
-                  },
-            ],
             sample_pms: [
                   { name: '100',
                      color: '#F4ED7C'
