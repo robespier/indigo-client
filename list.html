@@ -11,13 +11,13 @@
       <div>
         <table>
             <tr>
-                <th class="table"><a>Дата/Время</a></th>
-                <th class="table"><a>Номер заказа</a></th>
-                <th class="table"><a>Заказчик</a></th>
-                <th class="table"><a>Наименование</a></th>
-                <th class="table"><a>Менеджер</a></th>
+                <th class="table"><a class="table" href="" ng-click="sortparam = 'date'">Дата</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='new'">
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='new' | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
@@ -33,13 +33,13 @@
      <div>
         <table>
             <tr>
-                <th class="table"><a>Дата/Время</a></th>
-                <th class="table"><a>Номер заказа</a></th>
-                <th class="table"><a>Заказчик</a></th>
-                <th class="table"><a>Наименование</a></th>
-                <th class="table"><a>Менеджер</a></th>
+                <th class="table"><a class="table" href="" ng-click="sortparam = 'date'">Дата</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='job'">
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='job' | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
@@ -55,13 +55,13 @@
      <div>
         <table>
             <tr>
-                <th class="table"><a>Дата/Время</a></th>
-                <th class="table"><a>Номер заказа</a></th>
-                <th class="table"><a>Заказчик</a></th>
-                <th class="table"><a>Наименование</a></th>
-                <th class="table"><a>Менеджер</a></th>
+                <th class="table"><a class="table" href="" ng-click="sortparam = 'date'">Дата</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='agreement'">
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='agreement' | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
@@ -77,13 +77,13 @@
      <div>
         <table>
             <tr>
-                <th class="table"><a>Дата/Время</a></th>
-                <th class="table"><a>Номер заказа</a></th>
-                <th class="table"><a>Заказчик</a></th>
-                <th class="table"><a>Наименование</a></th>
-                <th class="table"><a>Менеджер</a></th>
+                <th class="table"><a class="table" href="" ng-click="sortparam = 'date'">Дата</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='agreed'">
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='agreed' | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
@@ -99,16 +99,18 @@
      <div>
         <table>
             <tr>
-                <th class="table"><a>Дата/Время</a></th>
-                <th class="table"><a>Номер заказа</a></th>
-                <th class="table"><a>Заказчик</a></th>
-                <th class="table"><a>Наименование</a></th>
+                <th class="table"><a class="table" href="" ng-click="sortparam = 'date'">Дата</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='closed'">
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='closed' | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
                 <td class="{{order.status}}">{{order.name}}</td>
+                <td class="{{order.status}}">{{order.manager}}</td>
             </tr>
         </table>
      </div>
@@ -120,16 +122,18 @@
        <div>
         <table>
             <tr>
-                <th class="table"><a>Дата/Время</a></th>
-                <th class="table"><a>Номер заказа</a></th>
-                <th class="table"><a>Заказчик</a></th>
-                <th class="table"><a>Наименование</a></th>
+                <th class="table"><a class="table" href="" ng-click="sortparam = 'date'">Дата</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
+                <th><a class="table" href="" ng-click="sortparam = 'status'">Состояние</a></th>
             </tr>
             <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
                 <td class="{{order.status}}">{{order.name}}</td>
+                <td class="{{order.status}}">{{order.status}}</td>
             </tr>
         </table>
      </div>

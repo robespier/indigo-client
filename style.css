@@ -153,6 +153,8 @@
     text-align: left;
     padding: 15px 10px;
     cursor: default;
+    text-decoration: none;
+    color: black;
 }
 .table-header {
     color: white;
