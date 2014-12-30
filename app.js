@@ -73,2876 +73,1559 @@
                      color: '#430098',
                   },
             ],
-            sample_pms: [
-                  { name: '100',
-                     color: '#F4ED7C'
-                  },
-                  { name: '101',
-                     color: '#F4ED47'
-                  },
-                  { name: '102',
-                     color: '#F9E814'
-                  },
-                  { name: '103',
-                     color: '#C6AD0F'
-                  },
-                  { name: '104',
-                     color: '#AD9B0C'
-                  },
-                  { name: '105',
-                     color: '#82750F'
-                  },
-                  { name: '106',
-                     color: '#F7E859'
-                  },
-                  { name: '107',
-                     color: '#F9E526'
-                  },
-                  { name: '108',
-                     color: '#F9DD16'
-                  },
-                  { name: '109',
-                     color: '#F9D616'
-                  },
-                  { name: '110',
-                     color: '#D8B511'
-                  },
-                  { name: '111',
-                     color: '#AA930A'
-                  },
-                  { name: '112',
-                     color: '#99840A'
-                  },
-                  { name: '113',
-                     color: '#F9E55B'
-                  },
-                  { name: '114',
-                     color: '#F9E24C'
-                  },
-                  { name: '115',
-                     color: '#F9E04C'
-                  },
-                  { name: '116',
-                     color: '#FCD116'
-                  },
-                  { name: '117',
-                     color: '#C6A00C'
-                  },
-                  { name: '118',
-                     color: '#AA8E0A'
-                  },
-                  { name: '119',
-                     color: '#897719'
-                  },
-                  { name: '120',
-                     color: '#F9E27F'
-                  },
-                  { name: '1205',
-                     color: '#F7E8AA'
-                  },
-                  { name: '121',
-                     color: '#F9E070'
-                  },
-                  { name: '1215',
-                     color: '#F9E08C'
-                  },
-                  { name: '122',
-                     color: '#FCD856'
-                  },
-                  { name: '1225',
-                     color: '#FFCC49'
-                  },
-                  { name: '123',
-                     color: '#FFC61E'
-                  },
-                  { name: '1235',
-                     color: '#FCB514'
-                  },
-                  { name: '124',
-                     color: '#E0AA0F'
-                  },
-                  { name: '1245',
-                     color: '#BF910C'
-                  },
-                  { name: '125',
-                     color: '#B58C0A'
-                  },
-                  { name: '1255',
-                     color: '#A37F14'
-                  },
-                  { name: '126',
-                     color: '#A38205'
-                  },
-                  { name: '1265',
-                     color: '#7C6316'
-                  },
-                  { name: '127',
-                     color: '#F4E287'
-                  },
-                  { name: '128',
-                     color: '#F4DB60'
-                  },
-                  { name: '129',
-                     color: '#F2D13D'
-                  },
-                  { name: '130',
-                     color: '#EAAF0F'
-                  },
-                  { name: '131',
-                     color: '#C6930A'
-                  },
-                  { name: '132',
-                     color: '#9E7C0A'
-                  },
-                  { name: '133',
-                     color: '#705B0A'
-                  },
-                  { name: '134',
-                     color: '#FFD87F'
-                  },
-                  { name: '1345',
-                     color: '#FFD691'
-                  },
-                  { name: '135',
-                     color: '#FCC963'
-                  },
-                  { name: '1355',
-                     color: '#FCCE87'
-                  },
-                  { name: '136',
-                     color: '#FCBF49'
-                  },
-                  { name: '1365',
-                     color: '#FCBA5E'
-                  },
-                  { name: '137',
-                     color: '#FCA311'
-                  },
-                  { name: '1375',
-                     color: '#F99B0C'
-                  },
-                  { name: '138',
-                     color: '#D88C02'
-                  },
-                  { name: '1385',
-                     color: '#CC7A02'
-                  },
-                  { name: '139',
-                     color: '#AF7505'
-                  },
-                  { name: '1395',
-                     color: '#996007'
-                  },
-                  { name: '140',
-                     color: '#7A5B11'
-                  },
-                  { name: '1405',
-                     color: '#6B4714'
-                  },
-                  { name: '141',
-                     color: '#F2CE68'
-                  },
-                  { name: '142',
-                     color: '#F2BF49'
-                  },
-                  { name: '143',
-                     color: '#EFB22D'
-                  },
-                  { name: '144',
-                     color: '#E28C05'
-                  },
-                  { name: '145',
-                     color: '#C67F07'
-                  },
-                  { name: '146',
-                     color: '#9E6B05'
-                  },
-                  { name: '147',
-                     color: '#725E26'
-                  },
-                  { name: '148',
-                     color: '#FFD69B'
-                  },
-                  { name: '1485',
-                     color: '#FFB777'
-                  },
-                  { name: '149',
-                     color: '#FCCC93'
-                  },
-                  { name: '1495',
-                     color: '#FF993F'
-                  },
-                  { name: '150',
-                     color: '#FCAD56'
-                  },
-                  { name: '1505',
-                     color: '#F47C00'
-                  },
-                  { name: '151',
-                     color: '#F77F00'
-                  },
-                  { name: '152',
-                     color: '#DD7500'
-                  },
-                  { name: '1525',
-                     color: '#B55400'
-                  },
-                  { name: '153',
-                     color: '#BC6D0A'
-                  },
-                  { name: '1535',
-                     color: '#8C4400'
-                  },
-                  { name: '154',
-                     color: '#995905'
-                  },
-                  { name: '1545',
-                     color: '#4C280F'
-                  },
-                  { name: '155',
-                     color: '#F4DBAA'
-                  },
-                  { name: '1555',
-                     color: '#F9BF9E'
-                  },
-                  { name: '156',
-                     color: '#F2C68C'
-                  },
-                  { name: '1565',
-                     color: '#FCA577'
-                  },
-                  { name: '157',
-                     color: '#EDA04F'
-                  },
-                  { name: '1575',
-                     color: '#FC8744'
-                  },
-                  { name: '158',
-                     color: '#E87511'
-                  },
-                  { name: '1585',
-                     color: '#F96B07'
-                  },
-                  { name: '159',
-                     color: '#C66005'
-                  },
-                  { name: '1595',
-                     color: '#D15B05'
-                  },
-                  { name: '160',
-                     color: '#9E540A'
-                  },
-                  { name: '1605',
-                     color: '#A04F11'
-                  },
-                  { name: '161',
-                     color: '#633A11'
-                  },
-                  { name: '1615',
-                     color: '#843F0F'
-                  },
-                  { name: '162',
-                     color: '#F9C6AA'
-                  },
-                  { name: '1625',
-                     color: '#F9A58C'
-                  },
-                  { name: '163',
-                     color: '#FC9E70'
-                  },
-                  { name: '1635',
-                     color: '#F98E6D'
-                  },
-                  { name: '164',
-                     color: '#FC7F3F'
-                  },
-                  { name: '1645',
-                     color: '#F97242'
-                  },
-                  { name: '165',
-                     color: '#F96302'
-                  },
-                  { name: '1655',
-                     color: '#F95602'
-                  },
-                  { name: '166',
-                     color: '#DD5900'
-                  },
-                  { name: '1665',
-                     color: '#DD4F05'
-                  },
-                  { name: '167',
-                     color: '#BC4F07'
-                  },
-                  { name: '1675',
-                     color: '#A53F0F'
-                  },
-                  { name: '168',
-                     color: '#6D3011'
-                  },
-                  { name: '1685',
-                     color: '#843511'
-                  },
-                  { name: '169',
-                     color: '#F9BAAA'
-                  },
-                  { name: '170',
-                     color: '#F98972'
-                  },
-                  { name: '171',
-                     color: '#F9603A'
-                  },
-                  { name: '172',
-                     color: '#F74902'
-                  },
-                  { name: '173',
-                     color: '#D14414'
-                  },
-                  { name: '174',
-                     color: '#933311'
-                  },
-                  { name: '175',
-                     color: '#6D3321'
-                  },
-                  { name: '176',
-                     color: '#F9AFAD'
-                  },
-                  { name: '1765',
-                     color: '#F99EA3'
-                  },
-                  { name: '1767',
-                     color: '#F9B2B7'
-                  },
-                  { name: '177',
-                     color: '#F9827F'
-                  },
-                  { name: '1775',
-                     color: '#F9848E'
-                  },
-                  { name: '1777',
-                     color: '#FC6675'
-                  },
-                  { name: '178',
-                     color: '#F95E59'
-                  },
-                  { name: '1785',
-                     color: '#FC4F59'
-                  },
-                  { name: '1787',
-                     color: '#F43F4F'
-                  },
-                  { name: '1788',
-                     color: '#EF2B2D'
-                  },
-                  { name: '179',
-                     color: '#E23D28'
-                  },
-                  { name: '1795',
-                     color: '#D62828'
-                  },
-                  { name: '1797',
-                     color: '#CC2D30'
-                  },
-                  { name: '180',
-                     color: '#C13828'
-                  },
-                  { name: '1805',
-                     color: '#AF2626'
-                  },
-                  { name: '1807',
-                     color: '#A03033'
-                  },
-                  { name: '181',
-                     color: '#7C2D23'
-                  },
-                  { name: '1810',
-                     color: '#7C211E'
-                  },
-                  { name: '1817',
-                     color: '#5B2D28'
-                  },
-                  { name: '182',
-                     color: '#F9BFC1'
-                  },
-                  { name: '183',
-                     color: '#FC8C99'
-                  },
-                  { name: '184',
-                     color: '#FC5E72'
-                  },
-                  { name: '185',
-                     color: '#E8112D'
-                  },
-                  { name: '186',
-                     color: '#CE1126'
-                  },
-                  { name: '187',
-                     color: '#AF1E2D'
-                  },
-                  { name: '188',
-                     color: '#7C2128'
-                  },
-                  { name: '189',
-                     color: '#FFA3B2'
-                  },
-                  { name: '1895',
-                     color: '#FCBFC9'
-                  },
-                  { name: '190',
-                     color: '#FC758E'
-                  },
-                  { name: '1905',
-                     color: '#FC9BB2'
-                  },
-                  { name: '191',
-                     color: '#F4476B'
-                  },
-                  { name: '1915',
-                     color: '#F4547C'
-                  },
-                  { name: '192',
-                     color: '#E5053A'
-                  },
-                  { name: '1925',
-                     color: '#E00747'
-                  },
-                  { name: '193',
-                     color: '#DB828C'
-                  },
-                  { name: '1935',
-                     color: '#C10538'
-                  },
-                  { name: '194',
-                     color: '#992135'
-                  },
-                  { name: '1945',
-                     color: '#A80C35'
-                  },
-                  { name: '1955',
-                     color: '#931638'
-                  },
-                  { name: '196',
-                     color: '#F4C9C9'
-                  },
-                  { name: '197',
-                     color: '#EF99A3'
-                  },
-                  { name: '198',
-                     color: '#772D35'
-                  },
-                  { name: '199',
-                     color: '#D81C3F'
-                  },
-                  { name: '200',
-                     color: '#C41E3A'
-                  },
-                  { name: '201',
-                     color: '#A32638'
-                  },
-                  { name: '202',
-                     color: '#8C2633'
-                  },
-                  { name: '203',
-                     color: '#F2AFC1'
-                  },
-                  { name: '204',
-                     color: '#ED7A9E'
-                  },
-                  { name: '205',
-                     color: '#E54C7C'
-                  },
-                  { name: '206',
-                     color: '#D30547'
-                  },
-                  { name: '207',
-                     color: '#BAAA9E'
-                  },
-                  { name: '208',
-                     color: '#8E2344'
-                  },
-                  { name: '209',
-                     color: '#75263D'
-                  },
-                  { name: '210',
-                     color: '#FFA0BF'
-                  },
-                  { name: '211',
-                     color: '#FF77A8'
-                  },
-                  { name: '212',
-                     color: '#F94F8E'
-                  },
-                  { name: '213',
-                     color: '#EA0F6B'
-                  },
-                  { name: '214',
-                     color: '#CC0256'
-                  },
-                  { name: '215',
-                     color: '#A50544'
-                  },
-                  { name: '216',
-                     color: '#7C1E3F'
-                  },
-                  { name: '217',
-                     color: '#F4BFD1'
-                  },
-                  { name: '218',
-                     color: '#ED72AA'
-                  },
-                  { name: '219',
-                     color: '#E22882'
-                  },
-                  { name: '220',
-                     color: '#AA004F'
-                  },
-                  { name: '221',
-                     color: '#930042'
-                  },
-                  { name: '222',
-                     color: '#70193D'
-                  },
-                  { name: '223',
-                     color: '#F993C4'
-                  },
-                  { name: '224',
-                     color: '#F46BAF'
-                  },
-                  { name: '225',
-                     color: '#ED2893'
-                  },
-                  { name: '226',
-                     color: '#D60270'
-                  },
-                  { name: '227',
-                     color: '#AD005B'
-                  },
-                  { name: '228',
-                     color: '#8C004C'
-                  },
-                  { name: '229',
-                     color: '#6D213F'
-                  },
-                  { name: '230',
-                     color: '#FFA0CC'
-                  },
-                  { name: '231',
-                     color: '#FC70BA'
-                  },
-                  { name: '232',
-                     color: '#F43FA5'
-                  },
-                  { name: '233',
-                     color: '#CE007C'
-                  },
-                  { name: '234',
-                     color: '#AA0066'
-                  },
-                  { name: '235',
-                     color: '#8E0554'
-                  },
-                  { name: '236',
-                     color: '#F9AFD3'
-                  },
-                  { name: '2365',
-                     color: '#F7C4D8'
-                  },
-                  { name: '237',
-                     color: '#F484C4'
-                  },
-                  { name: '2375',
-                     color: '#EA6BBF'
-                  },
-                  { name: '238',
-                     color: '#ED4FAF'
-                  },
-                  { name: '2385',
-                     color: '#DB28A5'
-                  },
-                  { name: '239',
-                     color: '#E0219E'
-                  },
-                  { name: '2395',
-                     color: '#C4008C'
-                  },
-                  { name: '240',
-                     color: '#C40F89'
-                  },
-                  { name: '2405',
-                     color: '#A8007A'
-                  },
-                  { name: '241',
-                     color: '#AD0075'
-                  },
-                  { name: '2415',
-                     color: '#9B0070'
-                  },
-                  { name: '242',
-                     color: '#7C1C51'
-                  },
-                  { name: '2425',
-                     color: '#87005B'
-                  },
-                  { name: '243',
-                     color: '#F2BAD8'
-                  },
-                  { name: '244',
-                     color: '#EDA0D3'
-                  },
-                  { name: '245',
-                     color: '#E87FC9'
-                  },
-                  { name: '246',
-                     color: '#CC00A0'
-                  },
-                  { name: '247',
-                     color: '#B7008E'
-                  },
-                  { name: '248',
-                     color: '#A3057F'
-                  },
-                  { name: '249',
-                     color: '#7F2860'
-                  },
-                  { name: '250',
-                     color: '#EDC4DD'
-                  },
-                  { name: '251',
-                     color: '#E29ED6'
-                  },
-                  { name: '252',
-                     color: '#D36BC6'
-                  },
-                  { name: '253',
-                     color: '#AF23A5'
-                  },
-                  { name: '254',
-                     color: '#A02D96'
-                  },
-                  { name: '255',
-                     color: '#772D6B'
-                  },
-                  { name: '256',
-                     color: '#E5C4D6'
-                  },
-                  { name: '2562',
-                     color: '#D8A8D8'
-                  },
-                  { name: '2563',
-                     color: '#D1A0CC'
-                  },
-                  { name: '2567',
-                     color: '#BF93CC'
-                  },
-                  { name: '257',
-                     color: '#D3A5C9'
-                  },
-                  { name: '2572',
-                     color: '#C687D1'
-                  },
-                  { name: '2573',
-                     color: '#BA7CBC'
-                  },
-                  { name: '2577',
-                     color: '#AA72BF'
-                  },
-                  { name: '258',
-                     color: '#9B4F96'
-                  },
-                  { name: '2582',
-                     color: '#AA47BA'
-                  },
-                  { name: '2583',
-                     color: '#9E4FA5'
-                  },
-                  { name: '2587',
-                     color: '#8E47AD'
-                  },
-                  { name: '259',
-                     color: '#72166B'
-                  },
-                  { name: '2592',
-                     color: '#930FA5'
-                  },
-                  { name: '2593',
-                     color: '#872B93'
-                  },
-                  { name: '2597',
-                     color: '#66008C'
-                  },
-                  { name: '260',
-                     color: '#681E5B'
-                  },
-                  { name: '2602',
-                     color: '#820C8E'
-                  },
-                  { name: '2603',
-                     color: '#70147A'
-                  },
-                  { name: '2607',
-                     color: '#5B027A'
-                  },
-                  { name: '261',
-                     color: '#5E2154'
-                  },
-                  { name: '2612',
-                     color: '#701E72'
-                  },
-                  { name: '2613',
-                     color: '#66116D'
-                  },
-                  { name: '2617',
-                     color: '#560C70'
-                  },
-                  { name: '262',
-                     color: '#542344'
-                  },
-                  { name: '2622',
-                     color: '#602D59'
-                  },
-                  { name: '2623',
-                     color: '#5B195E'
-                  },
-                  { name: '2627',
-                     color: '#4C145E'
-                  },
-                  { name: '263',
-                     color: '#E0CEE0'
-                  },
-                  { name: '2635',
-                     color: '#C9ADD8'
-                  },
-                  { name: '264',
-                     color: '#C6AADB'
-                  },
-                  { name: '2645',
-                     color: '#B591D1'
-                  },
-                  { name: '265',
-                     color: '#9663C4'
-                  },
-                  { name: '2655',
-                     color: '#9B6DC6'
-                  },
-                  { name: '266',
-                     color: '#6D28AA'
-                  },
-                  { name: '2665',
-                     color: '#894FBF'
-                  },
-                  { name: '267',
-                     color: '#59118E'
-                  },
-                  { name: '268',
-                     color: '#4F2170'
-                  },
-                  { name: '2685',
-                     color: '#56008C'
-                  },
-                  { name: '269',
-                     color: '#442359'
-                  },
-                  { name: '2695',
-                     color: '#44235E'
-                  },
-                  { name: '270',
-                     color: '#BAAFD3'
-                  },
-                  { name: '2705',
-                     color: '#AD9ED3'
-                  },
-                  { name: '2706',
-                     color: '#D1CEDD'
-                  },
-                  { name: '2707',
-                     color: '#BFD1E5'
-                  },
-                  { name: '2708',
-                     color: '#AFBCDB'
-                  },
-                  { name: '271',
-                     color: '#9E91C6'
-                  },
-                  { name: '2715',
-                     color: '#937ACC'
-                  },
-                  { name: '2716',
-                     color: '#A5A0D6'
-                  },
-                  { name: '2717',
-                     color: '#A5BAE0'
-                  },
-                  { name: '2718',
-                     color: '#5B77CC'
-                  },
-                  { name: '272',
-                     color: '#8977BA'
-                  },
-                  { name: '2725',
-                     color: '#7251BC'
-                  },
-                  { name: '2726',
-                     color: '#6656BC'
-                  },
-                  { name: '2727',
-                     color: '#5E68C4'
-                  },
-                  { name: '2728',
-                     color: '#3044B5'
-                  },
-                  { name: '273',
-                     color: '#38197A'
-                  },
-                  { name: '2735',
-                     color: '#4F0093'
-                  },
-                  { name: '2736',
-                     color: '#4930AD'
-                  },
-                  { name: '2738',
-                     color: '#2D008E'
-                  },
-                  { name: '274',
-                     color: '#2B1166'
-                  },
-                  { name: '2745',
-                     color: '#3F0077'
-                  },
-                  { name: '2746',
-                     color: '#3F2893'
-                  },
-                  { name: '2747',
-                     color: '#1C146B'
-                  },
-                  { name: '2748',
-                     color: '#1E1C77'
-                  },
-                  { name: '275',
-                     color: '#260F54'
-                  },
-                  { name: '2755',
-                     color: '#35006D'
-                  },
-                  { name: '2756',
-                     color: '#332875'
-                  },
-                  { name: '2757',
-                     color: '#141654'
-                  },
-                  { name: '2758',
-                     color: '#192168'
-                  },
-                  { name: '276',
-                     color: '#2B2147'
-                  },
-                  { name: '2765',
-                     color: '#2B0C56'
-                  },
-                  { name: '2766',
-                     color: '#2B265B'
-                  },
-                  { name: '2767',
-                     color: '#14213D'
-                  },
-                  { name: '2768',
-                     color: '#112151'
-                  },
-                  { name: '277',
-                     color: '#B5D1E8'
-                  },
-                  { name: '278',
-                     color: '#99BADD'
-                  },
-                  { name: '279',
-                     color: '#6689CC'
-                  },
-                  { name: '280',
-                     color: '#002B7F'
-                  },
-                  { name: '281',
-                     color: '#002868'
-                  },
-                  { name: '282',
-                     color: '#002654'
-                  },
-                  { name: '283',
-                     color: '#9BC4E2'
-                  },
-                  { name: '284',
-                     color: '#75AADB'
-                  },
-                  { name: '285',
-                     color: '#3A75C4'
-                  },
-                  { name: '286',
-                     color: '#0038A8'
-                  },
-                  { name: '287',
-                     color: '#003893'
-                  },
-                  { name: '288',
-                     color: '#00337F'
-                  },
-                  { name: '289',
-                     color: '#002649'
-                  },
-                  { name: '290',
-                     color: '#C4D8E2'
-                  },
-                  { name: '2905',
-                     color: '#93C6E0'
-                  },
-                  { name: '291',
-                     color: '#A8CEE2'
-                  },
-                  { name: '2915',
-                     color: '#60AFDD'
-                  },
-                  { name: '292',
-                     color: '#75B2DD'
-                  },
-                  { name: '2925',
-                     color: '#008ED6'
-                  },
-                  { name: '293',
-                     color: '#0051BA'
-                  },
-                  { name: '2935',
-                     color: '#005BBF'
-                  },
-                  { name: '294',
-                     color: '#003F87'
-                  },
-                  { name: '2945',
-                     color: '#0054A0'
-                  },
-                  { name: '295',
-                     color: '#00386B'
-                  },
-                  { name: '2955',
-                     color: '#003D6B'
-                  },
-                  { name: '296',
-                     color: '#002D47'
-                  },
-                  { name: '2965',
-                     color: '#00334C'
-                  },
-                  { name: '297',
-                     color: '#82C6E2'
-                  },
-                  { name: '2975',
-                     color: '#BAE0E2'
-                  },
-                  { name: '298',
-                     color: '#51B5E0'
-                  },
-                  { name: '2985',
-                     color: '#51BFE2'
-                  },
-                  { name: '299',
-                     color: '#00A3DD'
-                  },
-                  { name: '2995',
-                     color: '#00A5DB'
-                  },
-                  { name: '300',
-                     color: '#0072C6'
-                  },
-                  { name: '3005',
-                     color: '#0084C9'
-                  },
-                  { name: '301',
-                     color: '#005B99'
-                  },
-                  { name: '3015',
-                     color: '#00709E'
-                  },
-                  { name: '302',
-                     color: '#004F6D'
-                  },
-                  { name: '3025',
-                     color: '#00546B'
-                  },
-                  { name: '303',
-                     color: '#003F54'
-                  },
-                  { name: '3035',
-                     color: '#004454'
-                  },
-                  { name: '304',
-                     color: '#A5DDE2'
-                  },
-                  { name: '305',
-                     color: '#70CEE2'
-                  },
-                  { name: '306',
-                     color: '#00BCE2'
-                  },
-                  { name: '307',
-                     color: '#007AA5'
-                  },
-                  { name: '308',
-                     color: '#00607C'
-                  },
-                  { name: '309',
-                     color: '#003F49'
-                  },
-                  { name: '310',
-                     color: '#72D1DD'
-                  },
-                  { name: '3105',
-                     color: '#7FD6DB'
-                  },
-                  { name: '311',
-                     color: '#28C4D8'
-                  },
-                  { name: '3115',
-                     color: '#2DC6D6'
-                  },
-                  { name: '312',
-                     color: '#00ADC6'
-                  },
-                  { name: '3125',
-                     color: '#00B7C6'
-                  },
-                  { name: '313',
-                     color: '#0099B5'
-                  },
-                  { name: '3135',
-                     color: '#009BAA'
-                  },
-                  { name: '314',
-                     color: '#00829B'
-                  },
-                  { name: '3145',
-                     color: '#00848E'
-                  },
-                  { name: '315',
-                     color: '#006B77'
-                  },
-                  { name: '3155',
-                     color: '#006D75'
-                  },
-                  { name: '316',
-                     color: '#00494F'
-                  },
-                  { name: '3165',
-                     color: '#00565B'
-                  },
-                  { name: '317',
-                     color: '#C9E8DD'
-                  },
-                  { name: '318',
-                     color: '#93DDDB'
-                  },
-                  { name: '319',
-                     color: '#4CCED1'
-                  },
-                  { name: '320',
-                     color: '#009EA0'
-                  },
-                  { name: '321',
-                     color: '#008789'
-                  },
-                  { name: '322',
-                     color: '#007272'
-                  },
-                  { name: '323',
-                     color: '#006663'
-                  },
-                  { name: '324',
-                     color: '#AADDD6'
-                  },
-                  { name: '3242',
-                     color: '#87DDD1'
-                  },
-                  { name: '3245',
-                     color: '#8CE0D1'
-                  },
-                  { name: '3248',
-                     color: '#7AD3C1'
-                  },
-                  { name: '325',
-                     color: '#56C9C1'
-                  },
-                  { name: '3252',
-                     color: '#56D6C9'
-                  },
-                  { name: '3255',
-                     color: '#47D6C1'
-                  },
-                  { name: '3258',
-                     color: '#35C4AF'
-                  },
-                  { name: '326',
-                     color: '#00B2AA'
-                  },
-                  { name: '3262',
-                     color: '#00C1B5'
-                  },
-                  { name: '3265',
-                     color: '#00C6B2'
-                  },
-                  { name: '3268',
-                     color: '#00AF99'
-                  },
-                  { name: '327',
-                     color: '#008C82'
-                  },
-                  { name: '3272',
-                     color: '#00AA9E'
-                  },
-                  { name: '3275',
-                     color: '#00B2A0'
-                  },
-                  { name: '3278',
-                     color: '#009B84'
-                  },
-                  { name: '328',
-                     color: '#007770'
-                  },
-                  { name: '3282',
-                     color: '#008C82'
-                  },
-                  { name: '3285',
-                     color: '#009987'
-                  },
-                  { name: '3288',
-                     color: '#008270'
-                  },
-                  { name: '329',
-                     color: '#006D66'
-                  },
-                  { name: '3292',
-                     color: '#006056'
-                  },
-                  { name: '3295',
-                     color: '#008272'
-                  },
-                  { name: '3298',
-                     color: '#006B5B'
-                  },
-                  { name: '330',
-                     color: '#005951'
-                  },
-                  { name: '3302',
-                     color: '#00493F'
-                  },
-                  { name: '3305',
-                     color: '#004F42'
-                  },
-                  { name: '3308',
-                     color: '#004438'
-                  },
-                  { name: '331',
-                     color: '#BAEAD6'
-                  },
-                  { name: '332',
-                     color: '#A0E5CE'
-                  },
-                  { name: '333',
-                     color: '#5EDDC1'
-                  },
-                  { name: '334',
-                     color: '#00997C'
-                  },
-                  { name: '335',
-                     color: '#007C66'
-                  },
-                  { name: '336',
-                     color: '#006854'
-                  },
-                  { name: '337',
-                     color: '#9BDBC1'
-                  },
-                  { name: '3375',
-                     color: '#8EE2BC'
-                  },
-                  { name: '338',
-                     color: '#7AD1B5'
-                  },
-                  { name: '3385',
-                     color: '#54D8A8'
-                  },
-                  { name: '339',
-                     color: '#00B28C'
-                  },
-                  { name: '3395',
-                     color: '#00C993'
-                  },
-                  { name: '340',
-                     color: '#009977'
-                  },
-                  { name: '3405',
-                     color: '#00B27A'
-                  },
-                  { name: '341',
-                     color: '#007A5E'
-                  },
-                  { name: '3415',
-                     color: '#007C59'
-                  },
-                  { name: '342',
-                     color: '#006B54'
-                  },
-                  { name: '3425',
-                     color: '#006847'
-                  },
-                  { name: '343',
-                     color: '#00563F'
-                  },
-                  { name: '3435',
-                     color: '#024930'
-                  },
-                  { name: '344',
-                     color: '#B5E2BF'
-                  },
-                  { name: '345',
-                     color: '#96D8AF'
-                  },
-                  { name: '346',
-                     color: '#70CE9B'
-                  },
-                  { name: '347',
-                     color: '#009E60'
-                  },
-                  { name: '348',
-                     color: '#008751'
-                  },
-                  { name: '349',
-                     color: '#006B3F'
-                  },
-                  { name: '350',
-                     color: '#234F33'
-                  },
-                  { name: '351',
-                     color: '#B5E8BF'
-                  },
-                  { name: '352',
-                     color: '#99E5B2'
-                  },
-                  { name: '353',
-                     color: '#84E2A8'
-                  },
-                  { name: '354',
-                     color: '#00B760'
-                  },
-                  { name: '355',
-                     color: '#009E49'
-                  },
-                  { name: '356',
-                     color: '#007A3D'
-                  },
-                  { name: '357',
-                     color: '#215B33'
-                  },
-                  { name: '358',
-                     color: '#AADD96'
-                  },
-                  { name: '359',
-                     color: '#A0DB8E'
-                  },
-                  { name: '360',
-                     color: '#60C659'
-                  },
-                  { name: '361',
-                     color: '#1EB53A'
-                  },
-                  { name: '362',
-                     color: '#339E35'
-                  },
-                  { name: '363',
-                     color: '#3D8E33'
-                  },
-                  { name: '364',
-                     color: '#3A7728'
-                  },
-                  { name: '365',
-                     color: '#D3E8A3'
-                  },
-                  { name: '366',
-                     color: '#C4E58E'
-                  },
-                  { name: '367',
-                     color: '#AADD6D'
-                  },
-                  { name: '368',
-                     color: '#5BBF21'
-                  },
-                  { name: '369',
-                     color: '#56AA1C'
-                  },
-                  { name: '370',
-                     color: '#568E14'
-                  },
-                  { name: '371',
-                     color: '#566B21'
-                  },
-                  { name: '372',
-                     color: '#D8ED96'
-                  },
-                  { name: '373',
-                     color: '#CEEA82'
-                  },
-                  { name: '374',
-                     color: '#BAE860'
-                  },
-                  { name: '375',
-                     color: '#8CD600'
-                  },
-                  { name: '376',
-                     color: '#7FBA00'
-                  },
-                  { name: '377',
-                     color: '#709302'
-                  },
-                  { name: '378',
-                     color: '#566314'
-                  },
-                  { name: '379',
-                     color: '#E0EA68'
-                  },
-                  { name: '380',
-                     color: '#D6E542'
-                  },
-                  { name: '381',
-                     color: '#CCE226'
-                  },
-                  { name: '382',
-                     color: '#BAD80A'
-                  },
-                  { name: '383',
-                     color: '#A3AF07'
-                  },
-                  { name: '384',
-                     color: '#939905'
-                  },
-                  { name: '385',
-                     color: '#707014'
-                  },
-                  { name: '386',
-                     color: '#E8ED60'
-                  },
-                  { name: '387',
-                     color: '#E0ED44'
-                  },
-                  { name: '388',
-                     color: '#D6E80F'
-                  },
-                  { name: '389',
-                     color: '#CEE007'
-                  },
-                  { name: '390',
-                     color: '#BAC405'
-                  },
-                  { name: '391',
-                     color: '#9E9E07'
-                  },
-                  { name: '392',
-                     color: '#848205'
-                  },
-                  { name: '393',
-                     color: '#F2EF87'
-                  },
-                  { name: '3935',
-                     color: '#F2ED6D'
-                  },
-                  { name: '394',
-                     color: '#EAED35'
-                  },
-                  { name: '3945',
-                     color: '#EFEA07'
-                  },
-                  { name: '395',
-                     color: '#E5E811'
-                  },
-                  { name: '3955',
-                     color: '#EDE211'
-                  },
-                  { name: '396',
-                     color: '#E0E20C'
-                  },
-                  { name: '3965',
-                     color: '#E8DD11'
-                  },
-                  { name: '397',
-                     color: '#C1BF0A'
-                  },
-                  { name: '3975',
-                     color: '#B5A80C'
-                  },
-                  { name: '398',
-                     color: '#AFA80A'
-                  },
-                  { name: '3985',
-                     color: '#998C0A'
-                  },
-                  { name: '399',
-                     color: '#998E07'
-                  },
-                  { name: '3995',
-                     color: '#6D6002'
-                  },
-                  { name: '400',
-                     color: '#D1C6B5'
-                  },
-                  { name: '401',
-                     color: '#C1B5A5'
-                  },
-                  { name: '402',
-                     color: '#AFA593'
-                  },
-                  { name: '403',
-                     color: '#998C7C'
-                  },
-                  { name: '404',
-                     color: '#827566'
-                  },
-                  { name: '405',
-                     color: '#6B5E4F'
-                  },
-                  { name: '406',
-                     color: '#CEC1B5'
-                  },
-                  { name: '408',
-                     color: '#A8998C'
-                  },
-                  { name: '409',
-                     color: '#99897C'
-                  },
-                  { name: '410',
-                     color: '#7C6D63'
-                  },
-                  { name: '411',
-                     color: '#66594C'
-                  },
-                  { name: '412',
-                     color: '#3D3028'
-                  },
-                  { name: '413',
-                     color: '#C6C1B2'
-                  },
-                  { name: '414',
-                     color: '#B5AFA0'
-                  },
-                  { name: '415',
-                     color: '#A39E8C'
-                  },
-                  { name: '416',
-                     color: '#8E8C7A'
-                  },
-                  { name: '417',
-                     color: '#777263'
-                  },
-                  { name: '418',
-                     color: '#605E4F'
-                  },
-                  { name: '419',
-                     color: '#282821'
-                  },
-                  { name: '420',
-                     color: '#D1CCBF'
-                  },
-                  { name: '421',
-                     color: '#BFBAAF'
-                  },
-                  { name: '422',
-                     color: '#AFAAA3'
-                  },
-                  { name: '423',
-                     color: '#96938E'
-                  },
-                  { name: '424',
-                     color: '#827F77'
-                  },
-                  { name: '425',
-                     color: '#60605B'
-                  },
-                  { name: '426',
-                     color: '#2B2B28'
-                  },
-                  { name: '427',
-                     color: '#DDDBD1'
-                  },
-                  { name: '428',
-                     color: '#D1CEC6'
-                  },
-                  { name: '429',
-                     color: '#ADAFAA'
-                  },
-                  { name: '430',
-                     color: '#919693'
-                  },
-                  { name: '431',
-                     color: '#666D70'
-                  },
-                  { name: '432',
-                     color: '#444F51'
-                  },
-                  { name: '433',
-                     color: '#30383A'
-                  },
-                  { name: '434',
-                     color: '#E0D1C6'
-                  },
-                  { name: '435',
-                     color: '#D3BFB7'
-                  },
-                  { name: '436',
-                     color: '#BCA59E'
-                  },
-                  { name: '437',
-                     color: '#8C706B'
-                  },
-                  { name: '438',
-                     color: '#593F3D'
-                  },
-                  { name: '439',
-                     color: '#493533'
-                  },
-                  { name: '440',
-                     color: '#3F302B'
-                  },
-                  { name: '441',
-                     color: '#D1D1C6'
-                  },
-                  { name: '442',
-                     color: '#BABFB7'
-                  },
-                  { name: '443',
-                     color: '#A3A8A3'
-                  },
-                  { name: '444',
-                     color: '#898E8C'
-                  },
-                  { name: '445',
-                     color: '#565959'
-                  },
-                  { name: '446',
-                     color: '#494C49'
-                  },
-                  { name: '447',
-                     color: '#3F3F38'
-                  },
-                  { name: '448',
-                     color: '#54472D'
-                  },
-                  { name: '4485',
-                     color: '#604C11'
-                  },
-                  { name: '449',
-                     color: '#544726'
-                  },
-                  { name: '4495',
-                     color: '#877530'
-                  },
-                  { name: '450',
-                     color: '#60542B'
-                  },
-                  { name: '4505',
-                     color: '#A09151'
-                  },
-                  { name: '451',
-                     color: '#ADA07A'
-                  },
-                  { name: '4515',
-                     color: '#BCAD75'
-                  },
-                  { name: '452',
-                     color: '#C4B796'
-                  },
-                  { name: '4525',
-                     color: '#CCBF8E'
-                  },
-                  { name: '453',
-                     color: '#D6CCAF'
-                  },
-                  { name: '4535',
-                     color: '#DBCEA5'
-                  },
-                  { name: '454',
-                     color: '#E2D8BF'
-                  },
-                  { name: '4545',
-                     color: '#E5DBBA'
-                  },
-                  { name: '455',
-                     color: '#665614'
-                  },
-                  { name: '456',
-                     color: '#998714'
-                  },
-                  { name: '457',
-                     color: '#B59B0C'
-                  },
-                  { name: '458',
-                     color: '#DDCC6B'
-                  },
-                  { name: '459',
-                     color: '#E2D67C'
-                  },
-                  { name: '460',
-                     color: '#EADD96'
-                  },
-                  { name: '461',
-                     color: '#EDE5AD'
-                  },
-                  { name: '462',
-                     color: '#5B4723'
-                  },
-                  { name: '4625',
-                     color: '#472311'
-                  },
-                  { name: '463',
-                     color: '#755426'
-                  },
-                  { name: '4635',
-                     color: '#8C5933'
-                  },
-                  { name: '464',
-                     color: '#876028'
-                  },
-                  { name: '4645',
-                     color: '#B28260'
-                  },
-                  { name: '465',
-                     color: '#C1A875'
-                  },
-                  { name: '4655',
-                     color: '#C49977'
-                  },
-                  { name: '466',
-                     color: '#D1BF91'
-                  },
-                  { name: '4665',
-                     color: '#D8B596'
-                  },
-                  { name: '467',
-                     color: '#DDCCA5'
-                  },
-                  { name: '4675',
-                     color: '#E5C6AA'
-                  },
-                  { name: '468',
-                     color: '#E2D6B5'
-                  },
-                  { name: '4685',
-                     color: '#EDD3BC'
-                  },
-                  { name: '469',
-                     color: '#603311'
-                  },
-                  { name: '4695',
-                     color: '#51261C'
-                  },
-                  { name: '470',
-                     color: '#9B4F19'
-                  },
-                  { name: '4705',
-                     color: '#7C513D'
-                  },
-                  { name: '471',
-                     color: '#BC5E1E'
-                  },
-                  { name: '4715',
-                     color: '#99705B'
-                  },
-                  { name: '472',
-                     color: '#EAAA7A'
-                  },
-                  { name: '4725',
-                     color: '#B5917C'
-                  },
-                  { name: '473',
-                     color: '#F4C4A0'
-                  },
-                  { name: '4735',
-                     color: '#CCAF9B'
-                  },
-                  { name: '474',
-                     color: '#F4CCAA'
-                  },
-                  { name: '4745',
-                     color: '#D8BFAA'
-                  },
-                  { name: '475',
-                     color: '#F7D3B5'
-                  },
-                  { name: '4755',
-                     color: '#E2CCBA'
-                  },
-                  { name: '476',
-                     color: '#593D2B'
-                  },
-                  { name: '477',
-                     color: '#633826'
-                  },
-                  { name: '478',
-                     color: '#7A3F28'
-                  },
-                  { name: '479',
-                     color: '#AF8970'
-                  },
-                  { name: '480',
-                     color: '#D3B7A3'
-                  },
-                  { name: '481',
-                     color: '#E0CCBA'
-                  },
-                  { name: '482',
-                     color: '#E5D3C1'
-                  },
-                  { name: '483',
-                     color: '#6B3021'
-                  },
-                  { name: '484',
-                     color: '#9B301C'
-                  },
-                  { name: '485',
-                     color: '#D81E05'
-                  },
-                  { name: '486',
-                     color: '#ED9E84'
-                  },
-                  { name: '487',
-                     color: '#EFB5A0'
-                  },
-                  { name: '488',
-                     color: '#F2C4AF'
-                  },
-                  { name: '489',
-                     color: '#F2D1BF'
-                  },
-                  { name: '490',
-                     color: '#5B2626'
-                  },
-                  { name: '491',
-                     color: '#752828'
-                  },
-                  { name: '492',
-                     color: '#913338'
-                  },
-                  { name: '494',
-                     color: '#F2ADB2'
-                  },
-                  { name: '495',
-                     color: '#F4BCBF'
-                  },
-                  { name: '496',
-                     color: '#F7C9C6'
-                  },
-                  { name: '497',
-                     color: '#512826'
-                  },
-                  { name: '4975',
-                     color: '#441E1C'
-                  },
-                  { name: '498',
-                     color: '#6D332B'
-                  },
-                  { name: '4985',
-                     color: '#844949'
-                  },
-                  { name: '499',
-                     color: '#7A382D'
-                  },
-                  { name: '4995',
-                     color: '#A56B6D'
-                  },
-                  { name: '500',
-                     color: '#CE898C'
-                  },
-                  { name: '5005',
-                     color: '#BC8787'
-                  },
-                  { name: '501',
-                     color: '#EAB2B2'
-                  },
-                  { name: '5015',
-                     color: '#D8ADA8'
-                  },
-                  { name: '502',
-                     color: '#F2C6C4'
-                  },
-                  { name: '5025',
-                     color: '#E2BCB7'
-                  },
-                  { name: '503',
-                     color: '#F4D1CC'
-                  },
-                  { name: '5035',
-                     color: '#EDCEC6'
-                  },
-                  { name: '504',
-                     color: '#511E26'
-                  },
-                  { name: '505',
-                     color: '#661E2B'
-                  },
-                  { name: '506',
-                     color: '#7A2638'
-                  },
-                  { name: '507',
-                     color: '#D8899B'
-                  },
-                  { name: '508',
-                     color: '#E8A5AF'
-                  },
-                  { name: '509',
-                     color: '#F2BABF'
-                  },
-                  { name: '510',
-                     color: '#F4C6C9'
-                  },
-                  { name: '511',
-                     color: '#602144'
-                  },
-                  { name: '5115',
-                     color: '#4F213A'
-                  },
-                  { name: '512',
-                     color: '#84216B'
-                  },
-                  { name: '5125',
-                     color: '#754760'
-                  },
-                  { name: '513',
-                     color: '#9E2387'
-                  },
-                  { name: '5135',
-                     color: '#936B7F'
-                  },
-                  { name: '514',
-                     color: '#D884BC'
-                  },
-                  { name: '5145',
-                     color: '#AD8799'
-                  },
-                  { name: '515',
-                     color: '#E8A3C9'
-                  },
-                  { name: '5155',
-                     color: '#CCAFB7'
-                  },
-                  { name: '516',
-                     color: '#F2BAD3'
-                  },
-                  { name: '5165',
-                     color: '#E0C9CC'
-                  },
-                  { name: '517',
-                     color: '#F4CCD8'
-                  },
-                  { name: '5175',
-                     color: '#E8D6D1'
-                  },
-                  { name: '518',
-                     color: '#512D44'
-                  },
-                  { name: '5185',
-                     color: '#472835'
-                  },
-                  { name: '519',
-                     color: '#63305E'
-                  },
-                  { name: '5195',
-                     color: '#593344'
-                  },
-                  { name: '520',
-                     color: '#703572'
-                  },
-                  { name: '5205',
-                     color: '#8E6877'
-                  },
-                  { name: '521',
-                     color: '#B58CB2'
-                  },
-                  { name: '5215',
-                     color: '#B5939B'
-                  },
-                  { name: '522',
-                     color: '#C6A3C1'
-                  },
-                  { name: '5225',
-                     color: '#CCADAF'
-                  },
-                  { name: '523',
-                     color: '#D3B7CC'
-                  },
-                  { name: '5235',
-                     color: '#DDC6C4'
-                  },
-                  { name: '524',
-                     color: '#E2CCD3'
-                  },
-                  { name: '5245',
-                     color: '#E5D3CC'
-                  },
-                  { name: '525',
-                     color: '#512654'
-                  },
-                  { name: '5255',
-                     color: '#35264F'
-                  },
-                  { name: '526',
-                     color: '#68217A'
-                  },
-                  { name: '5265',
-                     color: '#493D63'
-                  },
-                  { name: '527',
-                     color: '#7A1E99'
-                  },
-                  { name: '5275',
-                     color: '#605677'
-                  },
-                  { name: '528',
-                     color: '#AF72C1'
-                  },
-                  { name: '5285',
-                     color: '#8C8299'
-                  },
-                  { name: '529',
-                     color: '#CEA3D3'
-                  },
-                  { name: '5295',
-                     color: '#B2A8B5'
-                  },
-                  { name: '530',
-                     color: '#D6AFD6'
-                  },
-                  { name: '5305',
-                     color: '#CCC1C6'
-                  },
-                  { name: '531',
-                     color: '#E5C6DB'
-                  },
-                  { name: '5315',
-                     color: '#DBD3D3'
-                  },
-                  { name: '532',
-                     color: '#353842'
-                  },
-                  { name: '533',
-                     color: '#353F5B'
-                  },
-                  { name: '534',
-                     color: '#3A4972'
-                  },
-                  { name: '535',
-                     color: '#9BA3B7'
-                  },
-                  { name: '536',
-                     color: '#ADB2C1'
-                  },
-                  { name: '537',
-                     color: '#C4C6CE'
-                  },
-                  { name: '538',
-                     color: '#D6D3D6'
-                  },
-                  { name: '539',
-                     color: '#003049'
-                  },
-                  { name: '5395',
-                     color: '#02283A'
-                  },
-                  { name: '540',
-                     color: '#00335B'
-                  },
-                  { name: '5405',
-                     color: '#3F6075'
-                  },
-                  { name: '541',
-                     color: '#003F77'
-                  },
-                  { name: '5415',
-                     color: '#607C8C'
-                  },
-                  { name: '542',
-                     color: '#6693BC'
-                  },
-                  { name: '5425',
-                     color: '#8499A5'
-                  },
-                  { name: '543',
-                     color: '#93B7D1'
-                  },
-                  { name: '5435',
-                     color: '#AFBCBF'
-                  },
-                  { name: '544',
-                     color: '#B7CCDB'
-                  },
-                  { name: '5445',
-                     color: '#C4CCCC'
-                  },
-                  { name: '545',
-                     color: '#C4D3DD'
-                  },
-                  { name: '5455',
-                     color: '#D6D8D3'
-                  },
-                  { name: '546',
-                     color: '#0C3844'
-                  },
-                  { name: '5463',
-                     color: '#00353A'
-                  },
-                  { name: '5467',
-                     color: '#193833'
-                  },
-                  { name: '547',
-                     color: '#003F54'
-                  },
-                  { name: '5473',
-                     color: '#26686D'
-                  },
-                  { name: '5477',
-                     color: '#3A564F'
-                  },
-                  { name: '548',
-                     color: '#004459'
-                  },
-                  { name: '5483',
-                     color: '#609191'
-                  },
-                  { name: '5487',
-                     color: '#667C72'
-                  },
-                  { name: '549',
-                     color: '#5E99AA'
-                  },
-                  { name: '5493',
-                     color: '#8CAFAD'
-                  },
-                  { name: '5497',
-                     color: '#91A399'
-                  },
-                  { name: '550',
-                     color: '#87AFBF'
-                  },
-                  { name: '5503',
-                     color: '#AAC4BF'
-                  },
-                  { name: '5507',
-                     color: '#AFBAB2'
-                  },
-                  { name: '551',
-                     color: '#A3C1C9'
-                  },
-                  { name: '5513',
-                     color: '#CED8D1'
-                  },
-                  { name: '5517',
-                     color: '#C9CEC4'
-                  },
-                  { name: '552',
-                     color: '#C4D6D6'
-                  },
-                  { name: '5523',
-                     color: '#D6DDD6'
-                  },
-                  { name: '5527',
-                     color: '#CED1C6'
-                  },
-                  { name: '553',
-                     color: '#234435'
-                  },
-                  { name: '5535',
-                     color: '#213D30'
-                  },
-                  { name: '554',
-                     color: '#195E47'
-                  },
-                  { name: '5545',
-                     color: '#4F6D5E'
-                  },
-                  { name: '555',
-                     color: '#076D54'
-                  },
-                  { name: '5555',
-                     color: '#779182'
-                  },
-                  { name: '556',
-                     color: '#7AA891'
-                  },
-                  { name: '5565',
-                     color: '#96AA99'
-                  },
-                  { name: '557',
-                     color: '#A3C1AD'
-                  },
-                  { name: '5575',
-                     color: '#AFBFAD'
-                  },
-                  { name: '558',
-                     color: '#B7CEBC'
-                  },
-                  { name: '5585',
-                     color: '#C4CEBF'
-                  },
-                  { name: '559',
-                     color: '#C6D6C4'
-                  },
-                  { name: '5595',
-                     color: '#D8DBCC'
-                  },
-                  { name: '560',
-                     color: '#2B4C3F'
-                  },
-                  { name: '5605',
-                     color: '#233A2D'
-                  },
-                  { name: '561',
-                     color: '#266659'
-                  },
-                  { name: '5615',
-                     color: '#546856'
-                  },
-                  { name: '562',
-                     color: '#1E7A6D'
-                  },
-                  { name: '5625',
-                     color: '#728470'
-                  },
-                  { name: '563',
-                     color: '#7FBCAA'
-                  },
-                  { name: '5635',
-                     color: '#9EAA99'
-                  },
-                  { name: '564',
-                     color: '#05705E'
-                  },
-                  { name: '5645',
-                     color: '#BCC1B2'
-                  },
-                  { name: '565',
-                     color: '#BCDBCC'
-                  },
-                  { name: '5655',
-                     color: '#C6CCBA'
-                  },
-                  { name: '566',
-                     color: '#D1E2D3'
-                  },
-                  { name: '5665',
-                     color: '#D6D6C6'
-                  },
-                  { name: '567',
-                     color: '#265142'
-                  },
-                  { name: '569',
-                     color: '#008772'
-                  },
-                  { name: '570',
-                     color: '#7FC6B2'
-                  },
-                  { name: '571',
-                     color: '#AADBC6'
-                  },
-                  { name: '572',
-                     color: '#BCE2CE'
-                  },
-                  { name: '573',
-                     color: '#CCE5D6'
-                  },
-                  { name: '574',
-                     color: '#495928'
-                  },
-                  { name: '5743',
-                     color: '#3F4926'
-                  },
-                  { name: '5747',
-                     color: '#424716'
-                  },
-                  { name: '575',
-                     color: '#547730'
-                  },
-                  { name: '5753',
-                     color: '#5E663A'
-                  },
-                  { name: '5757',
-                     color: '#6B702B'
-                  },
-                  { name: '576',
-                     color: '#608E3A'
-                  },
-                  { name: '5763',
-                     color: '#777C4F'
-                  },
-                  { name: '5767',
-                     color: '#8C914F'
-                  },
-                  { name: '577',
-                     color: '#B5CC8E'
-                  },
-                  { name: '5773',
-                     color: '#9B9E72'
-                  },
-                  { name: '5777',
-                     color: '#AAAD75'
-                  },
-                  { name: '578',
-                     color: '#C6D6A0'
-                  },
-                  { name: '5783',
-                     color: '#B5B58E'
-                  },
-                  { name: '5787',
-                     color: '#C6C699'
-                  },
-                  { name: '579',
-                     color: '#C9D6A3'
-                  },
-                  { name: '5793',
-                     color: '#C6C6A5'
-                  },
-                  { name: '5797',
-                     color: '#D3D1AA'
-                  },
-                  { name: '580',
-                     color: '#D8DDB5'
-                  },
-                  { name: '5803',
-                     color: '#D8D6B7'
-                  },
-                  { name: '5807',
-                     color: '#E0DDBC'
-                  },
-                  { name: '581',
-                     color: '#605E11'
-                  },
-                  { name: '5815',
-                     color: '#494411'
-                  },
-                  { name: '582',
-                     color: '#878905'
-                  },
-                  { name: '5825',
-                     color: '#75702B'
-                  },
-                  { name: '583',
-                     color: '#AABA0A'
-                  },
-                  { name: '5835',
-                     color: '#9E9959'
-                  },
-                  { name: '584',
-                     color: '#CED649'
-                  },
-                  { name: '5845',
-                     color: '#B2AA70'
-                  },
-                  { name: '585',
-                     color: '#DBE06B'
-                  },
-                  { name: '5855',
-                     color: '#CCC693'
-                  },
-                  { name: '586',
-                     color: '#E2E584'
-                  },
-                  { name: '5865',
-                     color: '#D6CEA3'
-                  },
-                  { name: '587',
-                     color: '#E8E89B'
-                  },
-                  { name: '5875',
-                     color: '#E0DBB5'
-                  },
-                  { name: '600',
-                     color: '#F4EDAF'
-                  },
-                  { name: '601',
-                     color: '#F2ED9E'
-                  },
-                  { name: '602',
-                     color: '#F2EA87'
-                  },
-                  { name: '603',
-                     color: '#EDE85B'
-                  },
-                  { name: '604',
-                     color: '#E8DD21'
-                  },
-                  { name: '605',
-                     color: '#DDCE11'
-                  },
-                  { name: '606',
-                     color: '#D3BF11'
-                  },
-                  { name: '607',
-                     color: '#F2EABC'
-                  },
-                  { name: '608',
-                     color: '#EFE8AD'
-                  },
-                  { name: '609',
-                     color: '#EAE596'
-                  },
-                  { name: '610',
-                     color: '#E2DB72'
-                  },
-                  { name: '611',
-                     color: '#D6CE49'
-                  },
-                  { name: '612',
-                     color: '#C4BA00'
-                  },
-                  { name: '613',
-                     color: '#AFA00C'
-                  },
-                  { name: '614',
-                     color: '#EAE2B7'
-                  },
-                  { name: '615',
-                     color: '#E2DBAA'
-                  },
-                  { name: '616',
-                     color: '#DDD69B'
-                  },
-                  { name: '617',
-                     color: '#CCC47C'
-                  },
-                  { name: '618',
-                     color: '#B5AA59'
-                  },
-                  { name: '619',
-                     color: '#968C28'
-                  },
-                  { name: '620',
-                     color: '#847711'
-                  },
-                  { name: '621',
-                     color: '#D8DDCE'
-                  },
-                  { name: '622',
-                     color: '#C1D1BF'
-                  },
-                  { name: '623',
-                     color: '#A5BFAA'
-                  },
-                  { name: '624',
-                     color: '#7FA08C'
-                  },
-                  { name: '625',
-                     color: '#5B8772'
-                  },
-                  { name: '626',
-                     color: '#21543F'
-                  },
-                  { name: '627',
-                     color: '#0C3026'
-                  },
-                  { name: '628',
-                     color: '#CCE2DD'
-                  },
-                  { name: '629',
-                     color: '#B2D8D8'
-                  },
-                  { name: '630',
-                     color: '#8CCCD3'
-                  },
-                  { name: '631',
-                     color: '#54B7C6'
-                  },
-                  { name: '632',
-                     color: '#00A0BA'
-                  },
-                  { name: '633',
-                     color: '#007F99'
-                  },
-                  { name: '634',
-                     color: '#00667F'
-                  },
-                  { name: '635',
-                     color: '#BAE0E0'
-                  },
-                  { name: '636',
-                     color: '#99D6DD'
-                  },
-                  { name: '637',
-                     color: '#6BC9DB'
-                  },
-                  { name: '638',
-                     color: '#00B5D6'
-                  },
-                  { name: '639',
-                     color: '#00A0C4'
-                  },
-                  { name: '640',
-                     color: '#008CB2'
-                  },
-                  { name: '641',
-                     color: '#007AA5'
-                  },
-                  { name: '642',
-                     color: '#D1D8D8'
-                  },
-                  { name: '643',
-                     color: '#C6D1D6'
-                  },
-                  { name: '644',
-                     color: '#9BAFC4'
-                  },
-                  { name: '645',
-                     color: '#7796B2'
-                  },
-                  { name: '646',
-                     color: '#5E82A3'
-                  },
-                  { name: '647',
-                     color: '#26547C'
-                  },
-                  { name: '648',
-                     color: '#00305E'
-                  },
-                  { name: '649',
-                     color: '#D6D6D8'
-                  },
-                  { name: '650',
-                     color: '#BFC6D1'
-                  },
-                  { name: '651',
-                     color: '#9BAABF'
-                  },
-                  { name: '652',
-                     color: '#6D87A8'
-                  },
-                  { name: '653',
-                     color: '#335687'
-                  },
-                  { name: '654',
-                     color: '#0F2B5B'
-                  },
-                  { name: '655',
-                     color: '#0C1C47'
-                  },
-                  { name: '656',
-                     color: '#D6DBE0'
-                  },
-                  { name: '657',
-                     color: '#C1C9DD'
-                  },
-                  { name: '658',
-                     color: '#A5AFD6'
-                  },
-                  { name: '659',
-                     color: '#7F8CBF'
-                  },
-                  { name: '660',
-                     color: '#5960A8'
-                  },
-                  { name: '661',
-                     color: '#2D338E'
-                  },
-                  { name: '662',
-                     color: '#0C1975'
-                  },
-                  { name: '663',
-                     color: '#E2D3D6'
-                  },
-                  { name: '664',
-                     color: '#D8CCD1'
-                  },
-                  { name: '665',
-                     color: '#C6B5C4'
-                  },
-                  { name: '666',
-                     color: '#A893AD'
-                  },
-                  { name: '667',
-                     color: '#7F6689'
-                  },
-                  { name: '668',
-                     color: '#664975'
-                  },
-                  { name: '669',
-                     color: '#472B59'
-                  },
-                  { name: '670',
-                     color: '#F2D6D8'
-                  },
-                  { name: '671',
-                     color: '#EFC6D3'
-                  },
-                  { name: '672',
-                     color: '#EAAAC4'
-                  },
-                  { name: '673',
-                     color: '#E08CB2'
-                  },
-                  { name: '674',
-                     color: '#D36B9E'
-                  },
-                  { name: '675',
-                     color: '#BC3877'
-                  },
-                  { name: '676',
-                     color: '#A00054'
-                  },
-                  { name: '677',
-                     color: '#EDD6D6'
-                  },
-                  { name: '678',
-                     color: '#EACCCE'
-                  },
-                  { name: '679',
-                     color: '#E5BFC6'
-                  },
-                  { name: '680',
-                     color: '#D39EAF'
-                  },
-                  { name: '681',
-                     color: '#B7728E'
-                  },
-                  { name: '682',
-                     color: '#A05175'
-                  },
-                  { name: '683',
-                     color: '#7F284F'
-                  },
-                  { name: '684',
-                     color: '#EFCCCE'
-                  },
-                  { name: '685',
-                     color: '#EABFC4'
-                  },
-                  { name: '686',
-                     color: '#E0AABA'
-                  },
-                  { name: '687',
-                     color: '#C9899E'
-                  },
-                  { name: '688',
-                     color: '#B26684'
-                  },
-                  { name: '689',
-                     color: '#934266'
-                  },
-                  { name: '690',
-                     color: '#702342'
-                  },
-                  { name: '691',
-                     color: '#EFD1C9'
-                  },
-                  { name: '692',
-                     color: '#E8BFBA'
-                  },
-                  { name: '693',
-                     color: '#DBA8A5'
-                  },
-                  { name: '694',
-                     color: '#C98C8C'
-                  },
-                  { name: '695',
-                     color: '#B26B70'
-                  },
-                  { name: '696',
-                     color: '#8E4749'
-                  },
-                  { name: '697',
-                     color: '#7F383A'
-                  },
-                  { name: '698',
-                     color: '#F7D1CC'
-                  },
-                  { name: '699',
-                     color: '#F7BFBF'
-                  },
-                  { name: '700',
-                     color: '#F2A5AA'
-                  },
-                  { name: '701',
-                     color: '#E8878E'
-                  },
-                  { name: '702',
-                     color: '#D6606D'
-                  },
-                  { name: '703',
-                     color: '#B73844'
-                  },
-                  { name: '704',
-                     color: '#9E2828'
-                  },
-                  { name: '705',
-                     color: '#F9DDD6'
-                  },
-                  { name: '706',
-                     color: '#FCC9C6'
-                  },
-                  { name: '707',
-                     color: '#FCADAF'
-                  },
-                  { name: '708',
-                     color: '#F98E99'
-                  },
-                  { name: '709',
-                     color: '#F26877'
-                  },
-                  { name: '710',
-                     color: '#E04251'
-                  },
-                  { name: '711',
-                     color: '#D12D33'
-                  },
-                  { name: '712',
-                     color: '#FFD3AA'
-                  },
-                  { name: '713',
-                     color: '#F9C9A3'
-                  },
-                  { name: '714',
-                     color: '#F9BA82'
-                  },
-                  { name: '715',
-                     color: '#FC9E49'
-                  },
-                  { name: '716',
-                     color: '#F28411'
-                  },
-                  { name: '717',
-                     color: '#D36D00'
-                  },
-                  { name: '718',
-                     color: '#BF5B00'
-                  },
-                  { name: '719',
-                     color: '#F4D1AF'
-                  },
-                  { name: '720',
-                     color: '#EFC49E'
-                  },
-                  { name: '721',
-                     color: '#E8B282'
-                  },
-                  { name: '722',
-                     color: '#D18E54'
-                  },
-                  { name: '723',
-                     color: '#BA7530'
-                  },
-                  { name: '724',
-                     color: '#8E4905'
-                  },
-                  { name: '725',
-                     color: '#753802'
-                  },
-                  { name: '726',
-                     color: '#EDD3B5'
-                  },
-                  { name: '727',
-                     color: '#E2BF9B'
-                  },
-                  { name: '728',
-                     color: '#D3A87C'
-                  },
-                  { name: '729',
-                     color: '#C18E60'
-                  },
-                  { name: '730',
-                     color: '#AA753F'
-                  },
-                  { name: '731',
-                     color: '#723F0A'
-                  },
-                  { name: '732',
-                     color: '#60330A'
-                  },
-                  { name: '801',
-                     color: '#00AACC'
-                  },
-                  { name: '802',
-                     color: '#60DD49'
-                  },
-                  { name: '803',
-                     color: '#FFED38'
-                  },
-                  { name: '804',
-                     color: '#FF9338'
-                  },
-                  { name: '805',
-                     color: '#F95951'
-                  },
-                  { name: '806',
-                     color: '#FF0093'
-                  },
-                  { name: '807',
-                     color: '#D6009E'
-                  },
-                  { name: '808',
-                     color: '#00B59B'
-                  },
-                  { name: '809',
-                     color: '#DDE00F'
-                  },
-                  { name: '810',
-                     color: '#FFCC1E'
-                  },
-                  { name: '811',
-                     color: '#FF7247'
-                  },
-                  { name: '812',
-                     color: '#FC2366'
-                  },
-                  { name: '813',
-                     color: '#E50099'
-                  },
-                  { name: '814',
-                     color: '#8C60C1'
-                  },
-                  { name: 'Yellow',
-                     color: '#FFDD00'
-                  },
-                  { name: 'Yellow 012',
-                     color: '#FFD700'
-                  },
-                  { name: 'Orange 021',
-                     color: '#FF5000'
-                  },
-                  { name: 'Warm Red',
-                     color: '#FF4338'
-                  },
-                  { name: 'Red 032',
-                     color: '#F7323F'
-                  },
-                  { name: 'Rubine Red',
-                     color: '#D60057'
-                  },
-                  { name: 'Rhadamine Red',
-                     color: '#E70095'
-                  },
-                  { name: 'Purple',
-                     color: '#C227B9'
-                  },
-                  { name: 'Violet',
-                     color: '#430098'
-                  },
-                  { name: 'Blue 072',
-                     color: '#060E9F'
-                  },
-                  { name: 'Reflex Blue',
-                     color: '#001689'
-                  },
-                  { name: 'Process Blue',
-                     color: '#0082CA'
-                  },
-                  { name: 'Green',
-                     color: '#00A887'
-                  },
-                  { name: 'Black',
-                     color: '#2E2A25'
-                  },
-                  { name: 'Yellow 0131',
-                     color: '#F5F0A1'
-                  },
-                  { name: 'Red 0331',
-                     color: '#FFAFBB'
-                  },
-                  { name: 'Magenta 0521',
-                     color: '#F5B2DB'
-                  },
-                  { name: 'Violet 0631',
-                     color: '#C39BDE'
-                  },
-                  { name: 'Blue 0821',
-                     color: '#72D0EB'
-                  },
-                  { name: 'Green 0921',
-                     color: '#9BE7D8'
-                  },
-                  { name: 'Black 0961',
-                     color: '#A0968C'
-                  },
-                  { name: 'Warm Gray 1',
-                     color: '#D8D1CA'
-                  },
-                  { name: 'Warm Gray 2',
-                     color: '#CDC3BB'
-                  },
-                  { name: 'Warm Gray 3',
-                     color: '#C1B8AF'
-                  },
-                  { name: 'Warm Gray 4',
-                     color: '#B7ADA5'
-                  },
-                  { name: 'Warm Gray 5',
-                     color: '#AEA299'
-                  },
-                  { name: 'Warm Gray 6',
-                     color: '#A79C94'
-                  },
-                  { name: 'Warm Gray 7',
-                     color: '#978B82'
-                  },
-                  { name: 'Warm Gray 8',
-                     color: '#8E8279'
-                  },
-                  { name: 'Warm Gray 9',
-                     color: '#86786F'
-                  },
-                  { name: 'Warm Gray 10',
-                     color: '#7B6E66'
-                  },
-                  { name: 'Warm Gray 11',
-                     color: '#706259'
-                  },
-                  { name: 'Cool Gray 1',
-                     color: '#DBD9D6'
-                  },
-                  { name: 'Cool Gray 2',
-                     color: '#D2D0CD'
-                  },
-                  { name: 'Cool Gray 3',
-                     color: '#CAC8C8'
-                  },
-                  { name: 'Cool Gray 4',
-                     color: '#BDBBBB'
-                  },
-                  { name: 'Cool Gray 5',
-                     color: '#B3B2B1'
-                  },
-                  { name: 'Cool Gray 6',
-                     color: '#A9A8A9'
-                  },
-                  { name: 'Cool Gray 7',
-                     color: '#99999A'
-                  },
-                  { name: 'Cool Gray 8',
-                     color: '#8A8A8D'
-                  },
-                  { name: 'Cool Gray 9',
-                     color: '#77777A'
-                  },
-                  { name: 'Cool Gray 10',
-                     color: '#646569'
-                  },
-                  { name: 'Cool Gray 11',
-                     color: '#55565A'
-                  },
-                  { name: 'Black 2',
-                     color: '#342E1F'
-                  },
-                  { name: 'Black 3',
-                     color: '#222720'
-                  },
-                  { name: 'Black 4',
-                     color: '#31251C'
-                  },
-                  { name: 'Black 5',
-                     color: '#3F2B2F'
-                  },
-                  { name: 'Black 6',
-                     color: '#111820'
-                  },
-                  { name: 'Black 7',
-                     color: '#3E3935'
-                  },
-            ],
+            sample_pms = {
+                  '100': '#F4ED7C',
+                  '101': '#F4ED47',
+                  '102': '#F9E814',
+                  '103': '#C6AD0F',
+                  '104': '#AD9B0C',
+                  '105': '#82750F',
+                  '106': '#F7E859',
+                  '107': '#F9E526',
+                  '108': '#F9DD16',
+                  '109': '#F9D616',
+                  '110': '#D8B511',
+                  '111': '#AA930A',
+                  '112': '#99840A',
+                  '113': '#F9E55B',
+                  '114': '#F9E24C',
+                  '115': '#F9E04C',
+                  '116': '#FCD116',
+                  '117': '#C6A00C',
+                  '118': '#AA8E0A',
+                  '119': '#897719',
+                  '120': '#F9E27F',
+                  '1205': '#F7E8AA',
+                  '121': '#F9E070',
+                  '1215': '#F9E08C',
+                  '122': '#FCD856',
+                  '1225': '#FFCC49',
+                  '123': '#FFC61E',
+                  '1235': '#FCB514',
+                  '124': '#E0AA0F',
+                  '1245': '#BF910C',
+                  '125': '#B58C0A',
+                  '1255': '#A37F14',
+                  '126': '#A38205',
+                  '1265': '#7C6316',
+                  '127': '#F4E287',
+                  '128': '#F4DB60',
+                  '129': '#F2D13D',
+                  '130': '#EAAF0F',
+                  '131': '#C6930A',
+                  '132': '#9E7C0A',
+                  '133': '#705B0A',
+                  '134': '#FFD87F',
+                  '1345': '#FFD691',
+                  '135': '#FCC963',
+                  '1355': '#FCCE87',
+                  '136': '#FCBF49',
+                  '1365': '#FCBA5E',
+                  '137': '#FCA311',
+                  '1375': '#F99B0C',
+                  '138': '#D88C02',
+                  '1385': '#CC7A02',
+                  '139': '#AF7505',
+                  '1395': '#996007',
+                  '140': '#7A5B11',
+                  '1405': '#6B4714',
+                  '141': '#F2CE68',
+                  '142': '#F2BF49',
+                  '143': '#EFB22D',
+                  '144': '#E28C05',
+                  '145': '#C67F07',
+                  '146': '#9E6B05',
+                  '147': '#725E26',
+                  '148': '#FFD69B',
+                  '1485': '#FFB777',
+                  '149': '#FCCC93',
+                  '1495': '#FF993F',
+                  '150': '#FCAD56',
+                  '1505': '#F47C00',
+                  '151': '#F77F00',
+                  '152': '#DD7500',
+                  '1525': '#B55400',
+                  '153': '#BC6D0A',
+                  '1535': '#8C4400',
+                  '154': '#995905',
+                  '1545': '#4C280F',
+                  '155': '#F4DBAA',
+                  '1555': '#F9BF9E',
+                  '156': '#F2C68C',
+                  '1565': '#FCA577',
+                  '157': '#EDA04F',
+                  '1575': '#FC8744',
+                  '158': '#E87511',
+                  '1585': '#F96B07',
+                  '159': '#C66005',
+                  '1595': '#D15B05',
+                  '160': '#9E540A',
+                  '1605': '#A04F11',
+                  '161': '#633A11',
+                  '1615': '#843F0F',
+                  '162': '#F9C6AA',
+                  '1625': '#F9A58C',
+                  '163': '#FC9E70',
+                  '1635': '#F98E6D',
+                  '164': '#FC7F3F',
+                  '1645': '#F97242',
+                  '165': '#F96302',
+                  '1655': '#F95602',
+                  '166': '#DD5900',
+                  '1665': '#DD4F05',
+                  '167': '#BC4F07',
+                  '1675': '#A53F0F',
+                  '168': '#6D3011',
+                  '1685': '#843511',
+                  '169': '#F9BAAA',
+                  '170': '#F98972',
+                  '171': '#F9603A',
+                  '172': '#F74902',
+                  '173': '#D14414',
+                  '174': '#933311',
+                  '175': '#6D3321',
+                  '176': '#F9AFAD',
+                  '1765': '#F99EA3',
+                  '1767': '#F9B2B7',
+                  '177': '#F9827F',
+                  '1775': '#F9848E',
+                  '1777': '#FC6675',
+                  '178': '#F95E59',
+                  '1785': '#FC4F59',
+                  '1787': '#F43F4F',
+                  '1788': '#EF2B2D',
+                  '179': '#E23D28',
+                  '1795': '#D62828',
+                  '1797': '#CC2D30',
+                  '180': '#C13828',
+                  '1805': '#AF2626',
+                  '1807': '#A03033',
+                  '181': '#7C2D23',
+                  '1810': '#7C211E',
+                  '1817': '#5B2D28',
+                  '182': '#F9BFC1',
+                  '183': '#FC8C99',
+                  '184': '#FC5E72',
+                  '185': '#E8112D',
+                  '186': '#CE1126',
+                  '187': '#AF1E2D',
+                  '188': '#7C2128',
+                  '189': '#FFA3B2',
+                  '1895': '#FCBFC9',
+                  '190': '#FC758E',
+                  '1905': '#FC9BB2',
+                  '191': '#F4476B',
+                  '1915': '#F4547C',
+                  '192': '#E5053A',
+                  '1925': '#E00747',
+                  '193': '#DB828C',
+                  '1935': '#C10538',
+                  '194': '#992135',
+                  '1945': '#A80C35',
+                  '1955': '#931638',
+                  '196': '#F4C9C9',
+                  '197': '#EF99A3',
+                  '198': '#772D35',
+                  '199': '#D81C3F',
+                  '200': '#C41E3A',
+                  '201': '#A32638',
+                  '202': '#8C2633',
+                  '203': '#F2AFC1',
+                  '204': '#ED7A9E',
+                  '205': '#E54C7C',
+                  '206': '#D30547',
+                  '207': '#BAAA9E',
+                  '208': '#8E2344',
+                  '209': '#75263D',
+                  '210': '#FFA0BF',
+                  '211': '#FF77A8',
+                  '212': '#F94F8E',
+                  '213': '#EA0F6B',
+                  '214': '#CC0256',
+                  '215': '#A50544',
+                  '216': '#7C1E3F',
+                  '217': '#F4BFD1',
+                  '218': '#ED72AA',
+                  '219': '#E22882',
+                  '220': '#AA004F',
+                  '221': '#930042',
+                  '222': '#70193D',
+                  '223': '#F993C4',
+                  '224': '#F46BAF',
+                  '225': '#ED2893',
+                  '226': '#D60270',
+                  '227': '#AD005B',
+                  '228': '#8C004C',
+                  '229': '#6D213F',
+                  '230': '#FFA0CC',
+                  '231': '#FC70BA',
+                  '232': '#F43FA5',
+                  '233': '#CE007C',
+                  '234': '#AA0066',
+                  '235': '#8E0554',
+                  '236': '#F9AFD3',
+                  '2365': '#F7C4D8',
+                  '237': '#F484C4',
+                  '2375': '#EA6BBF',
+                  '238': '#ED4FAF',
+                  '2385': '#DB28A5',
+                  '239': '#E0219E',
+                  '2395': '#C4008C',
+                  '240': '#C40F89',
+                  '2405': '#A8007A',
+                  '241': '#AD0075',
+                  '2415': '#9B0070',
+                  '242': '#7C1C51',
+                  '2425': '#87005B',
+                  '243': '#F2BAD8',
+                  '244': '#EDA0D3',
+                  '245': '#E87FC9',
+                  '246': '#CC00A0',
+                  '247': '#B7008E',
+                  '248': '#A3057F',
+                  '249': '#7F2860',
+                  '250': '#EDC4DD',
+                  '251': '#E29ED6',
+                  '252': '#D36BC6',
+                  '253': '#AF23A5',
+                  '254': '#A02D96',
+                  '255': '#772D6B',
+                  '256': '#E5C4D6',
+                  '2562': '#D8A8D8',
+                  '2563': '#D1A0CC',
+                  '2567': '#BF93CC',
+                  '257': '#D3A5C9',
+                  '2572': '#C687D1',
+                  '2573': '#BA7CBC',
+                  '2577': '#AA72BF',
+                  '258': '#9B4F96',
+                  '2582': '#AA47BA',
+                  '2583': '#9E4FA5',
+                  '2587': '#8E47AD',
+                  '259': '#72166B',
+                  '2592': '#930FA5',
+                  '2593': '#872B93',
+                  '2597': '#66008C',
+                  '260': '#681E5B',
+                  '2602': '#820C8E',
+                  '2603': '#70147A',
+                  '2607': '#5B027A',
+                  '261': '#5E2154',
+                  '2612': '#701E72',
+                  '2613': '#66116D',
+                  '2617': '#560C70',
+                  '262': '#542344',
+                  '2622': '#602D59',
+                  '2623': '#5B195E',
+                  '2627': '#4C145E',
+                  '263': '#E0CEE0',
+                  '2635': '#C9ADD8',
+                  '264': '#C6AADB',
+                  '2645': '#B591D1',
+                  '265': '#9663C4',
+                  '2655': '#9B6DC6',
+                  '266': '#6D28AA',
+                  '2665': '#894FBF',
+                  '267': '#59118E',
+                  '268': '#4F2170',
+                  '2685': '#56008C',
+                  '269': '#442359',
+                  '2695': '#44235E',
+                  '270': '#BAAFD3',
+                  '2705': '#AD9ED3',
+                  '2706': '#D1CEDD',
+                  '2707': '#BFD1E5',
+                  '2708': '#AFBCDB',
+                  '271': '#9E91C6',
+                  '2715': '#937ACC',
+                  '2716': '#A5A0D6',
+                  '2717': '#A5BAE0',
+                  '2718': '#5B77CC',
+                  '272': '#8977BA',
+                  '2725': '#7251BC',
+                  '2726': '#6656BC',
+                  '2727': '#5E68C4',
+                  '2728': '#3044B5',
+                  '273': '#38197A',
+                  '2735': '#4F0093',
+                  '2736': '#4930AD',
+                  '2738': '#2D008E',
+                  '274': '#2B1166',
+                  '2745': '#3F0077',
+                  '2746': '#3F2893',
+                  '2747': '#1C146B',
+                  '2748': '#1E1C77',
+                  '275': '#260F54',
+                  '2755': '#35006D',
+                  '2756': '#332875',
+                  '2757': '#141654',
+                  '2758': '#192168',
+                  '276': '#2B2147',
+                  '2765': '#2B0C56',
+                  '2766': '#2B265B',
+                  '2767' : '#14213D',
+                  '2768': '#112151',
+                  '277': '#B5D1E8',
+                  '278': '#99BADD',
+                  '279': '#6689CC',
+                  '280': '#002B7F',
+                  '281': '#002868',
+                  '282': '#002654',
+                  '283': '#9BC4E2',
+                  '284': '#75AADB',
+                  '285': '#3A75C4',
+                  '286': '#0038A8',
+                  '287': '#003893',
+                  '288': '#00337F',
+                  '289': '#002649',
+                  '290': '#C4D8E2',
+                  '2905': '#93C6E0',
+                  '291': '#A8CEE2',
+                  '2915': '#60AFDD',
+                  '292': '#75B2DD',
+                  '2925': '#008ED6',
+                  '293': '#0051BA',
+                  '2935': '#005BBF',
+                  '294': '#003F87',
+                  '2945': '#0054A0',
+                  '295': '#00386B',
+                  '2955': '#003D6B',
+                  '296': '#002D47',
+                  '2965': '#00334C',
+                  '297': '#82C6E2',
+                  '2975': '#BAE0E2',
+                  '298': '#51B5E0',
+                  '2985': '#51BFE2',
+                  '299': '#00A3DD',
+                  '2995': '#00A5DB',
+                  '300': '#0072C6',
+                  '3005': '#0084C9',
+                  '301': '#005B99',
+                  '3015': '#00709E',
+                  '302': '#004F6D',
+                  '3025': '#00546B',
+                  '303': '#003F54',
+                  '3035': '#004454',
+                  '304': '#A5DDE2',
+                  '305': '#70CEE2',
+                  '306': '#00BCE2',
+                  '307': '#007AA5',
+                  '308': '#00607C',
+                  '309': '#003F49',
+                  '310': '#72D1DD',
+                  '3105': '#7FD6DB',
+                  '311': '#28C4D8',
+                  '3115': '#2DC6D6',
+                  '312': '#00ADC6',
+                  '3125': '#00B7C6',
+                  '313': '#0099B5',
+                  '3135': '#009BAA',
+                  '314': '#00829B',
+                  '3145': '#00848E',
+                  '315': '#006B77',
+                  '3155': '#006D75',
+                  '316': '#00494F',
+                  '3165': '#00565B',
+                  '317': '#C9E8DD',
+                  '318': '#93DDDB',
+                  '319': '#4CCED1',
+                  '320': '#009EA0',
+                  '321': '#008789',
+                  '322': '#007272',
+                  '323': '#006663',
+                  '324': '#AADDD6',
+                  '3242': '#87DDD1',
+                  '3245': '#8CE0D1',
+                  '3248': '#7AD3C1',
+                  '325': '#56C9C1',
+                  '3252': '#56D6C9',
+                  '3255': '#47D6C1',
+                  '3258': '#35C4AF',
+                  '326': '#00B2AA',
+                  '3262': '#00C1B5',
+                  '3265': '#00C6B2',
+                  '3268': '#00AF99',
+                  '327': '#008C82',
+                  '3272': '#00AA9E',
+                  '3275': '#00B2A0',
+                  '3278': '#009B84',
+                  '328': '#007770',
+                  '3282': '#008C82',
+                  '3285': '#009987',
+                  '3288': '#008270',
+                  '329': '#006D66',
+                  '3292': '#006056',
+                  '3295': '#008272',
+                  '3298': '#006B5B',
+                  '330': '#005951',
+                  '3302' : '#00493F',
+                  '3305': '#004F42',
+                  '3308': '#004438',
+                  '331': '#BAEAD6',
+                  '332': '#A0E5CE',
+                  '333': '#5EDDC1',
+                  '334': '#00997C',
+                  '335': '#007C66',
+                  '336': '#006854',
+                  '337': '#9BDBC1',
+                  '3375': '#8EE2BC',
+                  '338': '#7AD1B5',
+                  '3385': '#54D8A8',
+                  '339': '#00B28C',
+                  '3395': '#00C993',
+                  '340': '#009977',
+                  '3405': '#00B27A',
+                  '341': '#007A5E',
+                  '3415': '#007C59',
+                  '342': '#006B54',
+                  '3425': '#006847',
+                  '343': '#00563F',
+                  '3435': '#024930',
+                  '344': '#B5E2BF',
+                  '345': '#96D8AF',
+                  '346': '#70CE9B',
+                  '347': '#009E60',
+                  '348': '#008751',
+                  '349': '#006B3F',
+                  '350': '#234F33',
+                  '351': '#B5E8BF',
+                  '352': '#99E5B2',
+                  '353': '#84E2A8',
+                  '354': '#00B760',
+                  '355': '#009E49',
+                  '356': '#007A3D',
+                  '357': '#215B33',
+                  '358': '#AADD96',
+                  '359': '#A0DB8E',
+                  '360': '#60C659',
+                  '361': '#1EB53A',
+                  '362': '#339E35',
+                  '363': '#3D8E33',
+                  '364': '#3A7728',
+                  '365': '#D3E8A3',
+                  '366': '#C4E58E',
+                  '367': '#AADD6D',
+                  '368': '#5BBF21',
+                  '369': '#56AA1C',
+                  '370': '#568E14',
+                  '371': '#566B21',
+                  '372': '#D8ED96',
+                  '373': '#CEEA82',
+                  '374': '#BAE860',
+                  '375': '#8CD600',
+                  '376': '#7FBA00',
+                  '377': '#709302',
+                  '378': '#566314',
+                  '379': '#E0EA68',
+                  '380': '#D6E542',
+                  '381': '#CCE226',
+                  '382': '#BAD80A',
+                  '383': '#A3AF07',
+                  '384': '#939905',
+                  '385': '#707014',
+                  '386': '#E8ED60',
+                  '387': '#E0ED44',
+                  '388': '#D6E80F',
+                  '389': '#CEE007',
+                  '390': '#BAC405',
+                  '391': '#9E9E07',
+                  '392': '#848205',
+                  '393': '#F2EF87',
+                  '3935': '#F2ED6D',
+                  '394': '#EAED35',
+                  '3945': '#EFEA07',
+                  '395': '#E5E811',
+                  '3955': '#EDE211',
+                  '396': '#E0E20C',
+                  '3965': '#E8DD11',
+                  '397': '#C1BF0A',
+                  '3975': '#B5A80C',
+                  '398': '#AFA80A',
+                  '3985': '#998C0A',
+                  '399': '#998E07',
+                  '3995': '#6D6002',
+                  '400': '#D1C6B5',
+                  '401': '#C1B5A5',
+                  '402': '#AFA593',
+                  '403': '#998C7C',
+                  '404': '#827566',
+                  '405': '#6B5E4F',
+                  '406': '#CEC1B5',
+                  '408': '#A8998C',
+                  '409': '#99897C',
+                  '410': '#7C6D63',
+                  '411': '#66594C',
+                  '412': '#3D3028',
+                  '413': '#C6C1B2',
+                  '414': '#B5AFA0',
+                  '415': '#A39E8C',
+                  '416': '#8E8C7A',
+                  '417': '#777263',
+                  '418': '#605E4F',
+                  '419': '#282821',
+                  '420': '#D1CCBF',
+                  '421': '#BFBAAF',
+                  '422': '#AFAAA3',
+                  '423': '#96938E',
+                  '424': '#827F77',
+                  '425': '#60605B',
+                  '426': '#2B2B28',
+                  '427': '#DDDBD1',
+                  '428': '#D1CEC6',
+                  '429': '#ADAFAA',
+                  '430': '#919693',
+                  '431': '#666D70',
+                  '432': '#444F51',
+                  '433': '#30383A',
+                  '434': '#E0D1C6',
+                  '435': '#D3BFB7',
+                  '436': '#BCA59E',
+                  '437': '#8C706B',
+                  '438': '#593F3D',
+                  '439': '#493533',
+                  '440': '#3F302B',
+                  '441': '#D1D1C6',
+                  '442': '#BABFB7',
+                  '443': '#A3A8A3',
+                  '444': '#898E8C',
+                  '445': '#565959',
+                  '446': '#494C49',
+                  '447': '#3F3F38',
+                  '448': '#54472D',
+                  '4485': '#604C11',
+                  '449': '#544726',
+                  '4495': '#877530',
+                  '450': '#60542B',
+                  '4505': '#A09151',
+                  '451': '#ADA07A',
+                  '4515': '#BCAD75',
+                  '452': '#C4B796',
+                  '4525': '#CCBF8E',
+                  '453': '#D6CCAF',
+                  '4535': '#DBCEA5',
+                  '454': '#E2D8BF',
+                  '4545': '#E5DBBA',
+                  '455': '#665614',
+                  '456': '#998714',
+                  '457': '#B59B0C',
+                  '458': '#DDCC6B',
+                  '459': '#E2D67C',
+                  '460': '#EADD96',
+                  '461': '#EDE5AD',
+                  '462': '#5B4723',
+                  '4625': '#472311',
+                  '463': '#755426',
+                  '4635': '#8C5933',
+                  '464': '#876028',
+                  '4645': '#B28260',
+                  '465': '#C1A875',
+                  '4655': '#C49977',
+                  '466': '#D1BF91',
+                  '4665': '#D8B596',
+                  '467': '#DDCCA5',
+                  '4675': '#E5C6AA',
+                  '468': '#E2D6B5',
+                  '4685': '#EDD3BC',
+                  '469': '#603311',
+                  '4695': '#51261C',
+                  '470': '#9B4F19',
+                  '4705': '#7C513D',
+                  '471': '#BC5E1E',
+                  '4715': '#99705B',
+                  '472': '#EAAA7A',
+                  '4725': '#B5917C',
+                  '473': '#F4C4A0',
+                  '4735': '#CCAF9B',
+                  '474': '#F4CCAA',
+                  '4745': '#D8BFAA',
+                  '475': '#F7D3B5',
+                  '4755': '#E2CCBA',
+                  '476': '#593D2B',
+                  '477': '#633826',
+                  '478': '#7A3F28',
+                  '479': '#AF8970',
+                  '480': '#D3B7A3',
+                  '481': '#E0CCBA',
+                  '482': '#E5D3C1',
+                  '483': '#6B3021',
+                  '484': '#9B301C',
+                  '485': '#D81E05', /*
+                  '486',
+                     : '#ED9E84',
+                  '487',
+                     : '#EFB5A0',
+                  '488',
+                     : '#F2C4AF',
+                  '489',
+                     : '#F2D1BF',
+                  '490',
+                     : '#5B2626',
+                  '491',
+                     : '#752828',
+                  '492',,
+                     : '#913338',
+                  '494',
+                     : '#F2ADB2',
+                  '495',
+                     : '#F4BCBF',
+                  '496',
+                     : '#F7C9C6',
+                  '497',
+                     : '#512826',
+                  '4975',
+                     : '#441E1C',
+                  '498',
+                     : '#6D332B',
+                  '4985',
+                     : '#844949',
+                  '499',
+                     : '#7A382D',
+                  '4995',
+                     : '#A56B6D',
+                  '500',
+                     : '#CE898C',
+                  '5005',
+                     : '#BC8787',
+                  '501',
+                     : '#EAB2B2',
+                  '5015',
+                     : '#D8ADA8',
+                  '502',
+                     : '#F2C6C4',
+                  '5025',
+                     : '#E2BCB7',
+                  '503',
+                     : '#F4D1CC',
+                  '5035',
+                     : '#EDCEC6',
+                  '504',
+                     : '#511E26',
+                  '505',
+                     : '#661E2B',
+                  '506',
+                     : '#7A2638',
+                  '507',
+                     : '#D8899B',
+                  '508',
+                     : '#E8A5AF',
+                  '509',
+                     : '#F2BABF',
+                  '510',
+                     : '#F4C6C9',
+                  '511',
+                     : '#602144',
+                  '5115',
+                     : '#4F213A',
+                  '512',
+                     : '#84216B',
+                  '5125',
+                     : '#754760',
+                  '513',
+                     : '#9E2387',
+                  '5135',
+                     : '#936B7F',
+                  '514',
+                     : '#D884BC',
+                  '5145',
+                     : '#AD8799',
+                  '515',
+                     : '#E8A3C9',
+                  '5155',
+                     : '#CCAFB7',
+                  '516',
+                     : '#F2BAD3',
+                  '5165',
+                     : '#E0C9CC',
+                  '517',
+                     : '#F4CCD8',
+                  '5175',
+                     : '#E8D6D1',
+                  '518',
+                     : '#512D44'
+                  '5185',
+                     : '#472835',
+                  '519',
+                     : '#63305E',
+                  '5195',
+                     : '#593344',
+                  '520',
+                     : '#703572',
+                  '5205',
+                     : '#8E6877',
+                  '521',
+                     : '#B58CB2',
+                  '5215',
+                     : '#B5939B',
+                  '522',
+                     : '#C6A3C1',
+                  '5225',
+                     : '#CCADAF',
+                  '523',
+                     : '#D3B7CC',
+                  '5235',
+                     : '#DDC6C4',
+                  '524',
+                     : '#E2CCD3',
+                  '5245',
+                     : '#E5D3CC',
+                  '525',
+                     : '#512654',
+                  '5255',
+                     : '#35264F',
+                  '526',
+                     : '#68217A',
+                  '5265',
+                     : '#493D63',
+                  '527',
+                     : '#7A1E99',
+                  '5275',
+                     : '#605677',
+                  '528',
+                     : '#AF72C1',
+                  '5285',
+                     : '#8C8299',
+                  '529',
+                     : '#CEA3D3',
+                  '5295',
+                     : '#B2A8B5',
+                  '530',
+                     : '#D6AFD6',
+                  '5305',
+                     : '#CCC1C6',
+                  '531',
+                     : '#E5C6DB',
+                  '5315',
+                     : '#DBD3D3',
+                  '532',
+                     : '#353842',
+                  '533',
+                     : '#353F5B',
+                  '534',
+                     : '#3A4972',
+                  '535',
+                     : '#9BA3B7',
+                  '536',
+                     : '#ADB2C1',
+                  '537',
+                     : '#C4C6CE',
+                  '538',
+                     : '#D6D3D6',
+                  '539',
+                     : '#003049',
+                  '5395',
+                     : '#02283A',
+                  '540',
+                     : '#00335B',
+                  '5405',
+                     : '#3F6075',
+                  '541',
+                     : '#003F77',
+                  '5415',
+                     : '#607C8C',
+                  '542',
+                     : '#6693BC',
+                  '5425',
+                     : '#8499A5',
+                  '543',
+                     : '#93B7D1',
+                  '5435',
+                     : '#AFBCBF',
+                  '544',
+                     : '#B7CCDB',
+                  '5445',
+                     : '#C4CCCC',
+                  '545',
+                     : '#C4D3DD',
+                  '5455',
+                     : '#D6D8D3',
+                  '546',
+                     : '#0C3844',
+                  '5463',
+                     : '#00353A',
+                  '5467',
+                     : '#193833',
+                  '547',
+                     : '#003F54',
+                  '5473',
+                     : '#26686D',
+                  '5477',
+                     : '#3A564F',
+                  '548',
+                     : '#004459',
+                  '5483',
+                     : '#609191',
+                  '5487',,
+                     : '#667C72',
+                  '549',
+                     : '#5E99AA',
+                  '5493',
+                     : '#8CAFAD',
+                  '5497',
+                     : '#91A399',
+                  '550',
+                     : '#87AFBF',
+                  '5503',
+                     : '#AAC4BF',
+                  '5507',
+                     : '#AFBAB2',
+                  '551',
+                     : '#A3C1C9',
+                  '5513',
+                     : '#CED8D1',
+                  '5517',
+                     : '#C9CEC4',
+                  '552',
+                     : '#C4D6D6',
+                  '5523',
+                     : '#D6DDD6',
+                  '5527',
+                     : '#CED1C6',
+                  '553',
+                     : '#234435',
+                  '5535',
+                     : '#213D30',
+                  '554',
+                     : '#195E47',
+                  '5545',
+                     : '#4F6D5E',
+                  '555',
+                     : '#076D54',
+                  '5555',
+                     : '#779182',
+                  '556',
+                     : '#7AA891',
+                  '5565',
+                     : '#96AA99',
+                  '557',
+                     : '#A3C1AD',
+                  '5575',
+                     : '#AFBFAD',
+                  '558',
+                     : '#B7CEBC',
+                  '5585',
+                     : '#C4CEBF',
+                  '559',
+                     : '#C6D6C4',
+                  '5595',
+                     : '#D8DBCC',
+                  '560',
+                     : '#2B4C3F',
+                  '5605',
+                     : '#233A2D',
+                  '561',
+                     : '#266659',
+                  '5615',
+                     : '#546856',
+                  '562',
+                     : '#1E7A6D',
+                  '5625',
+                     : '#728470',
+                  '563',
+                     : '#7FBCAA',
+                  '5635',
+                     : '#9EAA99',
+                  '564',
+                     : '#05705E',
+                  '5645',
+                     : '#BCC1B2',
+                  '565',
+                     : '#BCDBCC',
+                  '5655',
+                     : '#C6CCBA',
+                  '566',
+                     : '#D1E2D3',
+                  '5665',
+                     : '#D6D6C6',
+                  '567',
+                     : '#265142',
+                  '569',
+                     : '#008772',
+                  '570',
+                     : '#7FC6B2',
+                  '571',
+                     : '#AADBC6',
+                  '572',
+                     : '#BCE2CE',
+                  '573',
+                     : '#CCE5D6',
+                  '574',
+                     : '#495928',
+                  '5743',
+                     : '#3F4926',
+                  '5747',
+                     : '#424716',
+                  '575',
+                     : '#547730',
+                  '5753',
+                     : '#5E663A',
+                  '5757',
+                     : '#6B702B',
+                  '576',
+                     : '#608E3A',
+                  '5763',
+                     : '#777C4F',
+                  '5767',
+                     : '#8C914F',
+                  '577',
+                     : '#B5CC8E',
+                  '5773',
+                     : '#9B9E72',
+                  '5777',
+                     : '#AAAD75',
+                  '578',
+                     : '#C6D6A0',
+                  '5783',
+                     : '#B5B58E',
+                  },
+                  { : '5787',
+                     : '#C6C699',
+                  },
+                  { : '579',
+                     : '#C9D6A3',
+                  },
+                  { : '5793',
+                     : '#C6C6A5',
+                  },
+                  { : '5797',
+                     : '#D3D1AA',
+                  },
+                  { : '580',
+                     : '#D8DDB5',
+                  },
+                  { : '5803',
+                     : '#D8D6B7',
+                  },
+                  { : '5807',
+                     : '#E0DDBC',
+                  },
+                  { : '581',
+                     : '#605E11',
+                  },
+                  { : '5815',
+                     : '#494411',
+                  },
+                  { : '582',
+                     : '#878905',
+                  },
+                  { : '5825',
+                     : '#75702B',
+                  },
+                  { : '583',
+                     : '#AABA0A',
+                  },
+                  { : '5835',
+                     : '#9E9959',
+                  },
+                  { : '584',
+                     : '#CED649',
+                  },
+                  { : '5845',
+                     : '#B2AA70',
+                  },
+                  { : '585',
+                     : '#DBE06B',
+                  },
+                  { : '5855',
+                     : '#CCC693',
+                  },
+                  { : '586',
+                     : '#E2E584',
+                  },
+                  { : '5865',
+                     : '#D6CEA3',
+                  },
+                  { : '587',
+                     : '#E8E89B',
+                  },
+                  { : '5875',
+                     : '#E0DBB5',
+                  },
+                  { : '600',
+                     : '#F4EDAF',
+                  },
+                  { : '601',
+                     : '#F2ED9E',
+                  },
+                  { : '602',
+                     : '#F2EA87',
+                  },
+                  { : '603',
+                     : '#EDE85B',
+                  },
+                  { : '604',
+                     : '#E8DD21',
+                  },
+                  { : '605',
+                     : '#DDCE11',
+                  },
+                  { : '606',
+                     : '#D3BF11',
+                  },
+                  { : '607',
+                     : '#F2EABC',
+                  },
+                  { : '608',
+                     : '#EFE8AD',
+                  },
+                  { : '609',
+                     : '#EAE596',
+                  },
+                  { : '610',
+                     : '#E2DB72',
+                  },
+                  { : '611',
+                     : '#D6CE49',
+                  },
+                  { : '612',
+                     : '#C4BA00',
+                  },
+                  { : '613',
+                     : '#AFA00C',
+                  },
+                  { : '614',
+                     : '#EAE2B7',
+                  },
+                  { : '615',
+                     : '#E2DBAA',
+                  },
+                  { : '616',
+                     : '#DDD69B',
+                  },
+                  { : '617',
+                     : '#CCC47C',
+                  },
+                  { : '618',
+                     : '#B5AA59',
+                  },
+                  { : '619',
+                     : '#968C28',
+                  },
+                  { : '620',
+                     : '#847711',
+                  },
+                  { : '621',
+                     : '#D8DDCE',
+                  },
+                  { : '622',
+                     : '#C1D1BF',
+                  },
+                  { : '623',
+                     : '#A5BFAA',
+                  },
+                  { : '624',
+                     : '#7FA08C',
+                  },
+                  { : '625',
+                     : '#5B8772',
+                  },
+                  { : '626',
+                     : '#21543F',
+                  },
+                  { : '627',
+                     : '#0C3026',
+                  },
+                  { : '628',
+                     : '#CCE2DD',
+                  },
+                  { : '629',
+                     : '#B2D8D8',
+                  },,
+                  { : '630',
+                     : '#8CCCD3',
+                  },
+                  { : '631',
+                     : '#54B7C6',
+                  },
+                  { : '632',
+                     : '#00A0BA',
+                  },
+                  { : '633',
+                     : '#007F99',
+                  },
+                  { : '634',
+                     : '#00667F',
+                  },
+                  { : '635',
+                     : '#BAE0E0',
+                  },
+                  { : '636',
+                     : '#99D6DD',
+                  },
+                  { : '637',
+                     : '#6BC9DB',
+                  },
+                  { : '638',
+                     : '#00B5D6',
+                  },
+                  { : '639',
+                     : '#00A0C4',
+                  },
+                  { : '640',
+                     : '#008CB2',
+                  },
+                  { : '641',
+                     : '#007AA5',
+                  },
+                  { : '642',
+                     : '#D1D8D8',
+                  },
+                  { : '643',
+                     : '#C6D1D6',
+                  },
+                  { : '644',
+                     : '#9BAFC4',
+                  },
+                  { : '645',
+                     : '#7796B2',
+                  },
+                  { : '646',
+                     : '#5E82A3',
+                  },
+                  { : '647',
+                     : '#26547C',
+                  },
+                  { : '648',
+                     : '#00305E',
+                  },
+                  { : '649',
+                     : '#D6D6D8',
+                  },
+                  { : '650',
+                     : '#BFC6D1',
+                  },
+                  { : '651',
+                     : '#9BAABF',
+                  },
+                  { : '652',
+                     : '#6D87A8',
+                  },
+                  { : '653',
+                     : '#335687',
+                  },
+                  { : '654',
+                     : '#0F2B5B',
+                  },
+                  { : '655',
+                     : '#0C1C47',
+                  },
+                  { : '656',
+                     : '#D6DBE0',
+                  },
+                  { : '657',
+                     : '#C1C9DD',
+                  },
+                  { : '658',
+                     : '#A5AFD6',
+                  },
+                  { : '659',
+                     : '#7F8CBF',
+                  },
+                  { : '660',
+                     : '#5960A8',
+                  },
+                  { : '661',
+                     : '#2D338E',
+                  },
+                  { : '662',
+                     : '#0C1975',
+                  },
+                  { : '663',
+                     : '#E2D3D6',
+                  },
+                  { : '664',
+                     : '#D8CCD1',
+                  },
+                  { : '665',
+                     : '#C6B5C4',
+                  },
+                  { : '666',
+                     : '#A893AD',
+                  },
+                  { : '667',
+                     : '#7F6689',
+                  },
+                  { : '668',
+                     : '#664975',
+                  },
+                  { : '669',
+                     : '#472B59',
+                  },
+                  { : '670',
+                     : '#F2D6D8',
+                  },
+                  { : '671',
+                     : '#EFC6D3',
+                  },,
+                  { : '672',
+                     : '#EAAAC4',
+                  },
+                  { : '673',
+                     : '#E08CB2',
+                  },
+                  { : '674',
+                     : '#D36B9E',
+                  },
+                  { : '675',
+                     : '#BC3877',
+                  },
+                  { : '676',
+                     : '#A00054',
+                  },
+                  { : '677',
+                     : '#EDD6D6',
+                  },
+                  { : '678',
+                     : '#EACCCE',
+                  },
+                  { : '679',
+                     : '#E5BFC6',
+                  },
+                  { : '680',
+                     : '#D39EAF',
+                  },
+                  { : '681',
+                     : '#B7728E',
+                  },
+                  { : '682',
+                     : '#A05175',
+                  },
+                  { : '683',
+                     : '#7F284F',
+                  },
+                  { : '684',
+                     : '#EFCCCE',
+                  },
+                  { : '685',
+                     : '#EABFC4',
+                  },
+                  { : '686',
+                     : '#E0AABA',
+                  },
+                  { : '687',
+                     : '#C9899E',
+                  },
+                  { : '688',
+                     : '#B26684',
+                  },
+                  { : '689',
+                     : '#934266',
+                  },
+                  { : '690',
+                     : '#702342',
+                  },
+                  { : '691',
+                     : '#EFD1C9',
+                  },
+                  { : '692',
+                     : '#E8BFBA',
+                  },
+                  { : '693',
+                     : '#DBA8A5',
+                  },
+                  { : '694',
+                     : '#C98C8C',
+                  },
+                  { : '695',
+                     : '#B26B70',
+                  },
+                  { : '696',
+                     : '#8E4749',
+                  },
+                  { : '697',
+                     : '#7F383A',
+                  },
+                  { : '698',
+                     : '#F7D1CC',
+                  },
+                  { : '699',
+                     : '#F7BFBF',
+                  },
+                  { : '700',
+                     : '#F2A5AA',
+                  },
+                  { : '701',
+                     : '#E8878E',
+                  },
+                  { : '702',
+                     : '#D6606D',
+                  },
+                  { : '703',
+                     : '#B73844',
+                  },
+                  { : '704',
+                     : '#9E2828',
+                  },
+                  { : '705',
+                     : '#F9DDD6',
+                  },
+                  { : '706',
+                     : '#FCC9C6',
+                  },
+                  { : '707',
+                     : '#FCADAF',
+                  },
+                  { : '708',
+                     : '#F98E99',
+                  },
+                  { : '709',
+                     : '#F26877',
+                  },
+                  { : '710',
+                     : '#E04251',
+                  },
+                  { : '711',
+                     : '#D12D33',
+                  },
+                  { : '712',
+                     : '#FFD3AA',
+                  },
+                  { : '713',
+                     : '#F9C9A3',
+                  },
+                  { : '714',
+                     : '#F9BA82',
+                  },
+                  { : '715',
+                     : '#FC9E49',
+                  },
+                  { : '716',
+                     : '#F28411',
+                  },
+                  { : '717',
+                     : '#D36D00',
+                  },
+                  { : '718',
+                     : '#BF5B00',
+                  },
+                  { : '719',
+                     : '#F4D1AF',
+                  },
+                  { : '720',
+                     : '#EFC49E',
+                  },
+                  { : '721',
+                     : '#E8B282',
+                  },
+                  { : '722',
+                     : '#D18E54',
+                  },
+                  { : '723',
+                     : '#BA7530',
+                  },
+                  { : '724',
+                     : '#8E4905',
+                  },
+                  { : '725',
+                     : '#753802',
+                  },
+                  { : '726',
+                     : '#EDD3B5',
+                  },
+                  { : '727',
+                     : '#E2BF9B',
+                  },
+                  { : '728',
+                     : '#D3A87C',
+                  },
+                  { : '729',
+                     : '#C18E60',
+                  },
+                  { : '730',
+                     : '#AA753F',
+                  },
+                  { : '731',
+                     : '#723F0A',
+                  },,
+                  { : '732',
+                     : '#60330A',
+                  },,
+                  { : '801',
+                     : '#00AACC',
+                  },
+                  { : '802',
+                     : '#60DD49',
+                  },
+                  { : '803',
+                     : '#FFED38',
+                  },
+                  { : '804',
+                     : '#FF9338',
+                  },
+                  { : '805',
+                     : '#F95951',
+                  },
+                  { : '806',
+                     : '#FF0093',
+                  },
+                  { : '807',
+                     : '#D6009E',
+                  },
+                  { : '808',
+                     : '#00B59B',
+                  },
+                  { : '809',
+                     : '#DDE00F',
+                  },
+                  { : '810',
+                     : '#FFCC1E',
+                  },
+                  { : '811',
+                     : '#FF7247',
+                  },
+                  { : '812',
+                     : '#FC2366',
+                  },
+                  { : '813',
+                     : '#E50099',
+                  },
+                  { : '814',
+                     : '#8C60C1',
+                  },
+                  { : 'Yellow',
+                     : '#FFDD00',
+                  },
+                  { : 'Yellow 012',
+                     : '#FFD700',
+                  },
+                  { : 'Orange 021',
+                     : '#FF5000',
+                  },
+                  { : 'Warm Red',
+                     : '#FF4338',
+                  },
+                  { : 'Red 032',
+                     : '#F7323F',
+                  },
+                  { : 'Rubine Red',
+                     : '#D60057',
+                  },
+                  { : 'Rhadamine Red',
+                     : '#E70095',
+                  },
+                  { : 'Purple',
+                     : '#C227B9',
+                  },
+                  { : 'Violet',
+                     : '#430098',
+                  },
+                  { : 'Blue 072',
+                     : '#060E9F',
+                  },
+                  { : 'Reflex Blue',
+                     : '#001689',
+                  },
+                  { : 'Process Blue',
+                     : '#0082CA',
+                  },
+                  { : 'Green',
+                     : '#00A887',
+                  },,
+                  { : 'Black',
+                     : '#2E2A25',
+                  },
+                  { : 'Yellow 0131',
+                     : '#F5F0A1',
+                  },
+                  { : 'Red 0331',
+                     : '#FFAFBB',
+                  },
+                  { : 'Magenta 0521',
+                     : '#F5B2DB',
+                  },
+                  { : 'Violet 0631',
+                     : '#C39BDE',
+                  },
+                  { : 'Blue 0821',
+                     : '#72D0EB',
+                  },
+                  { : 'Green 0921',
+                     : '#9BE7D8',
+                  },
+                  { : 'Black 0961',
+                     : '#A0968C',
+                  },
+                  { : 'Warm Gray 1',
+                     : '#D8D1CA',
+                  },
+                  { : 'Warm Gray 2',
+                     : '#CDC3BB',
+                  },
+                  { : 'Warm Gray 3',
+                     : '#C1B8AF',
+                  },
+                  { : 'Warm Gray 4',
+                     : '#B7ADA5',
+                  },
+                  { : 'Warm Gray 5',
+                     : '#AEA299',
+                  },
+                  { : 'Warm Gray 6',
+                     : '#A79C94',
+                  },
+                  { : 'Warm Gray 7',
+                     : '#978B82',
+                  },
+                  { : 'Warm Gray 8',
+                     : '#8E8279',
+                  },
+                  { : 'Warm Gray 9',
+                     : '#86786F',
+                  },
+                  { : 'Warm Gray 10',
+                     : '#7B6E66',
+                  },
+                  { : 'Warm Gray 11',
+                     : '#706259',
+                  },
+                  { : 'Cool Gray 1',
+                     : '#DBD9D6',
+                  },
+                  { : 'Cool Gray 2',
+                     : '#D2D0CD',
+                  },
+                  { : 'Cool Gray 3',
+                     : '#CAC8C8',
+                  },
+                  { : 'Cool Gray 4',
+                     : '#BDBBBB',
+                  },
+                  { : 'Cool Gray 5',
+                     : '#B3B2B1',
+                  },
+                  { : 'Cool Gray 6',
+                     : '#A9A8A9',
+                  },
+                  { : 'Cool Gray 7',
+                     : '#99999A',
+                  },
+                  { : 'Cool Gray 8',
+                     : '#8A8A8D',
+                  },
+                  { : 'Cool Gray 9',
+                     : '#77777A',
+                  },
+                  { : 'Cool Gray 10',
+                     : '#646569',
+                  },
+                  { : 'Cool Gray 11',
+                     : '#55565A',
+                  },
+                  { : 'Black 2',
+                     : '#342E1F',
+                  },
+                  { : 'Black 3',
+                     : '#222720',
+                  },
+                  { : 'Black 4',
+                     : '#31251C',
+                  },
+                  { : 'Black 5',
+                     : '#3F2B2F',
+                  },
+                  { : 'Black 6',
+                     : '#111820'
+                  { : 'Black 7': '#3E3935', */
+            },
          };
          $scope.sortparam = "date";
 		$scope.order = {
@@ -3631,56 +2314,56 @@
 					placement: "d4327004",
 					source: "вложение",
 					run: "",
-					status: "undefinded",
+					status: "",
 				},
 				{
 					name: "Малина 1,5л",
 					placement: "d4327004",
 					source: "вложение",
 					run: "",
-					status: "undefinded",
+					status: "",
 				},
 				{
 					name: "Зеленый чай 1,5л",
 					placement: "d4327004",
 					source: "вложение",
 					run: "",
-					status: "undefinded",
+					status: "",
 				},
 				{
 					name: "Квас 1,5л",
 					placement: "d4327004",
 					source: "вложение",
 					run: "",
-					status: "undefinded",
+					status: "",
 				},
 				{
 					name: "Груша-Дюшес 1,5л",
 					placement: "d4327004",
 					source: "вложение",
 					run: "",
-					status: "undefinded",
+					status: "",
 				},
 				{
 					name: "Вода газированная 1,5л",
 					placement: "d4327004",
 					source: "вложение",
 					run: "",
-					status: "undefinded",
+					status: "",
 				},
 				{
 					name: "Вода негазированная 1,5л",
 					placement: "d4327004",
 					source: "вложение",
 					run: "",
-					status: "undefinded",
+					status: "",
 				},
 				{
 					name: "Лимонад 1,5л",
 					placement: "d4327004",
 					source: "4327003",
 					run: "",
-					status: "undefinded",
+					status: "",
 				},
 			],
 		};
