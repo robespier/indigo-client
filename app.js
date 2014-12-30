@@ -2946,7 +2946,7 @@
          };
          $scope.sortparam = "date";
 		$scope.order = {
-            inks: [ 
+            inks1: [ 
 				{ name: 'Opaque1',
                      used: false
                   },
@@ -2983,7 +2983,7 @@
                      used: false
                   },
 				{ name: 'Black2',
-                     used: false
+                     used: true
                   },
 				{ name: 'Orange2',
                      used: false
@@ -2994,25 +2994,32 @@
             ],
             pms: [ 
 				{ name: 'pms1',
-                     used: true
+                     used: true,
+                     value: '485'
                   },
 				{ name: 'pms2',
-                     used: true
+                     used: false,
+                     value: ''
                   },
 				{ name: 'pms3',
-                    used: true
+                    used: false,
+                     value: ''
                   },
 				{ name: 'pms4',
-                     used: true
+                     used: false,
+                     value: ''
                   },
 				{ name: 'pms5',
-                     used: true
+                     used: false,
+                     value: ''
                   },
 				{ name: 'pms6',
-                     used: true
+                     used: false,
+                     value: ''
                   },
                   { name: 'pms7',
-                     used: true
+                     used: false,
+                     value: ''
                   },
             ],
             orders: [

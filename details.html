@@ -128,9 +128,9 @@
                 <p>Красочность</p>
                 <br>
                     <div class="block4">
-                        <p class="block5" ng-repeat="inks in order.inks">
-                                <input ng-model="order.inks[$index].used" ng-click="insideController()" type="checkbox">
-                                <input ng-model="order.inks2[$index].used" ng-click="insideController()" type="checkbox">
+                        <p class="block5" ng-repeat="inks in order.inks1"> <!-- Массив Opaque + CMYK + IndiChrome -->
+                                <input ng-model="order.inks1[$index].used" ng-click="{{order.inks1[$index].used}}" type="checkbox">
+                                <input ng-model="order.inks2[$index].used" ng-click="{{order.inks2[$index].used}}" type="checkbox">
                                     <svg class="ink_sample">
                                         <rect x="0" y="0" style="fill:{{misc.sample_ink[$index].color}};" width="13" height="13"/>
                                     </svg>
@@ -139,12 +139,12 @@
                         </p>
                     </div>
                     <div class="block4">
-                        <p class="block5" ng-repeat="pms in order.pms">
+                        <p class="block5" ng-repeat="pms in order.pms"> <!-- Массив Pantones -->
                               <label class="ink1">PMS</label>
                                     <svg class="ink_sample">
-                                        <rect x="0" y="0" style="fill:{{misc.sample_pms[$index].color}}" width="13" height="13"/>
+                                        <rect x="0" y="0" style="fill:{{misc.sample_pms[order.pms[$index].value].color}}" width="13" height="13"/>
                                     </svg>
-                                <input ng-model="misc.sample_pms[$index].name" class="form" type="text"><br>
+                                <input ng-model="order.pms[$index].value" class="form" type="text"><br>
                         </p>
                     </div>
                     <div class="block4">
