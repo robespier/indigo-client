@@ -142,9 +142,9 @@
                         <p class="block5" ng-repeat="pms in order.pms"> <!-- Массив Pantones -->
                               <label class="ink1">PMS</label>
                                     <svg class="ink_sample">
-                                        <rect x="0" y="0" style="fill:{{misc.sample_pms.{{'order.pms[$index].value'}}}}" width="13" height="13"/>
+                                        <rect x="0" y="0" style="fill:{{sample_pms[order.pms[$index].value]}}" width="13" height="13"/>
                                     </svg>
-                                <input ng-model="order.pms[$index].value" class="form" type="text"><br>
+                                <input ng-model="order.pms[$index].value" class="form" type="text" style="width: 72px"><br>
                         </p>
                     </div>
                     <div class="block4">
