@@ -142,11 +142,11 @@
 </div>
 <div class="block1" style="border: none">
     <ul class="hr">
-        <li class="table" ng-repeat="status in misc.status">
+        <li class="table" ng-repeat="status in sample_status">
             <svg class="status_sample">
-                <rect x="0" y="0" style="fill:{{misc.status[$index].color}}; stroke: #000000" width="20" height="20"/>
+                <rect x="0" y="0" style="fill:{{sample_status[$index].color}}; stroke: #000000" width="20" height="20"/>
             </svg>
-            {{misc.status[$index].label}}
+            {{sample_status[$index].label}}
         </li>
     </ul>
 </div>

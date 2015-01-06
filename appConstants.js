@@ -1,5 +1,69 @@
-﻿angular.module('indigo').constant('sample_pms',
-                {
+﻿angular.module('indigo').constant('sample_status',
+            [
+                 {
+                    name: 'new',
+                    label: 'новый',
+                    color: '#FFFFFF',
+                 },
+                 {
+                    name: 'job',
+                    label: 'в работе',
+                    color: '#CCE8FF',
+                 },
+                 {
+                    name: 'pause',
+                    label: 'приостановлен',
+                    color: '#CECECE',
+                 },
+                 {
+                    name: 'agreement',
+                    label: 'на утверждении',
+                    color: '#87B7E1',
+                 },
+                 {
+                    name: 'agreed',
+                    label: 'утвержден',
+                    color: '#C7E4BA',
+                 },
+                 {
+                    name: 'closed',
+                    label: 'завершен',
+                    color: '#F8BBC7',
+                 },
+                 {
+                    name: 'deleted',
+                    label: 'аннулирован',
+                    color: '#767676',
+                 },
+             ]
+);
+angular.module('indigo').constant('sample_ink',
+            [
+				{ name: 'Opaque',
+                     color: '#FFFFFF',
+                  },
+				{ name: 'Cyan',
+                     color: '#00AEEF',
+                  },
+				{ name: 'Magenta',
+                     color: '#EC008C',
+                  },
+				{ name: 'Yellow',
+                     color: '#FFFF00',
+                  },
+				{ name: 'Black',
+                     color: '#000000',
+                  },
+				{ name: 'Orange',
+                     color: '#FF5000',
+                  },
+                  { name: 'Violet',
+                     color: '#430098',
+                  },
+            ]
+);
+angular.module('indigo').constant('sample_pms',
+            {
                   '':         '#EEE',
                   '100':    '#F4ED7C',
                   '101':    '#F4ED47',
@@ -957,5 +1021,5 @@
                   'Black 5': '#3F2B2F',
                   'Black 6': '#111820',
                   'Black 7': '#3E3935',
-                }
+            }
 );
