@@ -68,42 +68,7 @@
                                </select>
                           </p><br>
                           <p>Ширина пореза материала (мм)
-                                <select class="form1" style="text-align: center" name="material_width">
-                                    <option value="170" ng-selected="{{order.material_width == '170'}}">170</option>
-                                    <option value="175" ng-selected="{{order.material_width == '175'}}">175</option>
-                                    <option value="180" ng-selected="{{order.material_width == '180'}}">180</option>
-                                    <option value="185" ng-selected="{{order.material_width == '185'}}">185</option>
-                                    <option value="190" ng-selected="{{order.material_width == '190'}}">190</option>
-                                    <option value="195" ng-selected="{{order.material_width == '195'}}">195</option>
-                                    <option value="200" ng-selected="{{order.material_width == '200'}}">200</option>
-                                    <option value="205" ng-selected="{{order.material_width == '205'}}">205</option>
-                                    <option value="210" ng-selected="{{order.material_width == '210'}}">210</option>
-                                    <option value="215" ng-selected="{{order.material_width == '215'}}">215</option>
-                                    <option value="220" ng-selected="{{order.material_width == '220'}}">220</option>
-                                    <option value="225" ng-selected="{{order.material_width == '225'}}">225</option>
-                                    <option value="230" ng-selected="{{order.material_width == '230'}}">230</option>
-                                    <option value="235" ng-selected="{{order.material_width == '235'}}">235</option>
-                                    <option value="240" ng-selected="{{order.material_width == '240'}}">240</option>
-                                    <option value="245" ng-selected="{{order.material_width == '245'}}">245</option>
-                                    <option value="250" ng-selected="{{order.material_width == '250'}}">250</option>
-                                    <option value="255" ng-selected="{{order.material_width == '255'}}">255</option>
-                                    <option value="260" ng-selected="{{order.material_width == '260'}}">260</option>
-                                    <option value="265" ng-selected="{{order.material_width == '265'}}">265</option>
-                                    <option value="270" ng-selected="{{order.material_width == '270'}}">270</option>
-                                    <option value="275" ng-selected="{{order.material_width == '275'}}">275</option>
-                                    <option value="280" ng-selected="{{order.material_width == '280'}}">280</option>
-                                    <option value="285" ng-selected="{{order.material_width == '285'}}">285</option>
-                                    <option value="290" ng-selected="{{order.material_width == '290'}}">290</option>
-                                    <option value="295" ng-selected="{{order.material_width == '295'}}">295</option>
-                                    <option value="300" ng-selected="{{order.material_width == '300'}}">300</option>
-                                    <option value="305" ng-selected="{{order.material_width == '305'}}">305</option>
-                                    <option value="310" ng-selected="{{order.material_width == '310'}}">310</option>
-                                    <option value="315" ng-selected="{{order.material_width == '315'}}">315</option>
-                                    <option value="320" ng-selected="{{order.material_width == '320'}}">320</option>
-                                    <option value="325" ng-selected="{{order.material_width == '325'}}">325</option>
-                                    <option value="330" ng-selected="{{order.material_width == '330'}}">330</option>
-                                    <option value="333" ng-selected="{{order.material_width == '333'}}">333</option>
-                                </select>
+                                <input ng-model="order.material_width" value="{{order.material_width}}" class="form1" style="text-align: center" name="material_width">
                           </p><br>
                           <p>Высечка<br>
 							<select class="form1" name="cut_type">

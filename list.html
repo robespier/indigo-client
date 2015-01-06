@@ -17,7 +17,7 @@
                 <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
                 <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='new' | orderBy:sortparam">
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status='new' | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
@@ -39,7 +39,7 @@
                 <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
                 <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='job' | orderBy:sortparam">
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status='job' | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
@@ -61,7 +61,7 @@
                 <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
                 <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='agreement' | orderBy:sortparam">
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status='agreement' | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
@@ -83,7 +83,7 @@
                 <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
                 <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='agreed' | orderBy:sortparam">
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status='agreed' | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
@@ -105,7 +105,7 @@
                 <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
                 <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | filter:status='closed' | orderBy:sortparam">
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status='closed' | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
@@ -128,7 +128,7 @@
                 <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
                 <th><a class="table" href="" ng-click="sortparam = 'status'">Состояние</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in order.orders  | orderBy:sortparam">
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
