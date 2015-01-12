@@ -1,146 +1,9 @@
-﻿        <header class="header">
-            <a href="#" style="text-decoration: none" title="Предыдущий месяц"><</a>
-            <a>Ноябрь 2014</a>
-            <a href="#" style="text-decoration: none" title="Следующий месяц">></a>
-        </header>
-<div class="tabs">
-  <ul>
-    <li>
-     <input type="radio" name="tabs-0" id="tabs-0-0" />
-        <label for="tabs-0-0">Новые</label>
-      <div>
-        <table>
-            <tr>
-                <th class="table"><a class="table" href="" ng-click="sortparam = 'date'">Дата</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
-            </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status='new' | orderBy:sortparam">
-                <td class="{{order.status}}">{{order.date}}</td>
-                <td class="{{order.status}}">{{order.number}}</td>
-                <td class="{{order.status}}">{{order.customer}}</td>
-                <td class="{{order.status}}">{{order.name}}</td>
-                <td class="{{order.status}}">{{order.manager}}</td>
-            </tr>
-        </table>
-      </div>
-   </li>
-   <li>
-     <input type="radio" name="tabs-0" id="tabs-0-1" />
-       <label for="tabs-0-1">В работе</label>
-     <div>
-        <table>
-            <tr>
-                <th class="table"><a class="table" href="" ng-click="sortparam = 'date'">Дата</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
-            </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status='job' | orderBy:sortparam">
-                <td class="{{order.status}}">{{order.date}}</td>
-                <td class="{{order.status}}">{{order.number}}</td>
-                <td class="{{order.status}}">{{order.customer}}</td>
-                <td class="{{order.status}}">{{order.name}}</td>
-                <td class="{{order.status}}">{{order.manager}}</td>
-            </tr>
-        </table>
-     </div>
-    </li>
-    <li>
-      <input type="radio" name="tabs-0" id="tabs-0-2" />
-        <label for="tabs-0-2">На утвержении</label>
-     <div>
-        <table>
-            <tr>
-                <th class="table"><a class="table" href="" ng-click="sortparam = 'date'">Дата</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
-            </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status='agreement' | orderBy:sortparam">
-                <td class="{{order.status}}">{{order.date}}</td>
-                <td class="{{order.status}}">{{order.number}}</td>
-                <td class="{{order.status}}">{{order.customer}}</td>
-                <td class="{{order.status}}">{{order.name}}</td>
-                <td class="{{order.status}}">{{order.manager}}</td>
-            </tr>
-        </table>
-     </div>
-    </li>
-    <li>
-     <input type="radio" name="tabs-0" id="tabs-0-3" />
-        <label for="tabs-0-3">Утвержденые</label>
-     <div>
-        <table>
-            <tr>
-                <th class="table"><a class="table" href="" ng-click="sortparam = 'date'">Дата</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
-            </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status='agreed' | orderBy:sortparam">
-                <td class="{{order.status}}">{{order.date}}</td>
-                <td class="{{order.status}}">{{order.number}}</td>
-                <td class="{{order.status}}">{{order.customer}}</td>
-                <td class="{{order.status}}">{{order.name}}</td>
-                <td class="{{order.status}}">{{order.manager}}</td>
-            </tr>
-        </table>
-     </div>
-   </li>
-   <li>
-     <input type="radio" name="tabs-0" id="tabs-0-4" />
-        <label for="tabs-0-4">Завершенные</label>
-     <div>
-        <table>
-            <tr>
-                <th class="table"><a class="table" href="" ng-click="sortparam = 'date'">Дата</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'manager'">Менеджер</a></th>
-            </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status='closed' | orderBy:sortparam">
-                <td class="{{order.status}}">{{order.date}}</td>
-                <td class="{{order.status}}">{{order.number}}</td>
-                <td class="{{order.status}}">{{order.customer}}</td>
-                <td class="{{order.status}}">{{order.name}}</td>
-                <td class="{{order.status}}">{{order.manager}}</td>
-            </tr>
-        </table>
-     </div>
-   </li>
-   <li>
-     <input type="radio" name="tabs-0" id="tabs-0-5" checked="checked" />
-        <label for="tabs-0-5">Все</label>
-     <div>
-       <div>
-        <table>
-            <tr>
-                <th class="table"><a class="table" href="" ng-click="sortparam = 'date'">Дата</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'name'">Наименование</a></th>
-                <th><a class="table" href="" ng-click="sortparam = 'status'">Состояние</a></th>
-            </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | orderBy:sortparam">
-                <td class="{{order.status}}">{{order.date}}</td>
-                <td class="{{order.status}}">{{order.number}}</td>
-                <td class="{{order.status}}">{{order.customer}}</td>
-                <td class="{{order.status}}">{{order.name}}</td>
-                <td class="{{order.status}}">{{order.status}}</td>
-            </tr>
-        </table>
-     </div>
-   </li>
-  </ul>
-</div>
-<div class="block1" style="border: none">
+﻿<header class="header">
+	<a href="#" style="text-decoration: none" ng-click="gotoPrevMonth()"> &larr; </a>
+    <a>Ноябрь 2014</a>
+    <a href="" style="text-decoration: none" ng-click="gotoNextMonth()"> &rarr;</a>
+</header>
+<div class="block2">
     <ul class="hr">
         <li class="table" ng-repeat="status in sample_status">
             <svg class="status_sample">
@@ -150,3 +13,19 @@
         </li>
     </ul>
 </div>
+        <table class="block1">
+            <tr class="table-header">
+                <th><a class="table-header" href="" ng-click="sortparam = 'date'">Дата</a></th>
+                <th><a class="table-header" href="" ng-click="sortparam = 'number'">Номер заказа</a></th>
+                <th><a class="table-header" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
+                <th><a class="table-header" href="" ng-click="sortparam = 'name'">Наименование</a></th>
+                <th><a class="table-header" href="" ng-click="sortparam = 'status'">Состояние</a></th>
+            </tr>
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:date='' | orderBy:sortparam">
+                <td class="{{order.status}}">{{order.date}}</td>
+                <td class="{{order.status}}">{{order.number}}</td>
+                <td class="{{order.status}}">{{order.customer}}</td>
+                <td class="{{order.status}}">{{order.name}}</td>
+                <td class="{{order.status}}">{{order.status}}</td>
+            </tr>
+        </table>

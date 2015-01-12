@@ -80,7 +80,6 @@
   font-size: 12px;
 }
 .block2 {
-  height: 382px;
   font-family: latolight;
   font-size: 12px;
 }
@@ -159,14 +158,16 @@
 .table-header {
     color: white;
     text-align: center;
+    text-decoration: none;
     padding: 15px 10px;
     background: #A6CAAE;
+    height: 60px;
 }
 .odd {
-    background: #E6F0EE; /* Цвет фона нечетных строк */
+    background: #FFF; /* Цвет фона нечетных строк */
 }
 .even {
-    background: #F2E5DF; /* Цвет фона четных строк */
+    background: #EEE; /* Цвет фона четных строк */
 }
 .cell-center {
     font-size: 12px;
@@ -189,4 +190,55 @@
   width: 120px;
   font-family: latolight;
   font-size: 12px;
+}
+.new {
+    background: #FFFFFF;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.job {
+    background: #CCE8FF;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.pause {
+    background: #CECECE;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.agreement {
+    background: #87B7E1;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.agreed {
+    background: #C7E4BA;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.closed {
+    background: #F8BBC7;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+.deleted {
+    background: #767676;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px;
+}
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
 }
