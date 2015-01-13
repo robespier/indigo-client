@@ -19,13 +19,11 @@
                 <th class="table-header"><a class="table-header" href="" ng-click="sortparam = 'number'">Номер_заказа</a></th>
                 <th class="table-header"><a class="table-header" href="" ng-click="sortparam = 'customer'">Заказчик</a></th>
                 <th class="table-header"><a class="table-header" href="" ng-click="sortparam = 'name'">Наименование</a></th>
-                <th class="table-header"><a class="table-header" href="" ng-click="sortparam = 'status'">Состояние</a></th>
             </tr>
             <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:date='Nov' | orderBy:sortparam">
                 <td class="{{order.status}}">{{order.date}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
                 <td class="{{order.status}}">{{order.name}}</td>
-                <td class="{{order.status}}">{{order.status}}</td>
             </tr>
         </table>

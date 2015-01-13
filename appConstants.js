@@ -2,7 +2,7 @@
             [
                  {
                     name: 'new',
-                    label: 'новый',
+                    label: 'новые',
                     color: '#FFFFFF',
                  },
                  {
@@ -11,29 +11,29 @@
                     color: '#CCE8FF',
                  },
                  {
-                    name: 'pause',
-                    label: 'приостановлен',
-                    color: '#CECECE',
-                 },
-                 {
                     name: 'agreement',
                     label: 'на утверждении',
                     color: '#87B7E1',
                  },
                  {
                     name: 'agreed',
-                    label: 'утвержден',
+                    label: 'утвержденные',
                     color: '#C7E4BA',
                  },
                  {
                     name: 'closed',
-                    label: 'завершен',
+                    label: 'завершенные',
                     color: '#F8BBC7',
                  },
                  {
                     name: 'deleted',
-                    label: 'аннулирован',
+                    label: 'аннулированные',
                     color: '#767676',
+                 },
+                 {
+                    name: 'all',
+                    label: 'все заказы',
+                    color: '#FFFFFF',
                  },
              ]
 );
