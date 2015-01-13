@@ -116,31 +116,31 @@
                         <br>
                             <p>Отделка<br>
                                 <select class="form2" name="polish">
-                                    <option value="none" ng-model="polish" ng-selected="{{polish == 'none'}}">без отделки</option>
-                                    <option value="laminat" ng-model="polish" ng-selected="{{polish == 'laminat'}}">ламинация</option>
-                                    <option value="warnish" ng-model="polish" ng-selected="{{polish == 'warnish'}}">лакирование</option>
+                                    <option value="none" ng-model="order.polish" ng-selected="{{order.polish == 'none'}}">без отделки</option>
+                                    <option value="laminat" ng-model="order.polish" ng-selected="{{order.polish == 'laminat'}}">ламинация</option>
+                                    <option value="warnish" ng-model="order.polish" ng-selected="{{order.polish == 'warnish'}}">лакирование</option>
                                 </select>
                     </p><br>
                             <p>Лакирование<br>
                                 <select class="form2" name="lak">
-                                    <option value="none" ng-model="lak" ng-selected="{{lak == 'none'}}">без лака</option>
-                                    <option value="solid" ng-model="lak" ng-selected="{{lak == 'solid'}}">сплошной лак</option>
-                                    <option value="select" ng-model="lak" ng-selected="{{lak == 'select'}}">выборочный лак</option>
-                                    <option value="both" ng-model="lak" ng-selected="{{lak == 'both'}}">сплошной/выборочный лаки</option>
+                                    <option value="none" ng-model="order.lak" ng-selected="{{order.lak == 'none'}}">без лака</option>
+                                    <option value="solid" ng-model="order.lak" ng-selected="{{order.lak == 'solid'}}">сплошной лак</option>
+                                    <option value="select" ng-model="order.lak" ng-selected="{{order.lak == 'select'}}">выборочный лак</option>
+                                    <option value="both" ng-model="order.lak" ng-selected="{{order.lak == 'both'}}">сплошной/выборочный лаки</option>
                                 </select>
                     </p><br>
                     <p>Тиснение<br>
                                 <select class="form2" name="tisnenie">
-                                    <option value="none" ng-model="tisnenie" ng-selected="{{tisnenie == 'none'}}">без тиснения</option>
-                                    <option value="hot" ng-model="tisnenie" ng-selected="{{tisnenie == 'hot'}}">горячее</option>
-                                    <option value="cold" ng-model="tisnenie" ng-selected="{{tisnenie == 'cold'}}">холодное</option>
+                                    <option value="none" ng-model="order.tisnenie" ng-selected="{{order.tisnenie == 'none'}}">без тиснения</option>
+                                    <option value="hot" ng-model="order.tisnenie" ng-selected="{{order.tisnenie == 'hot'}}">горячее</option>
+                                    <option value="cold" ng-model="order.tisnenie" ng-selected="{{order.tisnenie == 'cold'}}">холодное</option>
                                 </select>
                     </p><br>
                     <p>Конгрев<br>
                                 <select class="form2" name="kongrev">
-                                    <option value="none" ng-model="kongrev" ng-selected="{{kongrev == 'none'}}">без конгрева</option>
-                                    <option value="flat" ng-model="kongrev" ng-selected="{{kongrev == 'flat'}}">плоский</option>
-                                    <option value="rotation" ng-model="kongrev" ng-selected="{{kongrev == 'rotation'}}">ротационный</option>
+                                    <option value="none" ng-model="order.kongrev" ng-selected="{{order.kongrev == 'none'}}">без конгрева</option>
+                                    <option value="flat" ng-model="order.kongrev" ng-selected="{{order.kongrev == 'flat'}}">плоский</option>
+                                    <option value="rotation" ng-model="order.kongrev" ng-selected="{{order.kongrev == 'rotation'}}">ротационный</option>
                                 </select>
                     </p>
                     </div>
@@ -175,14 +175,14 @@
                             <div class="block4">
                             <p class="block5">Способ намотки<br>
                                 <select class="form1" name="roll_method">
-                                    <option value="hand" ng-model="roll_method" ng-selected="{{roll_method == 'hand'}}">ручная</option>
-                                    <option value="auto" ng-model="roll_method" ng-selected="{{roll_method == 'auto'}}">автоматическая</option>
+                                    <option value="hand" ng-model="order.roll_method" ng-selected="{{order.roll_method == 'hand'}}">ручная</option>
+                                    <option value="auto" ng-model="order.roll_method" ng-selected="{{order.roll_method == 'auto'}}">автоматическая</option>
                                 </select>
                             </p>
                             <p class="block5">Тип намотки<br>
                                 <select class="form1" name="roll_type">
-                                    <option value="outside" ng-model="roll_type" ng-selected="{{roll_type == 'outside'}}">наружная</option>
-                                    <option value="inside" ng-model="roll_type" ng-selected="{{roll_type == 'inside'}}">внутренняя</option>
+                                    <option value="outside" ng-model="order.roll_type" ng-selected="{{order.roll_type == 'outside'}}">наружная</option>
+                                    <option value="inside" ng-model="order.roll_type" ng-selected="{{order.roll_type == 'inside'}}">внутренняя</option>
                                 </select>
                             </p><br>
                             <p class="block5">Направление<br>
