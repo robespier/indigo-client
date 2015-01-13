@@ -215,6 +215,106 @@
                     manager: "Лотфуллина Э.",
                     master: "",
                     status: "deleted",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "mps",
+                    material_width: "",
+                    cut_type: "new",
+                    cut_number: "",
+                    size_x: "100",
+                    size_y: "77",
+                    roll_method: "auto", 
+                    roll_type: "outside", 
+                    roll_direct: "head_mashine",
+                    polish: "warnish",
+                    lak: "solid",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "960",
+                    quantity_X: "2",
+                    quantity_Y: "12",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "Сок Гранатовый Премиум 1 л (эт.) ",
+					placement: "d4248030",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: true
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "7 Nov, 2014",
@@ -224,6 +324,106 @@
                     manager: "Лотфуллина Э.",
                     master: "",
                     status: "deleted",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "10 Nov, 2014",
@@ -233,6 +433,106 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "11 Nov, 2014",
@@ -242,6 +542,106 @@
                     manager: "Сабитова Р.",
                     master: "Галиева В.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "11 Nov, 2014",
@@ -251,6 +651,106 @@
                     manager: "Лотфуллина Э.",
                     master: "Галиева В.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "11 Nov, 2014",
@@ -260,6 +760,106 @@
                     manager: "Лотфуллина Э.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "11 Nov, 2014",
@@ -269,6 +869,106 @@
                     manager: "Лотфуллина Э.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "11 Nov, 2014",
@@ -278,6 +978,106 @@
                     manager: "Лотфуллина Э.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "11 Nov, 2014",
@@ -287,6 +1087,106 @@
                     manager: "Лотфуллина Э.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "12 Nov, 2014",
@@ -296,6 +1196,106 @@
                     manager: "Сабитова Р.",
                     master: "Галиева В.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "12 Nov, 2014",
@@ -305,6 +1305,106 @@
                     manager: "Шестакова С.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "12 Nov, 2014",
@@ -314,6 +1414,106 @@
                     manager: "Гараева Л.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "12 Nov, 2014",
@@ -323,6 +1523,106 @@
                     manager: "Дмитриева Н.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "12 Nov, 2014",
@@ -332,6 +1632,106 @@
                     manager: "Дмитриева Н.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "12 Nov, 2014",
@@ -341,6 +1741,106 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "12 Nov, 2014",
@@ -350,6 +1850,106 @@
                     manager: "Дмитриева Н.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "12 Nov, 2014",
@@ -359,6 +1959,106 @@
                     manager: "Лотфуллина Э.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "13 Nov, 2014",
@@ -368,6 +2068,106 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "13 Nov, 2014",
@@ -377,6 +2177,106 @@
                     manager: "Лотфуллина Э.",
                     master: "Галиева В.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "13 Nov, 2014",
@@ -386,6 +2286,106 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "13 Nov, 2014",
@@ -395,6 +2395,106 @@
                     manager: "Сабитова Р.",
                     master: "Галиева В.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "ppw",
+                    material_width: "",
+                    cut_type: "ready",
+                    cut_number: "4152099",
+                    size_x: "70",
+                    size_y: "50",
+                    roll_method: "hand", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "warnish",
+                    lak: "solid",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "300",
+                    print_size_Y: "954",
+                    quantity_X: "4",
+                    quantity_Y: "18",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "Наршараб гранатовый 130 г (эт.)",
+					placement: "d4300049",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "13 Nov, 2014",
@@ -404,6 +2504,106 @@
                     manager: "Сабитова Р.",
                     master: "Галиева В.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "ppw",
+                    material_width: "",
+                    cut_type: "ready",
+                    cut_number: "1152571",
+                    size_x: "65",
+                    size_y: "45",
+                    roll_method: "hand", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "warnish",
+                    lak: "select",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "280",
+                    print_size_Y: "960",
+                    quantity_X: "4",
+                    quantity_Y: "20",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "Наршараб гранатовый 130 г (к/эт.)",
+					placement: "d4300050",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: false
+                        },
+                        { name: 'Magenta1',
+                            used: false
+                        },
+                        { name: 'Yellow1',
+                            used: false
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "13 Nov, 2014",
@@ -413,6 +2613,155 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "sem",
+                    material_width: "250",
+                    cut_type: "ready",
+                    cut_number: "1084093",
+                    size_x: "98,6",
+                    size_y: "130",
+                    roll_method: "auto", 
+                    roll_type: "outside", 
+                    roll_direct: "head_mashine",
+                    polish: "warnish",
+                    lak: "solid",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "210",
+                    print_size_Y: "933.45",
+                    quantity_X: "2",
+                    quantity_Y: "7",
+                    AQ: "4",
+                    AL: "3,35",
+            labels: [
+				{
+					name: "Апельсин 1,5л",
+					placement: "d4327004",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+				{
+					name: "Малина 1,5л",
+					placement: "d4327004",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+				{
+					name: "Зеленый чай 1,5л",
+					placement: "d4327004",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+				{
+					name: "Квас 1,5л",
+					placement: "d4327004",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+				{
+					name: "Груша-Дюшес 1,5л",
+					placement: "d4327004",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+				{
+					name: "Вода газированная 1,5л",
+					placement: "d4327004",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+				{
+					name: "Вода негазированная 1,5л",
+					placement: "d4327004",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+				{
+					name: "Лимонад 1,5л",
+					placement: "d4327004",
+					source: "4327003",
+					run: "",
+					status: "closed",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "17 Nov, 2014",
@@ -422,6 +2771,113 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "sem",
+                    material_width: "",
+                    cut_type: "ready",
+                    cut_number: "11521063",
+                    size_x: "45",
+                    size_y: "145",
+                    roll_method: "auto", 
+                    roll_type: "outside", 
+                    roll_direct: "head_mashine",
+                    polish: "warnish",
+                    lak: "solid",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "300",
+                    print_size_Y: "894",
+                    quantity_X: "6",
+                    quantity_Y: "6",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "ТМ Абрико Маша и медведь Джем Клубника",
+					placement: "d3160133",
+					source: "d3160054",
+					run: "",
+					status: "closed",
+				},
+				{
+					name: "ТМ Абрико Маша и медведь Джем Малина",
+					placement: "d3160134",
+					source: "d3160055",
+					run: "",
+					status: "closed",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "17 Nov, 2014",
@@ -431,6 +2887,106 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "agreement",
+                    designer: "Сергеев Р.",
+                    print_type: "flexo",
+                    label_type: "self-label",
+                    material_type: "sem",
+                    material_width: "",
+                    cut_type: "ready",
+                    cut_number: "1120227",
+                    size_x: "69",
+                    size_y: "185",
+                    roll_method: "auto", 
+                    roll_type: "outside", 
+                    roll_direct: "head_mashine",
+                    polish: "warnish",
+                    lak: "solid",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "Мед Д (цветочный)",
+					placement: "3160021",
+					source: "3160003",
+					run: "",
+					status: "agreement",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "17 Nov, 2014",
@@ -440,6 +2996,120 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "sem",
+                    material_width: "",
+                    cut_type: "ready",
+                    cut_number: "1140035",
+                    size_x: "80",
+                    size_y: "105",
+                    roll_method: "auto", 
+                    roll_type: "outside", 
+                    roll_direct: "head_mashine",
+                    polish: "warnish",
+                    lak: "solid",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "262",
+                    print_size_Y: "889",
+                    quantity_X: "3",
+                    quantity_Y: "8",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "d4327001",
+					source: "",
+					run: "",
+					status: "",
+				},
+				{
+					name: "",
+					placement: "d4327002",
+					source: "",
+					run: "",
+					status: "",
+				},
+				{
+					name: "",
+					placement: "d4327003",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "17 Nov, 2014",
@@ -449,6 +3119,106 @@
                     manager: "Лотфуллина Э.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "18 Nov, 2014",
@@ -458,6 +3228,106 @@
                     manager: "Сабитова Р.",
                     master: "Галиева В.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "19 Nov, 2014",
@@ -467,6 +3337,106 @@
                     manager: "Лотфуллина Э.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "20 Nov, 2014",
@@ -476,6 +3446,106 @@
                     manager: "Дмитриева Н.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "21 Nov, 2014",
@@ -485,6 +3555,106 @@
                     manager: "Лотфуллина Э.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "21 Nov, 2014",
@@ -494,6 +3664,106 @@
                     manager: "Попова Е.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "24 Nov, 2014",
@@ -503,6 +3773,106 @@
                     manager: "Лотфуллина Э.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "24 Nov, 2014",
@@ -512,6 +3882,106 @@
                     manager: "Попова Е.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "25 Nov, 2014",
@@ -521,6 +3991,106 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "25 Nov, 2014",
@@ -530,6 +4100,106 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "26 Nov, 2014",
@@ -539,6 +4209,106 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "agreement",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "27 Nov, 2014",
@@ -548,6 +4318,106 @@
                     manager: "Лотфуллина Э.",
                     master: "Воронцова М.",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "flexo",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "27 Nov, 2014",
@@ -557,6 +4427,106 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "27 Nov, 2014",
@@ -566,6 +4536,106 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "",
+					placement: "",
+					source: "",
+					run: "",
+					status: "",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
                 },
                 {
                     date: "27 Nov, 2014",
@@ -575,168 +4645,114 @@
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
-                },
-            ];
-    var order = {
-            "designer": "Сергеев Р.",
-            "order_number": "414Ц04308",
-            "customer": "КФХ Семенов В.О.",
-            "order_name": "Напитки Саврушка 1,5 л (в ассортименте)",
-            "print_type": "digital",
-            "label_type": "self-label",
-            "material_type": "sem",
-            "material_width": "250",
-            "cut_type": "ready",
-            "cut_number": "1084093",
-            "size_x": "98,6",
-            "size_y": "130",
-            "roll_method": "auto", 
-            "roll_type": "outside", 
-            "roll_direct": "head_mashine",
-            "polish": "warnish",
-            "lak": "solid",
-            "tisnenie": "none",
-            "kongrev": "none",
-            "print_size_X": "210",
-            "print_size_Y": "933.45",
-            "quantity_X": "2",
-            "quantity_Y": "7",
-            "AQ": "4",
-            "AL": "3,35",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "",
+                    material_width: "",
+                    cut_type: "",
+                    cut_number: "",
+                    size_x: "",
+                    size_y: "",
+                    roll_method: "", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "",
+                    lak: "",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "",
+                    print_size_Y: "",
+                    quantity_X: "",
+                    quantity_Y: "",
+                    AQ: "",
+                    AL: "",
             labels: [
 				{
-					name: "Апельсин 1,5л",
-					placement: "d4327004",
-					source: "вложение",
-					run: "",
-					status: "",
-				},
-				{
-					name: "Малина 1,5л",
-					placement: "d4327004",
-					source: "вложение",
-					run: "",
-					status: "",
-				},
-				{
-					name: "Зеленый чай 1,5л",
-					placement: "d4327004",
-					source: "вложение",
-					run: "",
-					status: "",
-				},
-				{
-					name: "Квас 1,5л",
-					placement: "d4327004",
-					source: "вложение",
-					run: "",
-					status: "",
-				},
-				{
-					name: "Груша-Дюшес 1,5л",
-					placement: "d4327004",
-					source: "вложение",
-					run: "",
-					status: "",
-				},
-				{
-					name: "Вода газированная 1,5л",
-					placement: "d4327004",
-					source: "вложение",
-					run: "",
-					status: "",
-				},
-				{
-					name: "Вода негазированная 1,5л",
-					placement: "d4327004",
-					source: "вложение",
-					run: "",
-					status: "",
-				},
-				{
-					name: "Лимонад 1,5л",
-					placement: "d4327004",
-					source: "4327003",
+					name: "",
+					placement: "",
+					source: "",
 					run: "",
 					status: "",
 				},
 			],
-            inks1: [ 
-				{ name: 'Opaque1',
-                     used: false
-                  },
-				{ name: 'Cyan1',
-                     used: true
-                  },
-				{ name: 'Magenta1',
-                    used: true
-                  },
-				{ name: 'Yellow1',
-                     used: true
-                  },
-				{ name: 'Black1',
-                     used: true
-                  },
-				{ name: 'Orange1',
-                     used: false
-                  },
-                  { name: 'Violet1',
-                     used: false
-                  },
-            ],
-            inks2: [ 
-				{ name: 'Opaque2',
-                     used: false
-                  },
-				{ name: 'Cyan2',
-                     used: false
-                  },
-				{ name: 'Magenta2',
-                    used: false
-                  },
-				{ name: 'Yellow2',
-                     used: false
-                  },
-				{ name: 'Black2',
-                     used: false
-                  },
-				{ name: 'Orange2',
-                     used: false
-                  },
-                  { name: 'Violet2',
-                     used: false
-                  },
-            ],
-            pms: [ 
-				{ name: 'pms1',
-                     value: ''
-                  },
-				{ name: 'pms2',
-                     value: ''
-                  },
-				{ name: 'pms3',
-                     value: ''
-                  },
-				{ name: 'pms4',
-                     value: ''
-                  },
-				{ name: 'pms5',
-                     value: ''
-                  },
-				{ name: 'pms6',
-                     value: ''
-                  },
-                  { name: 'pms7',
-                     value: ''
-                  },
-            ],  
-    };
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: false
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: true
+                        },
+                        { name: 'Yellow1',
+                            used: true
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: false
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
+                },
+            ];
     return {
         all: function() {
             return orders;
         },
         get: function() {
-            return order;
+            return orders[45];
         }
     };
 });
