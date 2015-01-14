@@ -162,6 +162,7 @@
     padding: 15px 10px;
     background: #A6CAAE;
     height: 60px;
+    cursor: pointer;
 }
 .odd {
     background: #FFF; /* Цвет фона нечетных строк */
@@ -199,12 +200,6 @@
 }
 .job {
     background: #CCE8FF;
-    font-size: 12px;
-    text-align: left;
-    padding: 5px 10px;
-}
-.pause {
-    background: #CECECE;
     font-size: 12px;
     text-align: left;
     padding: 5px 10px;

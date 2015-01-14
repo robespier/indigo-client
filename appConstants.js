@@ -31,7 +31,7 @@
                     color: '#767676',
                  },
                  {
-                    name: 'all',
+                    name: '',
                     label: 'все заказы',
                     color: '#FFFFFF',
                  },

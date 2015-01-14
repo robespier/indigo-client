@@ -243,7 +243,7 @@
 					placement: "d4248030",
 					source: "вложение",
 					run: "",
-					status: "closed",
+					status: "",
 				},
 			],
                     inks1: [ 
