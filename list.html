@@ -17,13 +17,15 @@
 </div>
         <table class="block1">
             <tr class="table-header">
-                <th class="table-header"><a class="table-header" ng-click="sortparam = 'date'">Дата</a></th>
-                <th class="table-header"><a class="table-header" ng-click="sortparam = 'number'">Номер_заказа</a></th>
+                <th class="table-header">п/п</th>
+                <th><a ng-click="sortparam = 'date'">Дата поступления</a></th>
+                <th><a ng-click="sortparam = 'number'">Номер заказа</a></th>
                 <th class="table-header"><a class="table-header" ng-click="sortparam = 'customer'">Заказчик</a></th>
-                <th class="table-header"><a class="table-header" ng-click="sortparam = 'name'">Наименование</a></th>
+                <th class="table-header"><a class="table-header" ng-click="sortparam = 'name'">Наименование заказа</a></th>
             </tr>
             <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:filter_status | orderBy:sortparam">
-                <td class="{{order.status}}">{{order.date}}</td>
+                <td class="{{order.status}}" style="text-align: center">{{$index+1}}</td>
+                <td class="{{order.status}}" style="text-align: center">{{order.date | date:'d MMMM, EEEE'}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
                 <td class="{{order.status}}">{{order.name}}</td>
