@@ -1,6 +1,6 @@
 ﻿<header class="header">
 	<a href="#" style="text-decoration: none" ng-click="gotoPrevMonth()"> &larr; </a>
-    <a>Ноябрь 2014</a>
+    <a>{{current_date | date: 'MMM yyyy'}}</a>
     <a href="#" style="text-decoration: none" ng-click="gotoNextMonth()"> &rarr;</a>
 </header>
 <div class="block2">

@@ -21,7 +21,14 @@
         $scope.orders = Order.all();
         $scope.order = Order.get();
         
-        $scope.insideController = function() {
-            debugger;
+        today = new Date();
+        current_day = today;
+        $scope.current_date = Date.parse (current_day);
+        
+        $scope.gotoNextMonth = function() {
+            current_day.setMonth(current_day.getMonth() +1);
+            current_date = Date.parse (current_day);
+        return current_date;
         };
+
 	}]);
