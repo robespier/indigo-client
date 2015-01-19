@@ -20,13 +20,7 @@
         $scope.sample_pms = sample_pms;
         $scope.orders = Order.all();
         $scope.order = Order.get();
-        $scope.months = Order.take();
-        $scope.gotoPrevMonth = function() {
-            months($index-1);
-        };
-        $scope.gotoNextMonth = function() {
-            months($index+1);
-        };
+        
         $scope.insideController = function() {
             debugger;
         };
