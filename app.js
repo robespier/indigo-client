@@ -14,7 +14,7 @@
        app.controller('orderCtrl', ['$scope', 'Order', 'sample_status', 'sample_ink', 'sample_pms', function($scope, Order, sample_status, sample_ink, sample_pms) {
 
         $scope.sortparam = "date";
-        $scope.filter_status = "";
+        $scope.status = "";
         $scope.sample_status = sample_status;
         $scope.sample_ink = sample_ink;
         $scope.sample_pms = sample_pms;

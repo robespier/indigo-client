@@ -1,31 +1,65 @@
 ﻿<header class="header">
-	<a href="#" style="text-decoration: none" ng-click="gotoPrevMonth()"> &larr; </a>
+	<a class="cursor" ng-click="gotoPrevMonth()"> &larr; </a>
     <a>{{current_date | date: 'MMM yyyy'}}</a>
-    <a href="#" style="text-decoration: none" ng-click="gotoNextMonth()"> &rarr;</a>
+    <a class="cursor" ng-click="gotoNextMonth()"> &rarr;</a>
 </header>
 <div class="block2">
     <ul class="hr">
-        <li class="table" ng-repeat="status in sample_status">
-            <a class="cursor" style="text-decoration: none" ng-click="filter_status = 'sample_status[$index].name'">
+        <li class="cursor" ng-click="status = 'new'">
                 <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[$index].color}}; stroke: #000000" width="20" height="20"/>
+                    <rect x="0" y="0" style="fill:{{sample_status[0].color}}; stroke: #000000" width="20" height="20"/>
                 </svg>
-                {{sample_status[$index].label}}
-            </a>
+                {{sample_status[0].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'job'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[1].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[1].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'agreement'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[2].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[2].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'agreed'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[3].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[3].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'closed'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[4].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[4].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'deleted'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[5].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[5].label}}
+        </li>
+        <li class="cursor" ng-click="status = ''">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[6].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[6].label}}
         </li>
     </ul>
 </div>
         <table class="block1">
             <tr class="table-header">
-                <th class="table-header">п/п</th>
+                <th>п/п</th>
                 <th><a ng-click="sortparam = 'date'">Дата поступления</a></th>
                 <th><a ng-click="sortparam = 'number'">Номер заказа</a></th>
                 <th class="table-header"><a class="table-header" ng-click="sortparam = 'customer'">Заказчик</a></th>
                 <th class="table-header"><a class="table-header" ng-click="sortparam = 'name'">Наименование заказа</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:filter_status | orderBy:sortparam">
+            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status | orderBy:sortparam">
                 <td class="{{order.status}}" style="text-align: center">{{$index+1}}</td>
-                <td class="{{order.status}}" style="text-align: center">{{order.date | date:'d MMMM, EEEE'}}</td>
+                <td class="{{order.status}}" style="text-align: center">{{order.date | date:'d MMMM'}}</td>
                 <td class="{{order.status}}">{{order.number}}</td>
                 <td class="{{order.status}}">{{order.customer}}</td>
                 <td class="{{order.status}}">{{order.name}}</td>

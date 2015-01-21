@@ -1,14 +1,14 @@
-﻿        <header class="header">
-                <a>{{order.number}} &#149 {{order.customer}} &#149 {{order.name}}</a>
-        </header>
+﻿<div class="block">
+                <a class="header">{{order.number}} / {{order.customer}} / {{order.name}}</a>
+</div>
         
 <div class="block">
      <a href ng-click="show = !show" class="block-header">Ассортимент</a>
      <div ng-hide="show" class="block2">
         <table class="block1">
             <tr class="table-header">
-                <th class="table-header"><input type="checkbox"></th>
-                <th class="table-header">п/п</th>
+                <th><input type="checkbox"></th>
+                <th>п/п</th>
                 <th class="table-header">Наименование</th>
                 <th class="table-header">Присвоить паспорт</th>
                 <th class="table-header" title="или из другого источника">Файл из паспорта</th>

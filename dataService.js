@@ -209,115 +209,6 @@
                 },
                 {
                     date: Date.parse ("7 Nov, 2014"),
-                    number: "414Ц04866/1",
-                    customer: "Тимнар ООО",
-                    name: "Сок Гранатовый Премиум 1 л (эт.)",
-                    manager: "Лотфуллина Э.",
-                    master: "",
-                    status: "deleted",
-                    designer: "Сергеев Р.",
-                    print_type: "digital",
-                    label_type: "self-label",
-                    material_type: "mps",
-                    material_width: "",
-                    cut_type: "new",
-                    cut_number: "",
-                    size_x: "100",
-                    size_y: "77",
-                    roll_method: "auto", 
-                    roll_type: "outside", 
-                    roll_direct: "head_mashine",
-                    polish: "warnish",
-                    lak: "solid",
-                    tisnenie: "none",
-                    kongrev: "none",
-                    print_size_X: "",
-                    print_size_Y: "960",
-                    quantity_X: "2",
-                    quantity_Y: "12",
-                    AQ: "",
-                    AL: "",
-            labels: [
-				{
-					name: "Сок Гранатовый Премиум 1 л (эт.) ",
-					placement: "d4248030",
-					source: "вложение",
-					run: "",
-					status: "",
-				},
-			],
-                    inks1: [ 
-                        { name: 'Opaque1',
-                            used: true
-                        },
-                        { name: 'Cyan1',
-                            used: true
-                        },
-                        { name: 'Magenta1',
-                            used: true
-                        },
-                        { name: 'Yellow1',
-                            used: true
-                        },
-                        { name: 'Black1',
-                            used: true
-                        },
-                        { name: 'Orange1',
-                            used: false
-                        },
-                        { name: 'Violet1',
-                            used: false
-                        },
-                    ],
-                    inks2: [ 
-                        { name: 'Opaque2',
-                            used: false
-                        },
-                        { name: 'Cyan2',
-                            used: false
-                        },
-                        { name: 'Magenta2',
-                            used: false
-                        },
-                        { name: 'Yellow2',
-                            used: false
-                        },
-                        { name: 'Black2',
-                            used: false
-                        },
-                        { name: 'Orange2',
-                            used: false
-                        },
-                        { name: 'Violet2',
-                            used: false
-                        },
-                    ],
-                    pms: [ 
-                        { name: 'pms1',
-                            value: ''
-                        },
-                        { name: 'pms2',
-                            value: ''
-                        },
-                        { name: 'pms3',
-                            value: ''
-                        },
-                        { name: 'pms4',
-                            value: ''
-                        },
-                        { name: 'pms5',
-                            value: ''
-                        },
-                        { name: 'pms6',
-                            value: ''
-                        },
-                        { name: 'pms7',
-                            value: ''
-                        },
-                    ],  
-                },
-                {
-                    date: Date.parse ("7 Nov, 2014"),
                     number: "414Ц04866/2",
                     customer: "Тимнар ООО",
                     name: "Сок Гранатовый Премиум 1 л (к/эт.)",
@@ -348,9 +239,9 @@
                     AL: "",
             labels: [
 				{
-					name: "",
-					placement: "",
-					source: "",
+					name: "Сок Гранатовый Премиум 1 л (к/эт.)",
+					placement: "d4248031",
+					source: "вложение",
 					run: "",
 					status: "",
 				},
@@ -4752,7 +4643,7 @@
             return orders;
         },
         get: function() {
-            return orders[45];
+            return orders[44];
         }
     };
 });
