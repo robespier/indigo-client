@@ -1,6 +1,6 @@
 ﻿<header class="header">
 	<a class="cursor" ng-click="gotoPrevMonth()"> &larr; </a>
-    <a>{{current_date | date: 'MMM yyyy'}}</a>
+    <a>{{current_date() | date: 'MMM yyyy'}}</a>
     <a class="cursor" ng-click="gotoNextMonth()"> &rarr;</a>
 </header>
 <div class="block2">

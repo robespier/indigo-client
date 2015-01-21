@@ -22,13 +22,19 @@
         $scope.order = Order.get();
         
         today = new Date();
-        current_day = today;
-        $scope.current_date = Date.parse (current_day);
         
-        $scope.gotoNextMonth = function() {
-            current_day.setMonth(current_day.getMonth() +1);
+        $scope.current_date = function() {
+            current_day = today;
             current_date = Date.parse (current_day);
-        return current_date;
+            return current_date;
+        };
+    
+        $scope.gotoPrevMonth = function() {
+           current_day.setMonth(current_day.getMonth() -1);
+        };
+    
+        $scope.gotoNextMonth = function() {
+           current_day.setMonth(current_day.getMonth() +1);
         };
 
 	}]);
