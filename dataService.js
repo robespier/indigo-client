@@ -1,7 +1,7 @@
 ﻿angular.module('indigo').factory('Order', function() {
     var orders = [
                 {
-                    date: Date.parse ("2 Dec, 2014"),
+                    date: new Date("Fri Dec 02 2014 00:00:00 GMT+0300"),
                     number: "414Ц05395",
                     customer: "Птицефабрика Пермская ОАО",
                     name: "Стикер EAC",
@@ -10,7 +10,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("5 Dec, 2014"),
+                    date: new Date("Mon Dec 05 2014 00:00:00 GMT+0300"),
                     number: "414М05449",
                     customer: "Артлайф ООО",
                     name: "Токсфайтер Люкс 300 г",
@@ -19,16 +19,16 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("5 Dec, 2014"),
+                    date: new Date("Mon Dec 05 2014 00:00:00 GMT+0300"),
                     number: "414А05458",
                     customer: "Мирзаев ИП",
                     name: "Зелень (в ассортименте)",
                     manager: "Сабитова Р.",
                     master: "Галиева В.",
-                    status: "agreement",
+                    status: "deleted",
                 },
                 {
-                    date: Date.parse ("5 Dec, 2014"),
+                    date: new Date("Mon Dec 05 2014 00:00:00 GMT+0300"),
                     number: "414А05462",
                     customer: "ИКЕА Индастри Вятка ООО",
                     name: "Стикер серый",
@@ -37,7 +37,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("10 Dec, 2014"),
+                    date: new Date("Wed Dec 10 2014 00:00:00 GMT+0300"),
                     number: "414Ц05459",
                     customer: "Аком ЗАО",
                     name: "Renault 70, Renault 60, Renault 70",
@@ -46,7 +46,7 @@
                     status: "agreement",
                 },
                 {
-                    date: Date.parse ("11 Dec, 2014"),
+                    date: new Date("Thu Dec 11 2014 00:00:00 GMT+0300"),
                     number: "414Ц05456",
                     customer: "Нижнекамский хлебокомбинат ОАО",
                     name: "Кекс Мраморный 300 г",
@@ -55,7 +55,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("11 Dec, 2014"),
+                    date: new Date("Thu Dec 11 2014 00:00:00 GMT+0300"),
                     number: "414Ц05528",
                     customer: "Компания Караван ООО",
                     name: "Арахис, фисташки, коктейль Баварский (Пивная серия)",
@@ -64,7 +64,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("12 Dec, 2014"),
+                    date: new Date("Fri Dec 12 2014 00:00:00 GMT+0300"),
                     number: "414Ц05472",
                     customer: "Современные полимерные технологии ООО",
                     name: "жидкое мыло Чистые руки",
@@ -73,7 +73,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("12 Dec, 2014"),
+                    date: new Date("Fri Dec 12 2014 00:00:00 GMT+0300"),
                     number: "414Ц05426",
                     customer: "Нижнекамский хлебокомбинат ОАО",
                     name: "Торты (в ассортименте)",
@@ -82,7 +82,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("12 Dec, 2014"),
+                    date: new Date("Fri Dec 12 2014 00:00:00 GMT+0300"),
                     number: "414Ц05597",
                     customer: "РК-АЛКО",
                     name: "стикеры на водку Царская чарка (в ассортименте)",
@@ -91,7 +91,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("12 Dec, 2014"),
+                    date: new Date("Fri Dec 12 2014 00:00:00 GMT+0300"),
                     number: "414М05609",
                     customer: "Артлайф ООО",
                     name: "Кисель Сливовый 300 г",
@@ -100,7 +100,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("17 Dec, 2014"),
+                    date: new Date("Wed Dec 17 2014 00:00:00 GMT+0300"),
                     number: "414Ц05642",
                     customer: "Нижнекамский хлебокомбинат ОАО",
                     name: "хлеб Раменский 0,5 кг",
@@ -109,7 +109,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("18 Dec, 2014"),
+                    date: new Date("Thu Dec 18 2014 00:00:00 GMT+0300"),
                     number: "414Ц05691",
                     customer: "СоюзАгроПром ПО ООО",
                     name: "Закуска Новинка (на казахском языке)",
@@ -118,7 +118,7 @@
                     status: "agreement",
                 },
                 {
-                    date: Date.parse ("18 Dec, 2014"),
+                    date: new Date("Thu Dec 18 2014 00:00:00 GMT+0300"),
                     number: "414Ц05607",
                     customer: "Нижнекамский хлебокомбинат ОАО",
                     name: "Мука пшеничная 2,0 кг",
@@ -127,7 +127,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("18 Dec, 2014"),
+                    date: new Date("Thu Dec 18 2014 00:00:00 GMT+0300"),
                     number: "414М05618",
                     customer: "Артлайф ООО",
                     name: "Арголайф (на украинском языке)",
@@ -136,7 +136,7 @@
                     status: "agreed",
                 },
                 {
-                    date: Date.parse ("19 Dec, 2014"),
+                    date: new Date("Fri Dec 19 2014 00:00:00 GMT+0300"),
                     number: "414Ц05694",
                     customer: "Кураж ООО Издательский дом",
                     name: "Био Аква Спорт",
@@ -145,7 +145,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("22 Dec, 2014"),
+                    date: new Date("Mon Dec 22 2014 00:00:00 GMT+0300"),
                     number: "414Ц05181",
                     customer: "Пищехимпродукт ПКП ООО",
                     name: "Варенье ТМ Абрико (в ассортименте)",
@@ -154,7 +154,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("22 Dec, 2014"),
+                    date: new Date("Mon Dec 22 2014 00:00:00 GMT+0300"),
                     number: "414Ц04787",
                     customer: "Эстель ООО",
                     name: "стикер п/ф",
@@ -163,7 +163,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("23 Dec, 2014"),
+                    date: new Date("Tue Dec 23 2014 00:00:00 GMT+0300"),
                     number: "414Ц05762/1 ",
                     customer: "Татхимфармпрепараты ОАО",
                     name: "Стикеры с цветной полосой (в ассортименте)",
@@ -172,7 +172,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("23 Dec, 2014"),
+                    date: new Date("Tue Dec 23 2014 00:00:00 GMT+0300"),
                     number: "414Ц05762/2",
                     customer: "Татхимфармпрепараты ОАО",
                     name: "Стикеры с цветной полосой (в ассортименте)",
@@ -181,7 +181,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("25 Dec, 2014"),
+                    date: new Date("Sat Dec 25 2014 00:00:00 GMT+0300"),
                     number: "414П05776",
                     customer: "Сабинский лесхоз ООО",
                     name: "Вода Урман (газ./негаз.) ПРОБА",
@@ -190,7 +190,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("25 Dec, 2014"),
+                    date: new Date("Sat Dec 25 2014 00:00:00 GMT+0300"),
                     number: "414М05829",
                     customer: "Артлайф ООО",
                     name: "Взвар Вечерний 100 мл",
@@ -199,7 +199,7 @@
                     status: "agreement",
                 },
                 {
-                    date: Date.parse ("27 Dec, 2014"),
+                    date: new Date("Mon Dec 27 2014 00:00:00 GMT+0300"),
                     number: "414Ц05838",
                     customer: "Кураж ООО Издательский дом",
                     name: "Био Аква Спорт (в ассортименте)",
@@ -208,7 +208,7 @@
                     status: "closed",
                 },
                 {
-                    date: Date.parse ("7 Nov, 2014"),
+                    date: new Date("Fri Nov 07 2014 00:00:00 GMT+0300"),
                     number: "414Ц04866/2",
                     customer: "Тимнар ООО",
                     name: "Сок Гранатовый Премиум 1 л (к/эт.)",
@@ -317,7 +317,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("10 Nov, 2014"),
+                    date: new Date("Mon Nov 10 2014 00:00:00 GMT+0300"),
                     number: "414-04454",
                     customer: "Челны-Бройлер ООО",
                     name: "Колбаса Рахмат",
@@ -426,7 +426,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("11 Nov, 2014"),
+                    date: new Date("Tue Nov 11 2014 00:00:00 GMT+0300"),
                     number: "414Ц04612/1/П1",
                     customer: "Аврора ОАО",
                     name: "Вино Кувье Карсов (красное, белое)",
@@ -535,7 +535,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("11 Nov, 2014"),
+                    date: new Date("Tue Nov 11 2014 00:00:00 GMT+0300"),
                     number: "414Ц04884",
                     customer: "Артлайф ООО",
                     name: "Комплекс ферментов плюс 90 кап. (для Украины)",
@@ -644,7 +644,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("11 Nov, 2014"),
+                    date: new Date("Tue Nov 11 2014 00:00:00 GMT+0300"),
                     number: "414М04969",
                     customer: "Артлайф ООО",
                     name: "Комплекс ферментов плюс 180 кап. (для Украины)",
@@ -753,7 +753,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("11 Nov, 2014"),
+                    date: new Date("Tue Nov 11 2014 00:00:00 GMT+0300"),
                     number: "414М04963",
                     customer: "Артлайф ООО",
                     name: "Арголайф",
@@ -862,7 +862,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("11 Nov, 2014"),
+                    date: new Date("Tue Nov 11 2014 00:00:00 GMT+0300"),
                     number: "414М04964",
                     customer: "Артлайф ООО",
                     name: "Аргосепт",
@@ -971,7 +971,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("11 Nov, 2014"),
+                    date: new Date("Tue Nov 11 2014 00:00:00 GMT+0300"),
                     number: "414М04977",
                     customer: "Артлайф ООО",
                     name: "Кисель Черника-Вишня",
@@ -1080,7 +1080,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("12 Nov, 2014"),
+                    date: new Date("Wed Nov 12 2014 00:00:00 GMT+0300"),
                     number: "414Ц04933/6",
                     customer: "СоюзАгроПром ПО ООО",
                     name: "Соки без ТМ 3 л (в ассортименте)",
@@ -1189,7 +1189,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("12 Nov, 2014"),
+                    date: new Date("Wed Nov 12 2014 00:00:00 GMT+0300"),
                     number: "414Ц04609",
                     customer: "Авангард ООО",
                     name: "Крекер, печенье (в ассортименте)",
@@ -1298,7 +1298,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("12 Nov, 2014"),
+                    date: new Date("Wed Nov 12 2014 00:00:00 GMT+0300"),
                     number: "414Ц04978",
                     customer: "Акульчев ТД ООО",
                     name: "Транспортные этикетки (в ассортименте)",
@@ -1407,7 +1407,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("12 Nov, 2014"),
+                    date: new Date("Wed Nov 12 2014 00:00:00 GMT+0300"),
                     number: "414Ц04877",
                     customer: "Абхим ПК ООО",
                     name: "Жидкое мыло 500 мл антибактериальное",
@@ -1516,7 +1516,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("12 Nov, 2014"),
+                    date: new Date("Wed Nov 12 2014 00:00:00 GMT+0300"),
                     number: "414Ц04726",
                     customer: "Абхим ПК ООО",
                     name: "Жидкое мыло 5 л антибактериальное",
@@ -1625,7 +1625,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("12 Nov, 2014"),
+                    date: new Date("Wed Nov 12 2014 00:00:00 GMT+0300"),
                     number: "414-04904",
                     customer: "Птицефабрика Пермская ОАО",
                     name: "Сервелат Коньячный п/к",
@@ -1734,7 +1734,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("12 Nov, 2014"),
+                    date: new Date("Wed Nov 12 2014 00:00:00 GMT+0300"),
                     number: "414Ц04879",
                     customer: "Санин ИП",
                     name: "Полуфабрикаты (в ассортименте)",
@@ -1843,7 +1843,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("12 Nov, 2014"),
+                    date: new Date("Wed Nov 12 2014 00:00:00 GMT+0300"),
                     number: "414М05005",
                     customer: "Артлайф ООО",
                     name: "БАДы (в ассортименте)",
@@ -1952,7 +1952,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("13 Nov, 2014"),
+                    date: new Date("Thu Nov 13 2014 00:00:00 GMT+0300"),
                     number: "414Ц04993",
                     customer: "Пищехимпродукт ПКП ООО",
                     name: "ТМ Абрико Аджика 120 г",
@@ -2061,7 +2061,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("13 Nov, 2014"),
+                    date: new Date("Thu Nov 13 2014 00:00:00 GMT+0300"),
                     number: "414Ц05036",
                     customer: "Тимнар ООО",
                     name: "Сок Гранатовый Премиум 1 л (комплект)",
@@ -2170,7 +2170,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("13 Nov, 2014"),
+                    date: new Date("Thu Nov 13 2014 00:00:00 GMT+0300"),
                     number: "414Ц05033",
                     customer: "Пищехимпродукт ПКП ООО",
                     name: "Варенье ТМ Абрико 390 г (в ассортименте)",
@@ -2279,7 +2279,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("13 Nov, 2014"),
+                    date: new Date("Thu Nov 13 2014 00:00:00 GMT+0300"),
                     number: "414Ц04898/1",
                     customer: "Сания ООО",
                     name: "Наршараб гранатовый 130 г (эт.)",
@@ -2388,7 +2388,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("13 Nov, 2014"),
+                    date: new Date("Thu Nov 13 2014 00:00:00 GMT+0300"),
                     number: "414Ц04898/5",
                     customer: "Сания ООО",
                     name: "Наршараб гранатовый 130 г (к/эт.)",
@@ -2497,7 +2497,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("13 Nov, 2014"),
+                    date: new Date("Thu Nov 13 2014 00:00:00 GMT+0300"),
                     number: "414Ц04308",
                     customer: "КФХ Семенов В.О.",
                     name: "напитки Саврушка 1,5 л (в ассортименте)",
@@ -2655,7 +2655,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("17 Nov, 2014"),
+                    date: new Date("Mon Nov 17 2014 00:00:00 GMT+0300"),
                     number: "414Ц05092",
                     customer: "Пищехимпродукт ПКП ООО",
                     name: "ТМ Абрико Маша и медведь Джем Клубника, Малина",
@@ -2771,7 +2771,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("17 Nov, 2014"),
+                    date: new Date("Mon Nov 17 2014 00:00:00 GMT+0300"),
                     number: "414Ц05059",
                     customer: "Пищехимпродукт ПКП ООО",
                     name: "Мед Д (цветочный)",
@@ -2880,7 +2880,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("17 Nov, 2014"),
+                    date: new Date("Mon Nov 17 2014 00:00:00 GMT+0300"),
                     number: "414Ц04860",
                     customer: "КФХ Семенов В.О.",
                     name: "Напитки Саврушка 0,5 л (в ассортименте)",
@@ -3003,7 +3003,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("17 Nov, 2014"),
+                    date: new Date("Mon Nov 17 2014 00:00:00 GMT+0300"),
                     number: "414М05001",
                     customer: "Артлайф ООО",
                     name: "Взвар Абитэль 100 мл, Взвар Гепатон-3 100 мл",
@@ -3112,7 +3112,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("18 Nov, 2014"),
+                    date: new Date("Tue Nov 18 2014 00:00:00 GMT+0300"),
                     number: "414Ц05105/3",
                     customer: "ИКЕА Индастри Вятка ООО",
                     name: "Стикер черный",
@@ -3221,7 +3221,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("19 Nov, 2014"),
+                    date: new Date("Wed Nov 19 2014 00:00:00 GMT+0300"),
                     number: "414М05012",
                     customer: "Артлайф ООО",
                     name: "БАДы (в ассортименте)",
@@ -3330,7 +3330,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("20 Nov, 2014"),
+                    date: new Date("Thu Nov 20 2014 00:00:00 GMT+0300"),
                     number: "414Ц05158",
                     customer: "Сарман икмеге ООО",
                     name: "Х/булочные изделия (в ассортименте)",
@@ -3439,7 +3439,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("21 Nov, 2014"),
+                    date: new Date("Fri Nov 21 2014 00:00:00 GMT+0300"),
                     number: "414Ц05141/1",
                     customer: "Артлайф ООО",
                     name: "БАДы для Индии (в ассортименте)",
@@ -3548,7 +3548,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("21 Nov, 2014"),
+                    date: new Date("Fri Nov 21 2014 00:00:00 GMT+0300"),
                     number: "414Ц04808",
                     customer: "Горячеключевская Пчеловодная Компания",
                     name: "Логотип Медовая Кубань",
@@ -3657,7 +3657,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("24 Nov, 2014"),
+                    date: new Date("Mon Nov 24 2014 00:00:00 GMT+0300"),
                     number: "414Ц05141/2",
                     customer: "Артлайф ООО",
                     name: "Персифен 90 кап (Индия)",
@@ -3766,7 +3766,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("24 Nov, 2014"),
+                    date: new Date("Mon Nov 24 2014 00:00:00 GMT+0300"),
                     number: "414Ц05263",
                     customer: "Черногорский КК ООО",
                     name: "Кондитерские изделия (в ассортименте)",
@@ -3875,7 +3875,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("25 Nov, 2014"),
+                    date: new Date("Tue Nov 25 2014 00:00:00 GMT+0300"),
                     number: "414Ц05242",
                     customer: "Завод электрощитового оборудования",
                     name: "Стикеры номера с 10 по 14",
@@ -3984,7 +3984,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("25 Nov, 2014"),
+                    date: new Date("Tue Nov 25 2014 00:00:00 GMT+0300"),
                     number: "414Ц05249",
                     customer: "Завод электрощитового оборудования",
                     name: "Корпус щита этажного 7/1В (динрейка и спецпланка)",
@@ -4093,7 +4093,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("26 Nov, 2014"),
+                    date: new Date("Wed Nov 26 2014 00:00:00 GMT+0300"),
                     number: "414Ц05320",
                     customer: "Пищехимпродукт ПКП ООО",
                     name: "Варенье Вишневое ТМ Велада",
@@ -4202,7 +4202,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("27 Nov, 2014"),
+                    date: new Date("Thu Nov 27 2014 00:00:00 GMT+0300"),
                     number: "414-05337",
                     customer: "Татхимфармпрепараты ОАО",
                     name: "Таспир 300 мг",
@@ -4311,7 +4311,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("27 Nov, 2014"),
+                    date: new Date("Thu Nov 27 2014 00:00:00 GMT+0300"),
                     number: "414А05344",
                     customer: "Диамторг ООО",
                     name: "Спреи Bruno и Kiss (в ассортименте) ПРОБА",
@@ -4420,7 +4420,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("27 Nov, 2014"),
+                    date: new Date("Thu Nov 27 2014 00:00:00 GMT+0300"),
                     number: "414А05329",
                     customer: "Диамторг ООО",
                     name: "Шампуни Kiss (комплекты в ассортименте) ПРОБА",
@@ -4529,7 +4529,7 @@
                     ],  
                 },
                 {
-                    date: Date.parse ("27 Nov, 2014"),
+                    date: new Date("Thu Nov 27 2014 00:00:00 GMT+0300"),
                     number: "414А05346",
                     customer: "Диамторг ООО",
                     name: "Шампуни Bruno (комплекты в ассортименте) ПРОБА",
@@ -4638,12 +4638,24 @@
                     ],  
                 },
             ];
+
     return {
         all: function() {
             return orders;
         },
         get: function() {
-            return orders[44];
+            return orders[0];
         }
     };
+
+    getCurrentOrders: function() {
+        var current_orders = []; // пустой массив заказов текущего месяца
+        for (i=0, l=orders.length; i < l; i++) {
+            var cur_date = current_date();
+            if (cur_date.toDateString() == orders[i].date.toDateString())
+                current_orders.push() = orders[i];
+        };
+        return current_orders;
+    };
+
 });

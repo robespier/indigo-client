@@ -1,6 +1,6 @@
 ﻿<header class="header">
 	<a class="cursor" ng-click="gotoPrevMonth()"> &larr; </a>
-    <a>{{current_date() | date: 'MMMM yyyy' | uppercase}}</a>
+    <a ng-bind="current_date() | date: 'MMMM yyyy' | uppercase"></a>
     <a class="cursor" ng-click="gotoNextMonth()"> &rarr;</a>
 </header>
 <div class="block2">
@@ -57,9 +57,9 @@
                 <th class="table-header"><a class="table-header" ng-click="sortparam = 'name'">Наименование заказа</a></th>
             </tr>
             <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status | orderBy:sortparam">
-                <td class="{{order.status}}" style="text-align: center">{{order.date | date:'d.MM'}}</td>
-                <td class="{{order.status}}">{{order.number}}</td>
-                <td class="{{order.status}}">{{order.customer}}</td>
-                <td class="{{order.status}}">{{order.name}}</td>
+                <td class="{{order.status}}" ng-bind="order.date | date: 'd.MM'" style="text-align: center"></td>
+                <td class="{{order.status}}" ng-bind="order.number"></td>
+                <td class="{{order.status}}" ng-bind="order.customer"></td>
+                <td class="{{order.status}}" ng-bind="order.name"></td>
             </tr>
         </table>
