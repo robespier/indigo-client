@@ -11,7 +11,7 @@
                 })
                 .otherwise({redirectTo: '/list'});
         })
-app.controller('orderCtrl', ['$scope', 'Order', 'sample_status', 'sample_ink', 'sample_pms', function($scope, Order, sample_status, sample_ink, sample_pms) {
+app.controller('orderCtrl', ['$scope', 'Order', 'CurrentOrder', 'sample_status', 'sample_ink', 'sample_pms', function($scope, Order, CurrentOrder, sample_status, sample_ink, sample_pms) {
         $scope.sortparam = "date";
         $scope.status = "";
         $scope.sample_status = sample_status;
