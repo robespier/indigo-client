@@ -1,7 +1,7 @@
 ﻿var app = angular.module('indigo', ['ngRoute'])
        .config(function($routeProvider){
             $routeProvider
-                .when('/', {
+                .when('/list', {
                     templateUrl: 'list.html',
                     controller: 'orderCtrl'
                 })

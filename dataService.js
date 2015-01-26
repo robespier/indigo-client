@@ -2500,7 +2500,7 @@
                     date: new Date("Thu Nov 13 2014 00:00:00 GMT+0300"),
                     number: "414Ц04308",
                     customer: "КФХ Семенов В.О.",
-                    name: "напитки Саврушка 1,5 л (в ассортименте)",
+                    name: "Напитки Саврушка 1,5 л (в ассортименте)",
                     manager: "Шестакова С.",
                     master: "",
                     status: "closed",
@@ -4643,13 +4643,13 @@
             return orders;
         },
         get: function() {
-            return orders[0];
+            return orders[44];
         }
     };
 });
 
 angular.module('indigo').factory('CurrentOrder', function() {
-
+/*
             current_orders = []; // пустой массив заказов текущего месяца
             var check_date = current_date(); // текущая дата (месяц) из шаблона
             for (i=0, l=orders.length; i < l; i++) {
@@ -4666,5 +4666,5 @@ angular.module('indigo').factory('CurrentOrder', function() {
             return current_orders[0];
         }
     };
-
+*/
 });

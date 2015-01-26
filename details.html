@@ -1,11 +1,31 @@
 ﻿<div class="block">
-                <a class="header">{{order.number}} / {{order.customer}} / {{order.name}}</a>
+    <div class="block2">
+        <a class="header" style="cursor: pointer" onclick="window.location.href='#/list'" ng-bind="order.name"></a>
+    </div>
 </div>
-        
+<table class="block" style="width: 755px">
+        <tr>
+            <th class="block1">Номер заказа:</th>
+            <th class="block1">Заказчик:</th>
+            <th class="block1">Наименование заказа:</th>
+            <th class="block1">Менеджер:</th>
+            <th class="block1">Технолог:</th>
+            <th class="block1">Дизайнер:</th>
+        </tr>
+        <tr>
+            <td class="block1" ng-bind="order.number"></td>
+            <td class="block1" ng-bind="order.customer"></td>            
+            <td class="block1" ng-bind="order.name"></td>            
+            <td class="block1" ng-bind="order.manager"></td>
+            <td class="block1" ng-bind="order.master"></td>
+            <td class="block1" ng-bind="order.designer"></td>
+        </tr>
+</table>
+<br>
 <div class="block">
      <a href ng-click="show = !show" class="block-header">Ассортимент</a>
      <div ng-hide="show" class="block2">
-        <table class="block1">
+        <table style="border: solid 1px #ccc">
             <tr class="table-header">
                 <th><input type="checkbox"></th>
                 <th>п/п</th>
