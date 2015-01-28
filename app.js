@@ -11,7 +11,7 @@
                 })
                 .otherwise({redirectTo: '/list'});
         })
-app.controller('orderCtrl', ['$scope', 'Order', 'CurrentOrder', 'sample_status', 'sample_ink', 'sample_pms', function($scope, Order, CurrentOrder, sample_status, sample_ink, sample_pms) {
+app.controller('orderCtrl', ['$scope', 'Order', 'sample_status', 'sample_ink', 'sample_pms', function($scope, Order, sample_status, sample_ink, sample_pms) {
         $scope.sortparam = "date";
         $scope.status = "";
         $scope.sample_status = sample_status;
@@ -20,8 +20,8 @@ app.controller('orderCtrl', ['$scope', 'Order', 'CurrentOrder', 'sample_status',
         $scope.orders = Order.all();
         $scope.order = Order.get();
         today = new Date();
+        current_day = today;
         $scope.current_date = function() {
-            current_day = today;
             current_date = current_day;
             return current_date;
         };

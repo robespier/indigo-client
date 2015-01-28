@@ -1,42 +1,44 @@
 ﻿<div class="block">
-    <div class="block2">
         <a class="header" style="cursor: pointer" onclick="window.location.href='#/list'" ng-bind="order.name"></a>
-    </div>
+        <table class="block2" style="border: solid 1px #ccc">
+            <tr class="table-header">
+                <th class="table-header" style="height: auto">Дата</th>
+                <th class="table-header" style="height: auto">Номер заказа</th>
+                <th class="table-header" style="height: auto">Заказчик</th>
+                <th class="table-header" style="height: auto">Наименование заказа</th>
+                <th class="table-header" style="height: auto">Менеджер</th>
+                <th class="table-header" style="height: auto">Технолог</th>
+                <th class="table-header" style="height: auto">Дизайнер</th>
+                <th class="table-header" style="height: auto">Состояние заказа</th>
+            </tr>
+            <tr class="{{order.status}}" style="text-align: center" onclick="window.location.href='#/list'">
+                <td style="padding: 5px 10px" ng-bind="order.date | date: 'd MMM yyyy'" style="text-align: center"></td>
+                <td style="padding: 5px 10px" ng-bind="order.number"></td>
+                <td style="padding: 5px 10px" ng-bind="order.customer"></td>            
+                <td style="padding: 5px 10px" ng-bind="order.name"></td>            
+                <td style="padding: 5px 10px" ng-bind="order.manager"></td>
+                <td style="padding: 5px 10px" ng-bind="order.master"></td>
+                <td style="padding: 5px 10px" ng-bind="order.designer"></td>
+                <td style="padding: 5px 10px" ng-bind="order.status"></td>
+            </tr>
+        </table>
 </div>
-<table class="block" style="width: 755px">
-        <tr>
-            <th class="block1">Номер заказа:</th>
-            <th class="block1">Заказчик:</th>
-            <th class="block1">Наименование заказа:</th>
-            <th class="block1">Менеджер:</th>
-            <th class="block1">Технолог:</th>
-            <th class="block1">Дизайнер:</th>
-        </tr>
-        <tr>
-            <td class="block1" ng-bind="order.number"></td>
-            <td class="block1" ng-bind="order.customer"></td>            
-            <td class="block1" ng-bind="order.name"></td>            
-            <td class="block1" ng-bind="order.manager"></td>
-            <td class="block1" ng-bind="order.master"></td>
-            <td class="block1" ng-bind="order.designer"></td>
-        </tr>
-</table>
 <br>
 <div class="block">
      <a href ng-click="show = !show" class="block-header">Ассортимент</a>
      <div ng-hide="show" class="block2">
         <table style="border: solid 1px #ccc">
             <tr class="table-header">
-                <th><input type="checkbox"></th>
+<!--                <th><input type="checkbox"></th> -->
                 <th>п/п</th>
-                <th class="table-header">Наименование</th>
+                <th class="table-header">Наименование этикетки</th>
                 <th class="table-header">Присвоить паспорт</th>
                 <th class="table-header" title="или из другого источника">Файл из паспорта</th>
                 <th class="table-header">Выполнить из паспорта</th>
-                <th class="table-header">Текущее состояние</th>
+                <th class="table-header">Состояние этикетки</th>
             </tr>
             <tr ng-class-odd="'odd'" ng-class-even="'even'" ng-repeat="label in order.labels">
-                <td class="cell-center"><input type="checkbox"></td>
+<!--                <td class="cell-center"><input type="checkbox"></td> -->
                 <td class="cell-center">{{$index+1}}</td>
                 <td class="cell-center">{{label.name}}</td>
                 <td class="cell-center">{{label.placement}}</td>
@@ -57,10 +59,10 @@
         </div>
 -->    </div>
 </div>
-
+<br>
 <div class="block">
        <a href ng-click="hide = !hide" class="block-header">Технология</a>
-            <div ng-hide="hide" class="block2">
+            <div ng-hide="hide" class="block2" style="border: solid 1px #ccc">
                 <div class="block3">
                     <p>Основные параметры</p><br>
                         <p>Печать<br>

@@ -4646,25 +4646,14 @@
             return orders[44];
         }
     };
-});
 
-angular.module('indigo').factory('CurrentOrder', function() {
-/*
+
             current_orders = []; // пустой массив заказов текущего месяца
             var check_date = current_date(); // текущая дата (месяц) из шаблона
-            for (i=0, l=orders.length; i < l; i++) {
+/*            for (i=0, l=orders.length; i < l; i++) {
                     if (check_date.toDateString() == orders[i].date.toDateString()) {
                         current_orders.push(orders);
                     }
             };
-       
-    return {
-        all: function() {
-            return current_orders;
-        },
-        get: function() {
-            return current_orders[0];
-        }
-    };
 */
 });

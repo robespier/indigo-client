@@ -197,36 +197,42 @@
     font-size: 12px;
     text-align: left;
     padding: 5px 10px;
+    cursor: pointer;
 }
 .job {
     background: #CCE8FF;
     font-size: 12px;
     text-align: left;
     padding: 5px 10px;
+    cursor: pointer;
 }
 .agreement {
     background: #87B7E1;
     font-size: 12px;
     text-align: left;
     padding: 5px 10px;
+    cursor: pointer;
 }
 .agreed {
     background: #C7E4BA;
     font-size: 12px;
     text-align: left;
     padding: 5px 10px;
+    cursor: pointer;
 }
 .closed {
     background: #F8BBC7;
     font-size: 12px;
     text-align: left;
     padding: 5px 10px;
+    cursor: pointer;
 }
 .deleted {
     background: #767676;
     font-size: 12px;
     text-align: left;
     padding: 5px 10px;
+    cursor: pointer;
 }
 ul.hr {
     margin: 0; /* Обнуляем значение отступов */
