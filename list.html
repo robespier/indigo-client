@@ -55,12 +55,68 @@
                 <th><a ng-click="sortparam = 'number'">Номер заказа</a></th>
                 <th class="table-header"><a class="table-header" ng-click="sortparam = 'customer'">Заказчик</a></th>
                 <th class="table-header"><a class="table-header" ng-click="sortparam = 'name'">Наименование заказа</a></th>
+                <th><a ng-click="sortparam = 'manager'">Менеджер</a></th>
+                <th><a ng-click="sortparam = 'designer'">Дизайнер</a></th>
             </tr>
             <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="order in orders  | filter:status | orderBy:sortparam">
                 <td class="{{order.status}}" ng-bind="order.date | date: 'd.MM'" style="text-align: center"></td>
                 <td class="{{order.status}}" ng-bind="order.number"></td>
                 <td class="{{order.status}}" ng-bind="order.customer"></td>
                 <td class="{{order.status}}" ng-bind="order.name"></td>
+                <td class="{{order.status}}" ng-bind="order.manager"></td>
+                <td class="{{order.status}}" ng-bind="order.designer"></td>
             </tr>
         </table>
-        <br>
+<br>
+<div class="block2">
+    <ul class="hr">
+        <li class="cursor" ng-click="status = 'new'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[0].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[0].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'job'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[1].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[1].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'agreement'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[2].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[2].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'agreed'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[3].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[3].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'closed'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[4].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[4].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'deleted'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[5].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[5].label}}
+        </li>
+        <li class="cursor" ng-click="status = ''">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[6].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[6].label}}
+        </li>
+    </ul>
+</div>
+<footer class="header">
+	<a class="cursor" ng-click="gotoPrevMonth()"> &larr; </a>
+    <a ng-bind="current_date() | date: 'MMMM yyyy' | uppercase"></a>
+    <a class="cursor" ng-click="gotoNextMonth()"> &rarr;</a>
+</footer>
+<br>

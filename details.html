@@ -1,5 +1,51 @@
 ﻿<div class="block">
         <a class="header" style="cursor: pointer" onclick="window.location.href='#/list'" ng-bind="order.name"></a>
+<div class="block2">
+    <ul class="hr">
+        <li class="cursor" ng-click="status = 'new'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[0].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[0].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'job'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[1].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[1].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'agreement'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[2].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[2].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'agreed'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[3].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[3].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'closed'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[4].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[4].label}}
+        </li>
+        <li class="cursor" ng-click="status = 'deleted'">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[5].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[5].label}}
+        </li>
+        <li class="cursor" ng-click="status = ''">
+                <svg class="status_sample">
+                    <rect x="0" y="0" style="fill:{{sample_status[6].color}}; stroke: #000000" width="20" height="20"/>
+                </svg>
+                {{sample_status[6].label}}
+        </li>
+    </ul>
+</div>
         <table class="block2" style="border: solid 1px #ccc">
             <tr class="table-header">
                 <th class="table-header" style="height: auto">Дата</th>
@@ -9,7 +55,6 @@
                 <th class="table-header" style="height: auto">Менеджер</th>
                 <th class="table-header" style="height: auto">Технолог</th>
                 <th class="table-header" style="height: auto">Дизайнер</th>
-                <th class="table-header" style="height: auto">Состояние заказа</th>
             </tr>
             <tr class="{{order.status}}" style="text-align: center" onclick="window.location.href='#/list'">
                 <td style="padding: 5px 10px" ng-bind="order.date | date: 'd MMM yyyy'" style="text-align: center"></td>
@@ -19,7 +64,6 @@
                 <td style="padding: 5px 10px" ng-bind="order.manager"></td>
                 <td style="padding: 5px 10px" ng-bind="order.master"></td>
                 <td style="padding: 5px 10px" ng-bind="order.designer"></td>
-                <td style="padding: 5px 10px" ng-bind="order.status"></td>
             </tr>
         </table>
 </div>
@@ -29,22 +73,20 @@
      <div ng-hide="show" class="block2">
         <table style="border: solid 1px #ccc">
             <tr class="table-header">
-<!--                <th><input type="checkbox"></th> -->
+                <th><input type="checkbox"></th>
                 <th>п/п</th>
                 <th class="table-header">Наименование этикетки</th>
                 <th class="table-header">Присвоить паспорт</th>
                 <th class="table-header" title="или из другого источника">Файл из паспорта</th>
                 <th class="table-header">Выполнить из паспорта</th>
-                <th class="table-header">Состояние этикетки</th>
             </tr>
-            <tr ng-class-odd="'odd'" ng-class-even="'even'" ng-repeat="label in order.labels">
-<!--                <td class="cell-center"><input type="checkbox"></td> -->
+            <tr class="{{order.status}}" ng-repeat="label in order.labels">
+                <td class="cell-center"><input type="checkbox"></td>
                 <td class="cell-center">{{$index+1}}</td>
                 <td class="cell-center">{{label.name}}</td>
                 <td class="cell-center">{{label.placement}}</td>
                 <td class="cell-center">{{label.source}}</td>
                 <td class="cell-center">{{label.run}}</td>
-                <td class="cell-center">{{label.status}}</td>
             </tr>
       </table>
 <!--        <div style="margin: 15px 0px">
