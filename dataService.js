@@ -4638,9 +4638,17 @@
                     ],  
                 },
             ];
+    var check_date = (current_date.getMonth() + "." + current_date.getYear()); // Приводим current_date к формату (месяц, год)    
+    var current_orders = []; // пустой массив заказов текущего месяца
+            for (i=0, l=orders.length; i < l; i++) {
+                var order_date = (orders[i].date.getMonth() + "." + orders[i].date.getYear()); // Приводим orders.date к формату (месяц, год)    
+                    if (check_date === order_date) {
+                        var pushed = current_orders.push(orders[i]);
+                    }
+            };
     return {
         all: function() {
-           return orders;
+           return current_orders;
         },
         get: function() {
             return orders[44];

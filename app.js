@@ -21,7 +21,7 @@ app.controller('orderCtrl', ['$scope', 'Order', 'sample_status', 'sample_ink', '
         $scope.order = Order.get();
         today = new Date();
         current_day = today;
-        $scope.current_date = function() {
+        $scope.getCurrentDate = function() {
             current_date = current_day;
             return current_date;
         };
