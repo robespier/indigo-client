@@ -4638,17 +4638,26 @@
                     ],  
                 },
             ];
-    var check_date = (current_date.getMonth() + "." + current_date.getYear()); // Приводим current_date к формату (месяц, год)    
-    var current_orders = []; // пустой массив заказов текущего месяца
-            for (i=0, l=orders.length; i < l; i++) {
-                var order_date = (orders[i].date.getMonth() + "." + orders[i].date.getYear()); // Приводим orders.date к формату (месяц, год)    
-                    if (check_date === order_date) {
-                        var pushed = current_orders.push(orders[i]);
-                    }
-            };
+    /**
+     * Нормализация фильтра дат, в одном месте
+     *
+     * @param {Date} somedate Дата
+     */
+    normalizeDate = function(somedate) {
+        return (somedate.getMonth() + "." + somedate.getYear()); 
+    }
+
     return {
-        all: function() {
-           return current_orders;
+        all: function(somedate) {
+            var current_orders = []; // пустой массив заказов текущего месяца
+            var check_date = normalizeDate(somedate); // Приводим current_date к формату (месяц, год)    
+            for (var i=0, l=orders.length; i < l; i++) {
+                var order_date = normalizeDate(orders[i].date); // Приводим orders.date к формату (месяц, год)
+                if (check_date === order_date) {
+                    var pushed = current_orders.push(orders[i]);
+                }
+            };
+            return current_orders;
         },
         get: function() {
             return orders[44];

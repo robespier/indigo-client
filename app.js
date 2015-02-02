@@ -17,18 +17,20 @@ app.controller('orderCtrl', ['$scope', 'Order', 'sample_status', 'sample_ink', '
         $scope.sample_status = sample_status;
         $scope.sample_ink = sample_ink;
         $scope.sample_pms = sample_pms;
-        $scope.orders = Order.all();
         $scope.order = Order.get();
-        today = new Date();
-        current_day = today;
+        var today = new Date();
+        var current_day = today;
         $scope.getCurrentDate = function() {
             current_date = current_day;
             return current_date;
         };
+        $scope.orders = Order.all(current_day);
         $scope.gotoPrevMonth = function() {
             current_day.setMonth(current_day.getMonth() -1);
+            $scope.orders = Order.all(current_day);
         };
         $scope.gotoNextMonth = function() {
             current_day.setMonth(current_day.getMonth() +1);
+            $scope.orders = Order.all(current_day);
         };
 }]);
