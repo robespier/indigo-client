@@ -1,12 +1,245 @@
 ﻿angular.module('indigo').factory('Order', function() {
     var orders = [
                 {
+                    date: new Date("Mon Feb 02 2015 00:00:00 GMT+0300"),
+                    number: "115Ц00351",
+                    customer: "Челны-Бройлер ООО",
+                    name: "мясные деликатесы (в ассортименте)",
+                    manager: "Шестакова С.",
+                    master: "",
+                    status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "pps",
+                    material_width: "333",
+                    cut_type: "ready",
+                    cut_number: "2152072",
+                    size_x: "80",
+                    size_y: "80",
+                    roll_method: "hand", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "warnish",
+                    lak: "solid",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "260",
+                    print_size_Y: "924",
+                    quantity_X: "3",
+                    quantity_Y: "11",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "мясо цыпленка-бройлера прессованное с сыром",
+					placement: "d1174100",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+				{
+					name: "мясо цыпленка-бройлера прессованное",
+					placement: "d1174101",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: true
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: false
+                        },
+                        { name: 'Yellow1',
+                            used: false
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: true
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
+                },
+                {
+                    date: new Date("Mon Feb 02 2015 00:00:00 GMT+0300"),
+                    number: "115Ц00353",
+                    customer: "Челны-Бройлер ООО",
+                    name: "мясные деликатесы (в ассортименте)",
+                    manager: "Шестакова С.",
+                    master: "",
+                    status: "closed",
+                    designer: "Сергеев Р.",
+                    print_type: "digital",
+                    label_type: "self-label",
+                    material_type: "pps",
+                    material_width: "333",
+                    cut_type: "ready",
+                    cut_number: "1152466",
+                    size_x: "100",
+                    size_y: "65",
+                    roll_method: "hand", 
+                    roll_type: "outside", 
+                    roll_direct: "",
+                    polish: "warnish",
+                    lak: "select",
+                    tisnenie: "none",
+                    kongrev: "none",
+                    print_size_X: "314",
+                    print_size_Y: "952",
+                    quantity_X: "3",
+                    quantity_Y: "14",
+                    AQ: "",
+                    AL: "",
+            labels: [
+				{
+					name: "хлеб Аппетитный с сыром",
+					placement: "d1174098",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+				{
+					name: "буженина Купеческая",
+					placement: "d1174099",
+					source: "вложение",
+					run: "",
+					status: "closed",
+				},
+			],
+                    inks1: [ 
+                        { name: 'Opaque1',
+                            used: true
+                        },
+                        { name: 'Cyan1',
+                            used: true
+                        },
+                        { name: 'Magenta1',
+                            used: false
+                        },
+                        { name: 'Yellow1',
+                            used: false
+                        },
+                        { name: 'Black1',
+                            used: true
+                        },
+                        { name: 'Orange1',
+                            used: false
+                        },
+                        { name: 'Violet1',
+                            used: true
+                        },
+                    ],
+                    inks2: [ 
+                        { name: 'Opaque2',
+                            used: false
+                        },
+                        { name: 'Cyan2',
+                            used: false
+                        },
+                        { name: 'Magenta2',
+                            used: false
+                        },
+                        { name: 'Yellow2',
+                            used: false
+                        },
+                        { name: 'Black2',
+                            used: false
+                        },
+                        { name: 'Orange2',
+                            used: false
+                        },
+                        { name: 'Violet2',
+                            used: false
+                        },
+                    ],
+                    pms: [ 
+                        { name: 'pms1',
+                            value: ''
+                        },
+                        { name: 'pms2',
+                            value: ''
+                        },
+                        { name: 'pms3',
+                            value: ''
+                        },
+                        { name: 'pms4',
+                            value: ''
+                        },
+                        { name: 'pms5',
+                            value: ''
+                        },
+                        { name: 'pms6',
+                            value: ''
+                        },
+                        { name: 'pms7',
+                            value: ''
+                        },
+                    ],  
+                },
+                {
                     date: new Date("Fri Dec 02 2014 00:00:00 GMT+0300"),
                     number: "414Ц05395",
                     customer: "Птицефабрика Пермская ОАО",
                     name: "Стикер EAC",
                     manager: "Шестакова С.",
                     master: "",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -16,6 +249,7 @@
                     name: "Токсфайтер Люкс 300 г",
                     manager: "Лотфуллина Э.",
                     master: "",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -25,6 +259,7 @@
                     name: "Зелень (в ассортименте)",
                     manager: "Сабитова Р.",
                     master: "Галиева В.",
+                    designer: "Сергеев Р.",
                     status: "deleted",
                 },
                 {
@@ -34,6 +269,7 @@
                     name: "Стикер серый",
                     manager: "Сабитова Р.",
                     master: "Галиева В.",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -43,6 +279,7 @@
                     name: "Renault 70, Renault 60, Renault 70",
                     manager: "Лотфуллина Э.",
                     master: "",
+                    designer: "Сергеев Р.",
                     status: "agreement",
                 },
                 {
@@ -52,6 +289,7 @@
                     name: "Кекс Мраморный 300 г",
                     manager: "Лотфуллина Э.",
                     master: "",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -61,6 +299,7 @@
                     name: "Арахис, фисташки, коктейль Баварский (Пивная серия)",
                     manager: "Костюкова В.",
                     master: "Воронцова М.",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -70,6 +309,7 @@
                     name: "жидкое мыло Чистые руки",
                     manager: "Шестакова С.",
                     master: "",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -79,6 +319,7 @@
                     name: "Торты (в ассортименте)",
                     manager: "Лотфуллина Э.",
                     master: "Галиева В.",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -88,6 +329,7 @@
                     name: "стикеры на водку Царская чарка (в ассортименте)",
                     manager: "Попова Е.",
                     master: "Галиева В.",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -97,6 +339,7 @@
                     name: "Кисель Сливовый 300 г",
                     manager: "Лотфуллина Э.",
                     master: "Галиева В.",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -106,6 +349,7 @@
                     name: "хлеб Раменский 0,5 кг",
                     manager: "Лотфуллина Э.",
                     master: "Галиева В.",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -115,6 +359,7 @@
                     name: "Закуска Новинка (на казахском языке)",
                     manager: "Сабитова Р.",
                     master: "Воронцова М.",
+                    designer: "Сергеев Р.",
                     status: "agreement",
                 },
                 {
@@ -124,6 +369,7 @@
                     name: "Мука пшеничная 2,0 кг",
                     manager: "Лотфуллина Э.",
                     master: "",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -133,6 +379,7 @@
                     name: "Арголайф (на украинском языке)",
                     manager: "Лотфуллина Э.",
                     master: "Воронцова М.",
+                    designer: "Сергеев Р.",
                     status: "agreed",
                 },
                 {
@@ -142,6 +389,7 @@
                     name: "Био Аква Спорт",
                     manager: "Костюкова В.",
                     master: "Воронцова М.",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -151,6 +399,7 @@
                     name: "Варенье ТМ Абрико (в ассортименте)",
                     manager: "Шестакова С.",
                     master: "Воронцова М.",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -160,6 +409,7 @@
                     name: "стикер п/ф",
                     manager: "Костюкова В.",
                     master: "Воронцова М.",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -169,6 +419,7 @@
                     name: "Стикеры с цветной полосой (в ассортименте)",
                     manager: "Лотфуллина Э.",
                     master: "",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -178,6 +429,7 @@
                     name: "Стикеры с цветной полосой (в ассортименте)",
                     manager: "Лотфуллина Э.",
                     master: "Галиева В.",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -187,6 +439,7 @@
                     name: "Вода Урман (газ./негаз.) ПРОБА",
                     manager: "Сабитова Р.",
                     master: "Галиева В.",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -196,6 +449,7 @@
                     name: "Взвар Вечерний 100 мл",
                     manager: "Лотфуллина Э.",
                     master: "Галиева В.",
+                    designer: "Сергеев Р.",
                     status: "agreement",
                 },
                 {
@@ -205,6 +459,7 @@
                     name: "Био Аква Спорт (в ассортименте)",
                     manager: "Костюкова В.",
                     master: "Воронцова М.",
+                    designer: "Сергеев Р.",
                     status: "closed",
                 },
                 {
@@ -4659,8 +4914,5 @@
             };
             return current_orders;
         },
-        get: function() {
-            return orders[44];
-        }
     };
 });

@@ -1,73 +1,7 @@
 ﻿<div class="block">
-        <a class="header" style="cursor: pointer" onclick="window.location.href='#/list'" ng-bind="order.name"></a>
+        <a class="header" ng-bind="order.number"></a>
+</div>
 <div class="block2">
-    <ul class="hr">
-        <li class="cursor" ng-click="status = 'new'">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[0].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[0].label}}
-        </li>
-        <li class="cursor" ng-click="status = 'job'">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[1].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[1].label}}
-        </li>
-        <li class="cursor" ng-click="status = 'agreement'">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[2].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[2].label}}
-        </li>
-        <li class="cursor" ng-click="status = 'agreed'">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[3].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[3].label}}
-        </li>
-        <li class="cursor" ng-click="status = 'closed'">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[4].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[4].label}}
-        </li>
-        <li class="cursor" ng-click="status = 'deleted'">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[5].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[5].label}}
-        </li>
-        <li class="cursor" ng-click="status = ''">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[6].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[6].label}}
-        </li>
-    </ul>
-</div>
-        <table class="block2" style="border: solid 1px #ccc">
-            <tr class="table-header">
-                <th class="table-header" style="height: auto">Дата</th>
-                <th class="table-header" style="height: auto">Номер заказа</th>
-                <th class="table-header" style="height: auto">Заказчик</th>
-                <th class="table-header" style="height: auto">Наименование заказа</th>
-                <th class="table-header" style="height: auto">Менеджер</th>
-                <th class="table-header" style="height: auto">Технолог</th>
-                <th class="table-header" style="height: auto">Дизайнер</th>
-            </tr>
-            <tr class="{{order.status}}" style="text-align: center" onclick="window.location.href='#/list'">
-                <td style="padding: 5px 10px" ng-bind="order.date | date: 'd MMM yyyy'" style="text-align: center"></td>
-                <td style="padding: 5px 10px" ng-bind="order.number"></td>
-                <td style="padding: 5px 10px" ng-bind="order.customer"></td>            
-                <td style="padding: 5px 10px" ng-bind="order.name"></td>            
-                <td style="padding: 5px 10px" ng-bind="order.manager"></td>
-                <td style="padding: 5px 10px" ng-bind="order.master"></td>
-                <td style="padding: 5px 10px" ng-bind="order.designer"></td>
-            </tr>
-        </table>
-</div>
-<br>
 <div class="block">
      <a href ng-click="show = !show" class="block-header">Ассортимент</a>
      <div ng-hide="show" class="block2">

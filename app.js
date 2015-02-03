@@ -17,7 +17,6 @@ app.controller('orderCtrl', ['$scope', 'Order', 'sample_status', 'sample_ink', '
         $scope.sample_status = sample_status;
         $scope.sample_ink = sample_ink;
         $scope.sample_pms = sample_pms;
-        $scope.order = Order.get();
         var today = new Date();
         var current_day = today;
         $scope.getCurrentDate = function() {
@@ -31,6 +30,10 @@ app.controller('orderCtrl', ['$scope', 'Order', 'sample_status', 'sample_ink', '
         };
         $scope.gotoNextMonth = function() {
             current_day.setMonth(current_day.getMonth() +1);
+            $scope.orders = Order.all(current_day);
+        };
+        $scope.gotoCurrentMonth = function() {
+            current_day = new Date();
             $scope.orders = Order.all(current_day);
         };
 }]);
