@@ -5,68 +5,27 @@
     </button>
     <button class="button1" style="width: auto" ng-click="gotoNextMonth()" title="К следующему месяцу"> &rarr;</button>
 </header>
-<div class="block2">
+<div class="block2" style="text-align: center">
     <ul class="hr">
-        <li class="cursor" ng-click="status = 'new'">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[0].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[0].label}}
-        </li>
-        <li class="cursor" ng-click="status = 'job'">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[1].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[1].label}}
-        </li>
-        <li class="cursor" ng-click="status = 'agreement'">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[2].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[2].label}}
-        </li>
-        <li class="cursor" ng-click="status = 'agreed'">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[3].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[3].label}}
-        </li>
-        <li class="cursor" ng-click="status = 'closed'">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[4].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[4].label}}
-        </li>
-        <li class="cursor" ng-click="status = 'deleted'">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[5].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[5].label}}
-        </li>
-        <li class="cursor" ng-click="status = ''">
-                <svg class="status_sample">
-                    <rect x="0" y="0" style="fill:{{sample_status[6].color}}; stroke: #000000" width="20" height="20"/>
-                </svg>
-                {{sample_status[6].label}}
+        <li ng-repeat="item in sample_status" ng-click="setStatus()">
+                <p class="{{sample_status[$index].name}}" style="display: inline">{{sample_status[$index].label}}</p>
         </li>
     </ul>
 </div>
-        <table class="block2" style="border: solid 1px #ccc">
+        <table class="block2">
             <tr class="table-header">
                 <th><a ng-click="sortparam = 'date'">Дата</a></th>
                 <th><a ng-click="sortparam = 'number'">Номер заказа</a></th>
-                <th class="table-header"><a class="table-header" ng-click="sortparam = 'customer'">Заказчик</a></th>
-                <th class="table-header"><a class="table-header" ng-click="sortparam = 'name'">Наименование заказа</a></th>
-                <th><a ng-click="sortparam = 'manager'">Менеджер</a></th>
-<!--               <th><a ng-click="sortparam = 'designer'">Дизайнер</a></th> -->
+                <th class="table-header"><a ng-click="sortparam = 'customer'">Заказчик</a></th>
+                <th class="table-header"><a ng-click="sortparam = 'name'">Наименование заказа</a></th>
+                <th class="table-header"><a ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" onclick="window.location.href='#/details'" ng-repeat="item in orders  | filter:status | orderBy:sortparam" ng-click="{{order == orders[$index]}}" >
+            <tr class="cursor" ng-repeat="item in orders  | filter:status | orderBy:sortparam" ng-click="setActiveOrder()">
                 <td class="{{item.status}}" ng-bind="item.date | date: 'd.MM'" style="text-align: center"></td>
                 <td class="{{item.status}}" ng-bind="item.number"></td>
                 <td class="{{item.status}}" ng-bind="item.customer"></td>
                 <td class="{{item.status}}" ng-bind="item.name"></td>
-                <td class="{{item.status}}" ng-bind="item.manager"></td>
-<!--                <td class="{{order.status}}" ng-bind="order.designer"></td> -->
+                <td class="{{item.status}}" ng-bind="item.manager" style="text-align: center"></td>
             </tr>
         </table>
 <br>

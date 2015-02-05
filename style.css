@@ -162,15 +162,15 @@
     padding: 15px 10px;
     cursor: default;
     text-decoration: none;
-    color: black;
+    color: gray;
 }
 .table-header {
-    color: white;
+    color: gray;
     text-align: center;
     text-decoration: none;
     padding: 15px 10px;
-    background: #A6CAAE;
-    height: 60px;
+    background: #eee;
+    height: 30px;
     cursor: pointer;
     width:800px;
 }
@@ -203,7 +203,7 @@
   font-size: 12px;
 }
 .new {
-    background: #FFFFFF;
+    background: yellow;
     text-align: left;
     padding: 5px 10px;
     cursor: pointer;
@@ -239,11 +239,13 @@
     cursor: pointer;
 }
 ul.hr {
+    font-size: 12px;
     margin: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
 }
 ul.hr li {
     display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    padding: 3px; /* Поля вокруг текста */
+    margin-right: -15px; /* Отступ слева */
+    padding: 5px; /* Поля вокруг текста */
+    cursor: pointer;
 }

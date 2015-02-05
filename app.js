@@ -11,7 +11,7 @@
                 })
                 .otherwise({redirectTo: '/list'});
         })
-app.controller('orderCtrl', ['$scope', 'Order', 'sample_status', 'sample_ink', 'sample_pms', function($scope, Order, sample_status, sample_ink, sample_pms) {
+app.controller('orderCtrl', ['$scope', '$location', 'Order', 'sample_status', 'sample_ink', 'sample_pms', function($scope, $location, Order, sample_status, sample_ink, sample_pms) {
         $scope.sortparam = "date";
         $scope.status = "";
         $scope.sample_status = sample_status;
@@ -24,6 +24,7 @@ app.controller('orderCtrl', ['$scope', 'Order', 'sample_status', 'sample_ink', '
             return current_date;
         };
         $scope.orders = Order.all(current_day);
+        $scope.order;
         $scope.gotoPrevMonth = function() {
             current_day.setMonth(current_day.getMonth() -1);
             $scope.orders = Order.all(current_day);
@@ -35,5 +36,12 @@ app.controller('orderCtrl', ['$scope', 'Order', 'sample_status', 'sample_ink', '
         $scope.gotoCurrentMonth = function() {
             current_day = new Date();
             $scope.orders = Order.all(current_day);
+        };
+        $scope.setStatus = function() {
+            $scope.status = this.item.name;
+        };
+        $scope.setActiveOrder = function() {
+            $scope.order = this.item;
+            $location.path('/details');
         };
 }]);

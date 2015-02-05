@@ -3,7 +3,7 @@
                  {
                     name: 'new',
                     label: 'новые',
-                    color: '#FFFFFF',
+                    color: 'yellow',
                  },
                  {
                     name: 'job',
@@ -32,7 +32,7 @@
                  },
                  {
                     name: '',
-                    label: 'все заказы',
+                    label: '__все заказы',
                     color: '#FFFFFF',
                  },
              ]
