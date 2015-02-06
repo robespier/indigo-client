@@ -5,9 +5,9 @@
                     templateUrl: 'list.html',
                     controller: 'orderCtrl'
                 })
-                .when('/details', {
+                .when('/details/:orderId', {
                     templateUrl: 'details.html',
-                    controller: 'orderCtrl'
+                    controller: 'orderCtrl',
                 })
                 .otherwise({redirectTo: '/list'});
         })
@@ -24,7 +24,6 @@ app.controller('orderCtrl', ['$scope', '$location', 'Order', 'sample_status', 's
             return current_date;
         };
         $scope.orders = Order.all(current_day);
-        $scope.order;
         $scope.gotoPrevMonth = function() {
             current_day.setMonth(current_day.getMonth() -1);
             $scope.orders = Order.all(current_day);
@@ -41,7 +40,7 @@ app.controller('orderCtrl', ['$scope', '$location', 'Order', 'sample_status', 's
             $scope.status = this.item.name;
         };
         $scope.setActiveOrder = function() {
-            $scope.order = this.item;
-            $location.path('/details');
+            var order = this.item;
+            $location.path('/details/' + ':' + order.id);
         };
 }]);

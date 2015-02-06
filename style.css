@@ -12,6 +12,7 @@
 }
 .body
 {
+  background: #eee;
   left:0px;
   top:0px;
   margin: 0 auto;
@@ -173,6 +174,7 @@
     height: 30px;
     cursor: pointer;
     width:800px;
+    border: solid 1px #ccc;
 }
 .odd {
     background: #FFF; /* Цвет фона нечетных строк */
@@ -203,7 +205,7 @@
   font-size: 12px;
 }
 .new {
-    background: yellow;
+    background: #FFFAC2;
     text-align: left;
     padding: 5px 10px;
     cursor: pointer;
@@ -234,6 +236,12 @@
 }
 .deleted {
     background: #767676;
+    text-align: left;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.all {
+    background: #FFFFFF;
     text-align: left;
     padding: 5px 10px;
     cursor: pointer;

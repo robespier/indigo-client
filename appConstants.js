@@ -3,7 +3,7 @@
                  {
                     name: 'new',
                     label: 'новые',
-                    color: 'yellow',
+                    color: 'FFFAC2',
                  },
                  {
                     name: 'job',
