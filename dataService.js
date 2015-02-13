@@ -1,4 +1,4 @@
-﻿angular.module('indigo').factory('Order', function() {
+﻿angular.module('indigoController').factory('Order', function() {
     var orders = [
                 {
                     date: new Date("Mon Feb 02 2015 00:00:00 GMT+0300"),
@@ -4978,6 +4978,10 @@
                 }
             };
             return current_orders;
+        },
+        get: function(current_order) {
+            var order = orders[0];
+            return order;
         },
     };
 });

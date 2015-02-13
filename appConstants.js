@@ -1,4 +1,4 @@
-﻿angular.module('indigo').constant('sample_status',
+﻿angular.module('indigoController').constant('sample_status',
             [
                  {
                     name: 'new',
@@ -30,14 +30,9 @@
                     label: 'аннулированные',
                     color: '#767676',
                  },
-                 {
-                    name: '',
-                    label: '__все заказы',
-                    color: '#FFFFFF',
-                 },
              ]
 );
-angular.module('indigo').constant('sample_ink',
+angular.module('indigoController').constant('sample_ink',
             [
 				{ name: 'Opaque',
                      color: '#FFFFFF',
@@ -62,7 +57,7 @@ angular.module('indigo').constant('sample_ink',
                   },
             ]
 );
-angular.module('indigo').constant('sample_pms',
+angular.module('indigoController').constant('sample_pms',
             {
                   '':         '#EEE',
                   '100':    '#F4ED7C',

@@ -1,5 +1,7 @@
 ﻿<div class="block">
         <a class="header" ng-bind="order.number"></a>
+        <a class="header" ng-bind="order.customer"></a>
+        <a class="header" ng-bind="order.name"></a>
 </div>
 <div class="block2">
 <div class="block">
@@ -92,8 +94,8 @@
                 <br>
                     <div class="block4">
                         <p class="block5" ng-repeat="inks in order.inks1"> <!-- Массив Opaque + CMYK + IndiChrome -->
-                                <input ng-model="order.inks1[$index].used" ng-click="{{order.inks1[$index].used}}" type="checkbox">
-                                <input ng-model="order.inks2[$index].used" ng-click="{{order.inks2[$index].used}}" type="checkbox">
+                                <input ng-model="order.inks1[$index].used" ng-click="order.inks1[$index].used" type="checkbox">
+                                <input ng-model="order.inks2[$index].used" ng-click="order.inks2[$index].used" type="checkbox">
                                     <svg class="ink_sample">
                                         <rect x="0" y="0" style="fill:{{sample_ink[$index].color}};" width="13" height="13"/>
                                     </svg>

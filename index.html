@@ -1,29 +1,13 @@
 ﻿<!DOCTYPE html>
-<html ng-app="indigo" ng-controller="orderCtrl">
+<html ng-app="indigoController" ng-controller="OrderController">
 <head>
          <title>Мои заказы</title>
-                <?xml version="1.0" encoding="utf-8"?>
                 <link rel="stylesheet" type="text/css" href="style.css">
-                <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body class="body"><br>
-<!--        <header class="header">
-                <img class="img-container" src="images/rom_pepsikoloff.jpg" width="54" height="54" align="left">
-                <p class="name">{{order.designer}}</p>
-                <div style="align: right">
-                    <select class="search">
-                        <option value="order">заказ</option>
-                        <option value="placement">паспорт</option>
-                        <option value="label">этикетка</option>
-                    </select>
-                    <input class="form1" type="text">
-                    <button>Найти</button>
-                </div>
-        </header>
--->        
 <div ng-view class="{{status}}"></div>
 
-                <script type="text/javascript" src="angular.min.js"></script>
+                <script type="text/javascript" src="angular.js"></script>
                 <script type="text/javascript" src="i18n/angular-locale_ru-ru.js"></script>
                 <script type="text/javascript" src="angular-route.min.js"></script>
                 <script type="text/javascript" src="app.js"></script>

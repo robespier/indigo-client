@@ -1,9 +1,9 @@
 ﻿<header class="header">
-	<button class="button1" style="width: auto" ng-click="gotoPrevMonth()" title="К предыдущему месяцу"> &larr; </button>
-    <button class="button1" ng-click="gotoCurrentMonth()" title="К текущему месяцу">
+	<button class="button" style="width: auto" ng-click="gotoPrevMonth()" title="К предыдущему месяцу">Н</button>
+    <button class="button" ng-click="gotoCurrentMonth()" title="К текущему месяцу">
         <a ng-bind="getCurrentDate() | date: 'MMMM yyyy' | uppercase"></a>
     </button>
-    <button class="button1" style="width: auto" ng-click="gotoNextMonth()" title="К следующему месяцу"> &rarr;</button>
+    <button class="button" style="width: auto" ng-click="gotoNextMonth()" title="К следующему месяцу">В</button>
 </header>
 <div class="block2" style="text-align: center">
     <ul class="hr">
