@@ -7,8 +7,8 @@
 </header>
 <div class="block2" style="text-align: center">
     <ul class="hr">
-        <li ng-repeat="item in sample_status" ng-click="setStatus()">
-                <p class="{{sample_status[$index].name}}" style="display: inline">{{sample_status[$index].label}}</p>
+        <li ng-repeat="status in sample_status" ng-click="setStatus()">
+                <p style="display: inline" ng-class="status.name" ng-bind="status.label"></p>
         </li>
     </ul>
 </div>
@@ -20,12 +20,12 @@
                 <th class="table-header"><a ng-click="sortparam = 'name'">Наименование заказа</a></th>
                 <th class="table-header"><a ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" ng-repeat="item in orders  | filter:status | orderBy:sortparam" ng-click="setActiveOrder()">
-                <td class="{{item.status}}" ng-bind="item.date | date: 'd.MM'" style="text-align: center"></td>
-                <td class="{{item.status}}" ng-bind="item.number"></td>
-                <td class="{{item.status}}" ng-bind="item.customer"></td>
-                <td class="{{item.status}}" ng-bind="item.name"></td>
-                <td class="{{item.status}}" ng-bind="item.manager" style="text-align: center"></td>
+            <tr class="cursor" ng-repeat="order in orders  | filter:status | orderBy:sortparam" ng-click="setActiveOrder()">
+                <td ng-class="order.status" ng-bind="order.date | date: 'd.MM'" style="text-align: center"></td>
+                <td ng-class="order.status" ng-bind="order.number"></td>
+                <td ng-class="order.status" ng-bind="order.customer"></td>
+                <td ng-class="order.status" ng-bind="order.name"></td>
+                <td ng-class="order.status" ng-bind="order.manager" style="text-align: center"></td>
             </tr>
         </table>
 <br>

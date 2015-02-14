@@ -18,11 +18,11 @@
             </tr>
             <tr class="{{order.status}}" ng-repeat="label in order.labels">
                 <td class="cell-center"><input type="checkbox"></td>
-                <td class="cell-center">{{$index+1}}</td>
-                <td class="cell-center">{{label.name}}</td>
-                <td class="cell-center">{{label.placement}}</td>
-                <td class="cell-center">{{label.source}}</td>
-                <td class="cell-center">{{label.run}}</td>
+                <td class="cell-center" ng-bind="$index+1"></td>
+                <td class="cell-center" ng-bind="label.name"></td>
+                <td class="cell-center" ng-bind="label.placement"></td>
+                <td class="cell-center" ng-bind="label.source"></td>
+                <td class="cell-center" ng-bind="label.run"></td>
             </tr>
       </table>
 <!--        <div style="margin: 15px 0px">

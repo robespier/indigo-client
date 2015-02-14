@@ -1,5 +1,5 @@
 ﻿var app = angular.module('indigoController', ['ngRoute'])
-       .config(function($routeProvider){
+       .config(function($routeProvider, $locationProvider){
             $routeProvider
                 .when('/list', {
                     templateUrl: 'list.html',
@@ -10,8 +10,9 @@
                     controller: 'OrderController',
                 })
                 .otherwise({redirectTo: '/list'});
+         $locationProvider.html5Mode(true);
         })
-app.controller('OrderController', ['$scope', '$location', 'Order', 'sample_status', 'sample_ink', 'sample_pms', function($scope, $location, Order, sample_status, sample_ink, sample_pms) {
+app.controller('OrderController', ['$scope', '$location', 'Orders', 'sample_status', 'sample_ink', 'sample_pms', function($scope, $location, Orders, sample_status, sample_ink, sample_pms) {
         $scope.sortparam = "date";
         $scope.status = "";
         $scope.sample_status = sample_status;
@@ -22,26 +23,24 @@ app.controller('OrderController', ['$scope', '$location', 'Order', 'sample_statu
             current_date = current_day;
             return current_date;
         };
-        var current_order;
-        $scope.orders = Order.all(current_day);
-        $scope.order = Order.get(current_order);
+        $scope.orders = Orders.all(current_day);
+        $scope.order = Orders.get();
         $scope.gotoPrevMonth = function() {
             current_day.setMonth(current_day.getMonth() -1);
-            $scope.orders = Order.all(current_day);
+            $scope.orders = Orders.all(current_day);
         };
         $scope.gotoNextMonth = function() {
             current_day.setMonth(current_day.getMonth() +1);
-            $scope.orders = Order.all(current_day);
+            $scope.orders = Orders.all(current_day);
         };
         $scope.gotoCurrentMonth = function() {
             current_day = new Date();
-            $scope.orders = Order.all(current_day);
+            $scope.orders = Orders.all(current_day);
         };
         $scope.setStatus = function() {
-            $scope.status = this.item.name;
+            $scope.status = this.status.name;
         };
         $scope.setActiveOrder = function() {
-            $scope.current_order = this.item;
-            $location.path('/details/' + ':' + this.item.id);
+            $location.path('/details/' + ':' + this.order.id);
         };
 }]);
