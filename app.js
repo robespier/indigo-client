@@ -1,17 +1,19 @@
-﻿var app = angular.module('indigoController', ['ngRoute'])
+﻿var app = angular.module('indigo', ['ngRoute'])
        .config(function($routeProvider){
             $routeProvider
                 .when('/list', {
                     templateUrl: 'list.html',
-                    controller: 'OrderController'
                 })
-                .when('/details', {
+                .when('/details/:id', {
                     templateUrl: 'details.html',
-                    controller: 'OrderController',
                 })
-                .otherwise({redirectTo: '/list'});
+                .otherwise({redirectTo: '/list'
+                });
         })
-app.controller('OrderController', ['$scope', '$location', 'Orders', 'sample_status', 'sample_ink', 'sample_pms', function($scope, $location, Orders, sample_status, sample_ink, sample_pms) {
+        .run(function($rootScope) {     
+            $rootScope.order = {};
+        })
+app.controller('OrderController', ['$scope', '$location', '$routeParams', 'Orders', 'sample_status', 'sample_ink', 'sample_pms', function($scope, $location, $routeParams, Orders, sample_status, sample_ink, sample_pms) {
         $scope.sortparam = "date";
         $scope.status = "";
         $scope.sample_status = sample_status;
@@ -23,7 +25,6 @@ app.controller('OrderController', ['$scope', '$location', 'Orders', 'sample_stat
             return current_date;
         };
         $scope.orders = Orders.all(current_day);
-        $scope.order = {};
         $scope.gotoPrevMonth = function() {
             current_day.setMonth(current_day.getMonth() -1);
             $scope.orders = Orders.all(current_day);
@@ -41,5 +42,6 @@ app.controller('OrderController', ['$scope', '$location', 'Orders', 'sample_stat
         };
         $scope.setActiveOrder = function() {
             $scope.order = this.item;
+            $location.path('/details/' + ':' + this.item.id);
         };
 }]);

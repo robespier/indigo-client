@@ -1,4 +1,4 @@
-﻿angular.module('indigoController').factory('Orders', function() {
+﻿angular.module('indigo').factory('Orders', function() {
     var orders = [
                 {
                     date: new Date("Mon Feb 02 2015 00:00:00 GMT+0300"),

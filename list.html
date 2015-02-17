@@ -20,7 +20,7 @@
                 <th class="table-header"><a ng-click="sortparam = 'name'">Наименование заказа</a></th>
                 <th class="table-header"><a ng-click="sortparam = 'manager'">Менеджер</a></th>
             </tr>
-            <tr class="cursor" ng-repeat="item in orders  | filter:status | orderBy:sortparam" ng-click="setActiveOrder()" onclick="window.location.href='#/details'">
+            <tr class="cursor" ng-repeat="item in orders  | filter:status | orderBy:sortparam" ng-click="setActiveOrder()">
                 <td ng-class="item.status" ng-bind="item.date | date: 'd.MM'" style="text-align: center"></td>
                 <td ng-class="item.status" ng-bind="item.number"></td>
                 <td ng-class="item.status" ng-bind="item.customer"></td>

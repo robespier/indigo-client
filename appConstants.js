@@ -1,4 +1,4 @@
-﻿angular.module('indigoController').constant('sample_status',
+﻿angular.module('indigo').constant('sample_status',
             [
                  {
                     name: 'new',
@@ -32,7 +32,7 @@
                  },
              ]
 );
-angular.module('indigoController').constant('sample_ink',
+angular.module('indigo').constant('sample_ink',
             [
 				{ name: 'Opaque',
                      color: '#FFFFFF',
@@ -57,7 +57,7 @@ angular.module('indigoController').constant('sample_ink',
                   },
             ]
 );
-angular.module('indigoController').constant('sample_pms',
+angular.module('indigo').constant('sample_pms',
             {
                   '':         '#EEE',
                   '100':    '#F4ED7C',
