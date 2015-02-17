@@ -4979,9 +4979,5 @@
             };
             return current_orders;
         },
-        get: function() {
-            var order = orders[0];
-            return order;
-        },
     };
 });
