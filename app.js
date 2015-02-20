@@ -13,10 +13,11 @@
         .run(function($rootScope) {     
             $rootScope.order = {};
         })
-app.controller('OrderController', ['$scope', '$location', '$routeParams', 'Orders', 'sample_status', 'sample_ink', 'sample_pms', function($scope, $location, $routeParams, Orders, sample_status, sample_ink, sample_pms) {
-        $scope.sortparam = "date";
-        $scope.status = "";
-        $scope.sample_status = sample_status;
+app.controller('OrderController', ['$scope', '$location', '$routeParams', 'Orders', 'order_status', 'label_status', 'sample_ink', 'sample_pms', function($scope, $location, $routeParams, Orders, order_status, label_status, sample_ink, sample_pms) {
+        $scope.sortparam = "date"; // параметр сортировки заказов
+        $scope.status = ""; // состояние заказа
+        $scope.order_status = order_status;
+        $scope.label_status = label_status;
         $scope.sample_ink = sample_ink;
         $scope.sample_pms = sample_pms;
         var current_day = new Date();
@@ -40,8 +41,14 @@ app.controller('OrderController', ['$scope', '$location', '$routeParams', 'Order
         $scope.setStatus = function() {
             $scope.status = this.status.name;
         };
+        $scope.setStatusAll = function() {
+            $scope.status = "";
+        };
         $scope.setActiveOrder = function() {
             $scope.order = this.item;
             $location.path('/details/' + ':' + this.item.id);
+        };
+        $scope.backToListOfOrders = function() {
+            $location.path('/list');
         };
 }]);

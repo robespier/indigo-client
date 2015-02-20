@@ -1,12 +1,29 @@
-﻿<div class="block">
+﻿<div class="{{status}}">
+<header class="header">
+    <button class="button" ng-click="backToListOfOrders()">
+        <a>Назад к заказам</a>
+    </button>
+</header>
+<div class="block">
         <a class="header" ng-bind="order.number"></a>
-        <a class="header" ng-bind="order.customer"></a>
+        <a class="header"><strong>{{order.customer}}</strong></a>
         <a class="header" ng-bind="order.name"></a>
 </div>
+
+<div class="block">
+     <a href ng-click="show_events = !show_events" class="block-header"><strong>События</strong>
+     </a>
+     <div ng-show="show_events" class="block2">
+        <p>
+        Здесь будут отображаться события по заказу в обратном порядке (от последнего к первому)
+        </p>
+     </div>
+</div>
+
 <div class="block2">
 <div class="block">
-     <a href ng-click="show = !show" class="block-header">Ассортимент</a>
-     <div ng-hide="show" class="block2">
+     <a href ng-click="show_stock = !show_stock" class="block-header"><strong>Ассортимент</strong></a>
+     <div ng-hide="show_stock" class="block2">
         <table>
             <tr class="table-header">
                 <th style="border: solid 1px #ccc"><input type="checkbox"></th>
@@ -15,14 +32,16 @@
                 <th class="table-header">Присвоить паспорт</th>
                 <th class="table-header" title="или из другого источника">Файл из паспорта</th>
                 <th class="table-header">Выполнить из паспорта</th>
+                <th class="table-header">Состояние</th>
             </tr>
-            <tr class="{{order.status}}" ng-repeat="label in order.labels">
-                <td class="cell-center"><input type="checkbox"></td>
-                <td class="cell-center" ng-bind="$index+1"></td>
-                <td class="cell-center" ng-bind="label.name"></td>
-                <td class="cell-center" ng-bind="label.placement"></td>
-                <td class="cell-center" ng-bind="label.source"></td>
-                <td class="cell-center" ng-bind="label.run"></td>
+            <tr ng-repeat="label in order.labels">
+                <td class="cell-center" style="border: solid 1px #ccc"><input type="checkbox"></td>
+                <td class="cell-center" style="border: solid 1px #ccc" ng-bind="$index+1"></td>
+                <td class="cell-center" style="border: solid 1px #ccc" ng-bind="label.name"></td>
+                <td class="cell-center" style="border: solid 1px #ccc" ng-bind="label.placement"></td>
+                <td class="cell-center" style="border: solid 1px #ccc" ng-bind="label.source"></td>
+                <td class="cell-center" style="border: solid 1px #ccc" ng-bind="label.run"></td>
+                <td class="cell-center" style="border: solid 1px #ccc" ng-bind="label.status"></td>
             </tr>
       </table>
 <!--        <div style="margin: 15px 0px">
@@ -37,10 +56,9 @@
         </div>
 -->    </div>
 </div>
-<br>
 <div class="block">
-       <a href ng-click="hide = !hide" class="block-header">Технология</a>
-            <div ng-hide="hide" class="block2">
+       <a href ng-click="show_tech = !show_tech" class="block-header"><strong>Технология</strong></a>
+            <div ng-hide="show_tech" class="block2">
                 <div class="block3">
                     <p>Основные параметры</p><br>
                         <p>Печать<br>
@@ -125,7 +143,7 @@
                                 <select class="form2" name="lak">
                                     <option value="none" ng-model="order.lak" ng-selected="{{order.lak == 'none'}}">без лака</option>
                                     <option value="solid" ng-model="order.lak" ng-selected="{{order.lak == 'solid'}}">сплошной лак</option>
-                                    <option value="select" ng-model="order.lak" ng-selected="{{order.lak == 'select'}}">выборочный лак</option>
+                                    <option value="select" ng-model="order.lak" ng-selected="{{order.lak == 'selected'}}">выборочный лак</option>
                                     <option value="both" ng-model="order.lak" ng-selected="{{order.lak == 'both'}}">сплошной/выборочный лаки</option>
                                 </select>
                     </p><br>
@@ -195,4 +213,40 @@
                              </p><br>
                             </div>
       </div>
+</div>
+<br>
+
+<div class="block">
+     <a href ng-click="show_com = !show_com" class="block-header"><strong>Комментарии</strong>
+     </a>
+     <div ng-show="show_com" class="block2">
+        <textarea ng-bind="order.comments" class="comment">
+        </textarea>
+     </div>
+</div>
+
+<div class="block">
+     <a href ng-click="show_histoty = !show_histoty" class="block-header"><strong>История</strong>
+     </a>
+     <div ng-show="show_histoty" class="block2">
+ <ul class="hr">
+        <li><strong>Поступил:</strong>
+                <p ng-bind="order.date | date: 'EEEE d MMM yyyy в H:mm'"></p>
+        </li><br>
+        <li><strong>Принят в работу:</strong>
+                <p ng-bind="order.adopted | date: 'EEEE d MMM yyyy в H:mm'"></p>
+        </li><br>
+        <li><strong>Отправлен на утверждение:</strong>
+                <p ng-bind="order.send | date: 'EEEE d MMM yyyy в H:mm'"></p>
+        </li><br>
+        <li><strong>Утвержден:</strong>
+                <p ng-bind="order.agreed | date: 'EEEE d MMM yyyy в H:mm'"></p>
+        </li><br>
+        <li><strong>Выведен:</strong>
+                <p ng-bind="order.completed | date: 'EEEE d MMM yyyy в H:mm'"></p>
+        </li>
+    </ul>
+     </div>
+</div>
+<br>
 </div>

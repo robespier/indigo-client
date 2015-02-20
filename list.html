@@ -1,4 +1,5 @@
-﻿<header class="header">
+﻿<div class="{{status}}">
+<header class="header">
 	<button class="button" style="width: auto" ng-click="gotoPrevMonth()" title="К предыдущему месяцу">Н</button>
     <button class="button" ng-click="gotoCurrentMonth()" title="К текущему месяцу">
         <a ng-bind="getCurrentDate() | date: 'MMMM yyyy' | uppercase"></a>
@@ -7,25 +8,33 @@
 </header>
 <div class="block2" style="text-align: center">
     <ul class="hr">
-        <li ng-repeat="status in sample_status" ng-click="setStatus()">
-                <p style="display: inline" ng-class="status.name" ng-bind="status.label"></p>
+        <li ng-repeat="status in order_status" ng-click="setStatus()">
+                <p  style="padding: 5px 10px; display: inline" ng-class="status.name" ng-bind="status.label"></p>
+        </li>
+        <li>
+            <a class="all" style="padding: 5px 10px; display: inline" ng-click="setStatusAll()">все заказы<a>
         </li>
     </ul>
 </div>
         <table class="block2">
             <tr class="table-header">
-                <th style="border: solid 1px #ccc"><a ng-click="sortparam = 'date'">Дата</a></th>
-                <th style="border: solid 1px #ccc"><a ng-click="sortparam = 'number'">Номер заказа</a></th>
+                <th class="table-header"><a ng-click="sortparam = 'date'">Дата поступления</a></th>
+                <th class="table-header"><a ng-click="sortparam = 'number'">Номер заказа</a></th>
                 <th class="table-header"><a ng-click="sortparam = 'customer'">Заказчик</a></th>
                 <th class="table-header"><a ng-click="sortparam = 'name'">Наименование заказа</a></th>
+                <th class="table-header"><a>Размер этикетки (мм)</a></th>
                 <th class="table-header"><a ng-click="sortparam = 'manager'">Менеджер</a></th>
+                <th class="table-header"><a ng-click="sortparam = 'print_type'">Тип печати</a></th>
             </tr>
             <tr class="cursor" ng-repeat="item in orders  | filter:status | orderBy:sortparam" ng-click="setActiveOrder()">
-                <td ng-class="item.status" ng-bind="item.date | date: 'd.MM'" style="text-align: center"></td>
-                <td ng-class="item.status" ng-bind="item.number"></td>
-                <td ng-class="item.status" ng-bind="item.customer"></td>
-                <td ng-class="item.status" ng-bind="item.name"></td>
+                <td ng-class="item.status" ng-bind="item.date | date: 'EEE d MMM'" style="padding: 5px 10px; text-align: center"></td>
+                <td ng-class="item.status" ng-bind="item.number" style="padding: 5px 10px; text-align: center"></td>
+                <td ng-class="item.status" ng-bind="item.customer" style="padding: 5px 10px"></td>
+                <td ng-class="item.status" ng-bind="item.name" style="padding: 5px 10px"></td>
+                <td ng-class="item.status" style="padding: 5px 10px; text-align: center">{{item.size_x}}x{{item.size_y}}</td>
                 <td ng-class="item.status" ng-bind="item.manager" style="text-align: center"></td>
+                <td ng-class="item.status" ng-bind="item.print_type" style="text-align: center"></td>
             </tr>
         </table>
 <br>
+</div>

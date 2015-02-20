@@ -28,6 +28,12 @@
   height: 60px;
   line-height: 60px; 
 }
+.comment {
+  font-family: latolight;
+  text-align: center;
+  width: 790px;
+  height: auto;
+}
 .cursor {
   cursor: pointer;
 }
@@ -163,9 +169,10 @@
     padding: 15px 10px;
     cursor: default;
     text-decoration: none;
-    color: gray;
+    color: white;
 }
 .table-header {
+    border: solid 1px #ccc;
     color: gray;
     text-align: center;
     text-decoration: none;
@@ -174,7 +181,6 @@
     height: 30px;
     cursor: pointer;
     width:800px;
-    border: solid 1px #ccc;
 }
 .odd {
     background: #FFF; /* Цвет фона нечетных строк */
@@ -186,6 +192,7 @@
     font-size: 12px;
     text-align: center;
     padding: 5px 10px;
+    background: white;
 }
 .img-container {
     border-radius: 30px;
@@ -207,43 +214,36 @@
 .new {
     background: #FFFAC2;
     text-align: left;
-    padding: 5px 10px;
     cursor: pointer;
 }
 .job {
     background: #CCE8FF;
     text-align: left;
-    padding: 5px 10px;
     cursor: pointer;
 }
 .agreement {
     background: #87B7E1;
     text-align: left;
-    padding: 5px 10px;
     cursor: pointer;
 }
 .agreed {
     background: #C7E4BA;
     text-align: left;
-    padding: 5px 10px;
     cursor: pointer;
 }
-.closed {
+.completed {
     background: #F8BBC7;
     text-align: left;
-    padding: 5px 10px;
     cursor: pointer;
 }
 .deleted {
-    background: #767676;
+    background: #C7C8CA;
     text-align: left;
-    padding: 5px 10px;
     cursor: pointer;
 }
 .all {
     background: #FFFFFF;
     text-align: left;
-    padding: 5px 10px;
     cursor: pointer;
 }
 ul.hr {

@@ -1,34 +1,52 @@
-﻿angular.module('indigo').constant('sample_status',
+﻿angular.module('indigo').constant('order_status',
             [
                  {
                     name: 'new',
                     label: 'новые',
-                    color: 'FFFAC2',
                  },
                  {
                     name: 'job',
                     label: 'в работе',
-                    color: '#CCE8FF',
                  },
                  {
                     name: 'agreement',
                     label: 'на утверждении',
-                    color: '#87B7E1',
                  },
                  {
                     name: 'agreed',
                     label: 'утвержденные',
-                    color: '#C7E4BA',
                  },
                  {
-                    name: 'closed',
+                    name: 'completed',
                     label: 'завершенные',
-                    color: '#F8BBC7',
                  },
                  {
                     name: 'deleted',
                     label: 'аннулированные',
-                    color: '#767676',
+                 },
+             ]
+);
+angular.module('indigo').constant('label_status',
+            [
+                 {
+                    name: 'requires_changes',
+                    label: 'требует изменений',
+                 },
+                 {
+                    name: 'без изменений',
+                    label: 'unchanged',
+                 },
+                 {
+                    name: 'amended',
+                    label: 'изменения внесены',
+                 },
+                 {
+                    name: 'agreed',
+                    label: 'утверждена',
+                 },
+                 {
+                    name: 'completed',
+                    label: 'выведена',
                  },
              ]
 );
