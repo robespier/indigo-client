@@ -4,9 +4,9 @@
 }
 @font-face {
     font-family: 'latolight';
-    src: url('fonts/lato-light.eot');
-    src: url('fonts/lato-light.eot?#iefix') format('embedded-opentype'),
-          url('fonts/lato-light.woff') format('woff');
+    src: url('../fonts/lato-light.eot');
+    src: url('../fonts/lato-light.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/lato-light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -214,37 +214,30 @@
 .new {
     background: #FFFAC2;
     text-align: left;
-    cursor: pointer;
 }
 .job {
     background: #CCE8FF;
     text-align: left;
-    cursor: pointer;
 }
 .agreement {
     background: #87B7E1;
     text-align: left;
-    cursor: pointer;
 }
 .agreed {
     background: #C7E4BA;
     text-align: left;
-    cursor: pointer;
 }
 .completed {
     background: #F8BBC7;
     text-align: left;
-    cursor: pointer;
 }
 .deleted {
     background: #C7C8CA;
     text-align: left;
-    cursor: pointer;
 }
 .all {
     background: #FFFFFF;
     text-align: left;
-    cursor: pointer;
 }
 ul.hr {
     font-size: 12px;
@@ -255,5 +248,4 @@ ul.hr li {
     display: inline; /* Отображать как строчный элемент */
     margin-right: -15px; /* Отступ слева */
     padding: 5px; /* Поля вокруг текста */
-    cursor: pointer;
 }

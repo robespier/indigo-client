@@ -34,6 +34,14 @@ app.controller('OrderController', ['$scope', '$location', '$routeParams', 'Order
             current_day.setMonth(current_day.getMonth() +1);
             $scope.orders = Orders.all(current_day);
         };
+        $scope.gotoPrevYear = function() {
+            current_day.setMonth(current_day.getMonth() -12);
+            $scope.orders = Orders.all(current_day);
+        };
+        $scope.gotoNextYear = function() {
+            current_day.setMonth(current_day.getMonth() +12);
+            $scope.orders = Orders.all(current_day);
+        };
         $scope.gotoCurrentMonth = function() {
             current_day = new Date();
             $scope.orders = Orders.all(current_day);

@@ -1,20 +1,21 @@
-﻿<div class="{{status}}">
-<header class="header">
-	<button class="button" style="width: auto" ng-click="gotoPrevMonth()" title="К предыдущему месяцу">Н</button>
-    <button class="button" ng-click="gotoCurrentMonth()" title="К текущему месяцу">
+﻿<header class="header">
+     <a ng-click="gotoPrevYear()"><i class="icon-double-angle-left"></i>год</a>
+	  <a ng-click="gotoPrevMonth()"><i class="icon-angle-left"></i>месяц</a>
+     <button class="button" ng-click="gotoCurrentMonth()">
         <a ng-bind="getCurrentDate() | date: 'MMMM yyyy' | uppercase"></a>
-    </button>
-    <button class="button" style="width: auto" ng-click="gotoNextMonth()" title="К следующему месяцу">В</button>
+     </button>
+     <a ng-click="gotoNextMonth()"><i class="icon-angle-right"></i>месяц</a>
+     <a ng-click="gotoNextYear()"><i class="icon-double-angle-left"></i>год</a>
 </header>
 <div class="block2" style="text-align: center">
     <ul class="hr">
         <li ng-repeat="status in order_status" ng-click="setStatus()">
                 <p  style="padding: 5px 10px; display: inline" ng-class="status.name" ng-bind="status.label"></p>
         </li>
-        <li>
+<!--        <li>
             <a class="all" style="padding: 5px 10px; display: inline" ng-click="setStatusAll()">все заказы<a>
         </li>
-    </ul>
+-->    </ul>
 </div>
         <table class="block2">
             <tr class="table-header">
@@ -26,7 +27,7 @@
                 <th class="table-header"><a ng-click="sortparam = 'manager'">Менеджер</a></th>
                 <th class="table-header"><a ng-click="sortparam = 'print_type'">Тип печати</a></th>
             </tr>
-            <tr class="cursor" ng-repeat="item in orders  | filter:status | orderBy:sortparam" ng-click="setActiveOrder()">
+            <tr class="cursor" ng-repeat="item in orders  | orderBy:sortparam" ng-click="setActiveOrder()">
                 <td ng-class="item.status" ng-bind="item.date | date: 'EEE d MMM'" style="padding: 5px 10px; text-align: center"></td>
                 <td ng-class="item.status" ng-bind="item.number" style="padding: 5px 10px; text-align: center"></td>
                 <td ng-class="item.status" ng-bind="item.customer" style="padding: 5px 10px"></td>
@@ -37,4 +38,3 @@
             </tr>
         </table>
 <br>
-</div>
