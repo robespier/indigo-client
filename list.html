@@ -1,11 +1,12 @@
 ﻿<header class="header">
-     <a ng-click="gotoPrevYear()"><i class="icon-double-angle-left"></i>год</a>
-	  <a ng-click="gotoPrevMonth()"><i class="icon-angle-left"></i>месяц</a>
-     <button class="button" ng-click="gotoCurrentMonth()">
-        <a ng-bind="getCurrentDate() | date: 'MMMM yyyy' | uppercase"></a>
-     </button>
-     <a ng-click="gotoNextMonth()"><i class="icon-angle-right"></i>месяц</a>
-     <a ng-click="gotoNextYear()"><i class="icon-double-angle-left"></i>год</a>
+     <a class="button" ng-click="gotoPrevYear()"><i class="fa fa-chevron-left"></i></a>
+	  <a class="button" ng-click="gotoPrevMonth()"><i class="fa fa-angle-left"></i></a>
+     <div style="display: inline; width: 130px" ng-click="gotoCurrentMonth()">
+            <a class="button" ng-bind="getCurrentDate() | date: 'MMMM yyyy' | uppercase">
+            </a>
+     </div>
+     <a class="button" ng-click="gotoNextMonth()"><i class="fa fa-angle-right"></i></a>
+     <a class="button" ng-click="gotoNextYear()"><i class="fa fa-chevron-right" style="height: 16px; line-height: 16px"></i></a>
 </header>
 <div class="block2" style="text-align: center">
     <ul class="hr">
@@ -19,13 +20,13 @@
 </div>
         <table class="block2">
             <tr class="table-header">
-                <th class="table-header"><a ng-click="sortparam = 'date'">Дата поступления</a></th>
-                <th class="table-header"><a ng-click="sortparam = 'number'">Номер заказа</a></th>
+                <th style="border: solid 1px #ccc"><a ng-click="sortparam = 'date'">Дата поступления</a></th>
+                <th style="border: solid 1px #ccc"><a ng-click="sortparam = 'number'">Номер заказа</a></th>
                 <th class="table-header"><a ng-click="sortparam = 'customer'">Заказчик</a></th>
                 <th class="table-header"><a ng-click="sortparam = 'name'">Наименование заказа</a></th>
-                <th class="table-header"><a>Размер этикетки (мм)</a></th>
-                <th class="table-header"><a ng-click="sortparam = 'manager'">Менеджер</a></th>
-                <th class="table-header"><a ng-click="sortparam = 'print_type'">Тип печати</a></th>
+                <th style="border: solid 1px #ccc"><a>Размер этикетки (мм)</a></th>
+                <th class="table-header"><a ng-click="sortparam = 'manager'">Ответственный</a></th>
+                <th style="border: solid 1px #ccc"><a ng-click="sortparam = 'print_type'">Тип печати</a></th>
             </tr>
             <tr class="cursor" ng-repeat="item in orders  | orderBy:sortparam" ng-click="setActiveOrder()">
                 <td ng-class="item.status" ng-bind="item.date | date: 'EEE d MMM'" style="padding: 5px 10px; text-align: center"></td>

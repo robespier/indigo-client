@@ -1,8 +1,6 @@
 ﻿<div class="{{order.status}}">
 <header class="header">
-    <button class="button" ng-click="backToListOfOrders()">
-        <a>Назад к заказам</a>
-    </button>
+    <a class="button" ng-click="backToListOfOrders()">Назад к заказам</a>
 </header>
 <div class="block">
         <a class="header" ng-bind="order.number"></a>
@@ -58,7 +56,7 @@
 </div>
 <div class="block">
        <a href ng-click="show_tech = !show_tech" class="block-header"><strong>Технология</strong></a>
-            <div ng-hide="show_tech" class="block2">
+            <div ng-show="show_tech" class="block2">
                 <div class="block3">
                     <p>Основные параметры</p><br>
                         <p>Печать<br>
@@ -76,18 +74,25 @@
                                     <option value="in-mold" ng-selected="{{order.label_type == 'in-mold'}}">in-mold</option>
                                </select>
                          </p><br>
-                         <p>Материал<br>
-                              <select class="form2" name="material_type">
-								<option value="sem" ng-selected="{{order.material_type == 'sem'}}">sem (бумага п/глянцевая)</option>
-								<option value="pew" ng-selected="{{order.material_type == 'pew'}}">pew (пленка белая)</option>
-                                    <option value="pptr" ng-selected="{{order.material_type == 'pptr'}}">pptr (пленка прозрачная)</option>
-								<option value="mps" ng-selected="{{order.material_type == 'mps'}}">mps (бумага металлизированая)</option>
-                                    <option value="pps" ng-selected="{{order.material_type == 'pps'}}">pps (пленка металлизированая)</option>
+                </div>
+                <div class="block3">
+                         <p>Материал</p>
+                         <br>
+                        <div class="block4">
+                            <br>
+                              <select class="form1" name="material_type">
+								<option value="sem" ng-selected="{{order.material_type == 'sem'}}">бумага п/глянцевая</option>
+								<option value="pew" ng-selected="{{order.material_type == 'pew'}}">пленка белая</option>
+                                    <option value="pptr" ng-selected="{{order.material_type == 'pptr'}}">пленка прозрачная</option>
+								<option value="mps" ng-selected="{{order.material_type == 'mps'}}">бумага металлизир.</option>
+                                    <option value="pps" ng-selected="{{order.material_type == 'pps'}}">пленка металлизир.</option>
                                </select>
-                          </p><br>
-                          <p>Ширина пореза материала (мм)
+                          <br><br>
+                        </div>
+                        <div class="block4">
+                          <p>Ширина пореза (мм)</p>
                                 <input ng-model="order.material_width" value="{{order.material_width}}" class="form1" style="text-align: center" name="material_width">
-                          </p><br>
+                          <br><br>
                           <p>Высечка<br>
 							<select class="form1" name="cut_type">
 								<option value="ready" ng-selected="{{order.cut_type == 'ready'}}">готовая</option>
@@ -97,7 +102,8 @@
 								<option value="no_cut" ng-selected="{{order.cut_type == 'no_cut'}}">без высекания</option>
 							</select>
                            </p><br>
-                           <p>Номер штампа высечки<br>
+                         </div>
+                           <p>Номер штампа<br>
 							<input ng-model="order.cut_number" value="{{order.cut_number}}" class="form1" style="text-align: center" name="cut_number" type="text">
                            </p><br>
                            <p>Размеры этикетки (мм)<br>
@@ -132,6 +138,8 @@
                     </div>
                     <div class="block4">
                         <br>
+                </div>
+                <div class="block3">
                             <p>Отделка<br>
                                 <select class="form2" name="polish">
                                     <option value="none" ng-model="order.polish" ng-selected="{{order.polish == 'none'}}">без отделки</option>
@@ -181,7 +189,9 @@
                                     <input ng-model="order.AQ" class="form" name="AQ" type="text">
                                 AL:
                                     <input ng-model="order.AL" class="form" name="AL" type="text"><br>
-                            </p><br><br>
+                            </p><br>
+      </div>
+      <div class="block3">
                     <p>Намотка</p>
                             <br>
                             <div class="block4">
