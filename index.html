@@ -7,6 +7,13 @@
                 <meta charset="utf-8">
 </head>
 <body class="body">
+<div class="block2" style="text-align: center">
+    <ul class="hr">
+        <li ng-repeat="status in order_status" ng-click="setStatus()">
+                <p  style="padding: 5px 10px; display: inline" ng-class="status.name" ng-bind="status.label"></p>
+        </li>
+    </ul>
+</div>
 <div ng-view></div>
                 <script type="text/javascript" src="angular.js"></script>
                 <script type="text/javascript" src="i18n/angular-locale_ru-ru.js"></script>

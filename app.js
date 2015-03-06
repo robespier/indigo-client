@@ -59,4 +59,10 @@ app.controller('OrderController', ['$scope', '$location', '$routeParams', 'Order
         $scope.backToListOfOrders = function() {
             $location.path('/list');
         };
+        $scope.openLabel = function() {
+            var label = $scope.order.labels[0].file;
+            label.open();
+        };
+        $scope.technology = "digital.html";
+        $scope.label_list = "label_list.html";
 }]);

@@ -45,12 +45,13 @@
   font-size: 12px;
 }
 .form1 {
-  width: 114px;
+  width: 120px;
   font-family: latolight;
   font-size: 12px;
 }
 .form2 {
-  width: 230px;
+  width: 140px;
+  padding: 0px 10px;
   font-family: latolight;
   font-size: 12px;
 }
@@ -100,10 +101,10 @@
 }
 .block3 {
   border: solid 1px #ccc;
-  width: 283px;
+  width: auto;
   height: 170px;
-  margin: 0px 2px;
-  padding: 5px 5px ;
+  margin: 0px 0.85px;
+  padding: 5px 10px ;
   float: left; /* Выравнивание по левому краю */
   font-family: latolight;
   font-size: 12px;
@@ -192,6 +193,7 @@
     text-align: center;
     padding: 5px 10px;
     background: white;
+    cursor: pointer;
 }
 .img-container {
     border-radius: 30px;
@@ -215,7 +217,7 @@
     text-align: left;
 }
 .job {
-    background: #CCE8FF;
+    background: #FFFFFF;
     text-align: left;
 }
 .agreement {

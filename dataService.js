@@ -1,13 +1,13 @@
 ﻿angular.module('indigo').factory('Orders', function() {
     var orders = [
                 {
-                    date: new Date("Wed Feb 18 2015 12:48:00 GMT+0300"),
-                    adopted: new Date("Wed Feb 18 2015 13:18:00 GMT+0300"),
+                    date: new Date("Wed Mar 4 2015 12:48:00 GMT+0300"),
+                    adopted: new Date("Wed Mar 4 2015 13:18:00 GMT+0300"),
                     send: "",
                     agreed: "",
                     completed: "",
                     id: "000",
-                    comments: "убираем знаки рст, добровольная сертификация,  добавляем ЕАС - только в пасте. Мед - без изменений.",
+                    comments: "убираем знаки рст, добровольная сертификация,  добавляем ЕАС",
                     number: "115Ц00658/5",
                     customer: "Сания ООО",
                     name: "Мед и паста шоколадная (в ассортименте)",
@@ -16,6 +16,7 @@
                     status: "job",
                     designer: "Сергеев Р.",
                     print_type: "digital",
+                    print_mashine: "6000",
                     label_type: "self-label",
                     material_type: "pew",
                     material_width: "215",
@@ -26,7 +27,6 @@
                     roll_method: "hand", 
                     roll_type: "outside", 
                     roll_direct: "",
-                    polish: "warnish",
                     lak: "selected",
                     tisnenie: "none",
                     kongrev: "none",
@@ -42,6 +42,7 @@
 					placement: "",
 					source: "",
 					run: "d4300048",
+                       file_path: "Y:\\d4\\300\\048\\med_arahis.eps",
 					status: "job",
 				},
 				{
@@ -49,6 +50,7 @@
 					placement: "",
 					source: "",
 					run: "d4300048",
+                       file_path: "Y:\\d4\\300\\048\\med_fistash.eps",
 					status: "job",
 				},
 				{
@@ -56,6 +58,7 @@
 					placement: "d4300065",
 					source: "d4300048",
 					run: "",
+                       file_path: "Y:\\d4\\300\\065\\pasta_kungut.eps",
 					status: "job",
 				},
 				{
@@ -63,6 +66,7 @@
 					placement: "d4300065",
 					source: "d4300048",
 					run: "",
+                       file_path: "Y:\\d4\\300\\065\\pasta_tikva.eps",
 					status: "job",
 				},
 			],
