@@ -1,0 +1,74 @@
+﻿<div class="{{order.status}}">
+
+<header class="header">
+    <a class="button" ng-click="backToListOfOrders()">Назад к заказам</a>
+</header>
+
+<div class="block">
+        <a class="header" ng-bind="order.number"></a>
+        <a class="header"><strong>{{order.customer}}</strong></a>
+        <a class="header" ng-bind="order.name"></a>
+</div>
+
+<!-- События по заказу -->
+
+<div class="block">
+     <a href ng-click="show_events = !show_events" class="block-header"><strong>События</strong></a>
+     <div ng-show="show_events" class="block2">
+        <p>Здесь будут отображаться события по заказу в обратном порядке (от последнего к первому)</p>
+     </div>
+</div>
+
+<!-- Ассортимент -->
+
+<div class="block">
+     <a href ng-click="show_stock = !show_stock" class="block-header"><strong>Ассортимент</strong></a>
+     <div ng-hide="show_stock" ng-include="label_list" class="block2">
+     </div>
+</div>
+
+<!-- Технология -->
+
+<div class="block">
+       <a href ng-click="show_tech = !show_tech" class="block-header"><strong>Технология</strong></a>
+            <div ng-hide="show_tech" ng-include="technology" class="block2">
+            </div>
+</div>
+
+<!-- Комментарии -->
+
+<div class="block">
+     <a href ng-click="show_com = !show_com" class="block-header"><strong>Комментарии</strong>
+     </a>
+     <div ng-show="show_com" class="block2">
+        <textarea ng-bind="order.comments" class="comment">
+        </textarea>
+     </div>
+</div>
+
+<!-- История заказа -->
+
+<div class="block">
+     <a href ng-click="show_histoty = !show_histoty" class="block-header"><strong>История</strong>
+     </a>
+     <div ng-show="show_histoty" class="block2">
+ <ul class="hr">
+        <li><strong>Поступил:</strong>
+                <p ng-bind="order.date | date: 'EEEE d MMM yyyy в H:mm'"></p>
+        </li><br>
+        <li><strong>Принят в работу:</strong>
+                <p ng-bind="order.adopted | date: 'EEEE d MMM yyyy в H:mm'"></p>
+        </li><br>
+        <li><strong>Отправлен на утверждение:</strong>
+                <p ng-bind="order.send | date: 'EEEE d MMM yyyy в H:mm'"></p>
+        </li><br>
+        <li><strong>Утвержден:</strong>
+                <p ng-bind="order.agreed | date: 'EEEE d MMM yyyy в H:mm'"></p>
+        </li><br>
+        <li><strong>Выведен:</strong>
+                <p ng-bind="order.completed | date: 'EEEE d MMM yyyy в H:mm'"></p>
+        </li>
+    </ul>
+     </div>
+</div>
+<br>

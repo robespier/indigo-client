@@ -1,0 +1,32 @@
+﻿        <table>
+            <tr class="table-header">
+                <th style="border: solid 1px #ccc"><input type="checkbox"></th>
+                <th style="border: solid 1px #ccc">п/п</th>
+                <th class="table-header">Наименование этикетки</th>
+                <th class="table-header">Присвоить паспорт</th>
+                <th class="table-header" title="или из другого источника">Файл из паспорта</th>
+                <th class="table-header">Выполнить из паспорта</th>
+                <th class="table-header">Состояние</th>
+            </tr>
+            <tr ng-repeat="label in order.labels">
+                <td class="cell-center" style="border: solid 1px #ccc"><input type="checkbox"></td>
+                <td class="cell-center" style="border: solid 1px #ccc" ng-bind="$index+1"></td>
+                <td class="cell-center" style="border: solid 1px #ccc" ng-bind="label.name" ng-click="labelOpen()"></td>
+                <td class="cell-center" style="border: solid 1px #ccc" ng-bind="label.placement"></td>
+                <td class="cell-center" style="border: solid 1px #ccc" ng-bind="label.source"></td>
+                <td class="cell-center" style="border: solid 1px #ccc" ng-bind="label.run"></td>
+                <td class="cell-center" style="border: solid 1px #ccc" ng-bind="label.status"></td>
+            </tr>
+      </table>
+      
+<!--        <div style="margin: 15px 0px">
+            <a href="#" class="button" >!</a>
+            <a href="#" class="button" >Сравнить технологию</a>
+            <a href="#" class="button" >+</a>
+            <a href="#" class="button" >–</a>
+            <a href="#" class="button" >Внести правки</a>
+            <a href="#" class="button" >Отправить корректору</a>
+            <a href="#" class="button" >Вывести</a>
+            <a href="#" class="button" >История</a>
+        </div>
+-->

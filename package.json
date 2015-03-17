@@ -1,0 +1,19 @@
+﻿{
+    "name": "indigo-app",
+    "version": "0.0.1",
+    "description": "",
+    "author": "",
+    "main": "view/index.html",
+    "window": {
+        "title": "Мои Заказы",
+        "width": 1220,
+        "height": 900,
+        "min_width": 1220,
+        "min_height": 210,
+        "toolbar": false,
+        "position": "center",
+        "frame": true
+     },
+    "dependencies": {
+    }
+}
