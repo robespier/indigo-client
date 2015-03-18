@@ -2,11 +2,24 @@
 
 app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
 
-var templateFolder = new Folder ('D:\\work\\template');
-var template = new File (templateFolder + '\\' + '1064001' + '.ait');
-open(template);
-var myDoc = app.activeDocument;
-var target = myDoc.layers['cut'].pathItems[0];
+var templateFolder = new Folder ('D:\\work\\template'); //Ссылка на папку template
+var templateFile = new File (templateFolder + '\\' + '1100207' + '.ait');
+var templateListFile = new File (templateFolder + '\\' + 'cut_list' + '.csv'); //Ссылка на файл template-листа
+var templateListArray = []; //Массив строк из template-листа
+
+var template = []; // Экземплярная переменная для хранения шаблонов
+templateListFile.open(); // Открываем template-лист
+		while (line=templateListFile.readln()) {
+			file_name = line;
+			var templateObjectFile= new File (file_name); // Создаем ссылку на файл шаблона
+			this.template.push(templateObjectFile); // Сохраняем ссылку на файл в экземплярной переменной
+		};
+this.templateListFile.close();
+
+
+
+open(templateFile);
+var target = app.activeDocument.layers['cut'].pageItems[0];
 target.selected = true;
 
 app.copy();
@@ -22,9 +35,17 @@ doc.activate();
 
 app.paste();
 
-alert (target.width, 'Size X');
-alert (target.height, 'Size Y');
+// Экпортв SVG
 
-app.activeDocument.close (SaveOptions.DONOTSAVECHANGES); // здесь надо сохранить содержимое в SVG-файл.
+var exportOptions = new ExportOptionsSVG();
+var type = ExportType.SVG;
+var fileSpec = new File(templateFolder + '\\svg' + '\\' + '1100207' + '.svg');
+exportOptions.embedRasterImages = true;
+exportOptions.embedAllFonts = false;
+exportOptions.fontSubsetting = SVGFontSubsetting.GLYPHSUSED;
+app.activeDocument.exportFile( fileSpec, type, exportOptions );
 
+
+app.activeDocument.close;
+app.activeDocument.close (SaveOptions.DONOTSAVECHANGES);
 app.activeDocument.close (SaveOptions.DONOTSAVECHANGES);
