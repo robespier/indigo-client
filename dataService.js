@@ -19,6 +19,7 @@
                     print_mashine: "6000",
                     label_type: "self-label",
                     material_type: "pew",
+                    material_name: "PE TOP White S692_Fasson",
                     material_width: "215",
                     cut_type: "ready",
                     cut_number: "1100207",
@@ -3224,7 +3225,7 @@
                     ],  
                 },
                 {
-                    date: new Date("Mon Nov 17 2014 00:00:00 GMT+0300"),
+                    date: new Date("Mon Mar 16 2015 00:00:00 GMT+0300"),
                     id: "049",
                     number: "414Ц05059",
                     customer: "Пищехимпродукт ПКП ООО",

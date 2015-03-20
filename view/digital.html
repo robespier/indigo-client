@@ -1,15 +1,15 @@
-﻿                <div class="block3">
+﻿                <div class="block3" style="width: 120px; background: orange">
                     <p>Параметры</p><br>
                         <p>Печать<br>
-                                <select class="form2" name="print_type">
-                                    <option value="digital" ng-selected="{{order.print_type == 'digital'}}">цифровая</option>
+                              <select class="form2" name="print_type">
+                                <option value="digital" ng-selected="{{order.print_type == 'digital'}}">цифровая</option>
 								<option value="flexo" ng-selected="{{order.print_type == 'flexo'}}">флексо</option>
 								<option value="combo" ng-selected="{{order.print_type == 'combo'}}">комбинированная</option>
-                                </select>
+                              </select>
                         </p><br>
                         <p>Печатная машина<br>
-                                <select class="form2" name="print_type">
-                                    <option value="4500" ng-selected="{{order.print_mashine == '4500'}}">Indigo 4500</option>
+                              <select class="form2" name="print_type">
+                                <option value="4500" ng-selected="{{order.print_mashine == '4500'}}">Indigo 4500</option>
 								<option value="6000" ng-selected="{{order.print_mashine == '6000'}}">Indigo 6000</option>
                                 </select>
                         </p><br>
@@ -19,28 +19,37 @@
 								<option value="termo" ng-selected="{{order.label_type == 'termo'}}">термоусадочная</option>
 								<option value="oborot" ng-selected="{{order.label_type == 'oborot'}}">в оборот</option>
                                     <option value="in-mold" ng-selected="{{order.label_type == 'in-mold'}}">in-mold</option>
-                               </select>
+                              </select>
                          </p><br>
                 </div>
                 
-                <div class="block3">
+                <div class="block3" style="width: 190px; background: orange">
                          <p>Материал</p>
                          <br>
-                            <br>
-                              <select class="form2" name="material_type">
-								<option value="sem" ng-selected="{{order.material_type == 'sem'}}">бумага п/глянцевая</option>
-								<option value="pew" ng-selected="{{order.material_type == 'pew'}}">пленка белая</option>
-                                    <option value="pptr" ng-selected="{{order.material_type == 'pptr'}}">пленка прозрачная</option>
-								<option value="mps" ng-selected="{{order.material_type == 'mps'}}">бумага металлизир.</option>
-                                    <option value="pps" ng-selected="{{order.material_type == 'pps'}}">пленка металлизир.</option>
-                               </select>
-                          <br><br>
-                          <p>Порез (мм)</p>
+                            <p>Тип</p>
+                              <select class="form3" name="material_type">
+								<option value="sem" ng-selected="{{order.material_type == 'sem'}}">бумага п/глянцевая белая</option>
+								<option value="pew" ng-selected="{{order.material_type == 'pew'}}">полиэтилен белый</option>
+                                <option value="pptr" ng-selected="{{order.material_type == 'pptr'}}">полиэтилен прозрачный</option>
+								<option value="mps" ng-selected="{{order.material_type == 'mps'}}">бумага металлизир. серебро</option>
+                                <option value="pps" ng-selected="{{order.material_type == 'pps'}}">полипропилен металлизир.</option>
+                              </select>
+                            <br><br>
+                            <p>Название</p>
+                              <select class="form3" name="material_type">
+                                <option value="sem" ng-selected="{{order.material_type == 'sem'}}">MC Primecoat S2000 Fasson</option>
+                                <option value="pew" ng-selected="{{order.material_type == 'pew'}}">PE TOP White S692 Fasson</option>
+                                <option value="pptr" ng-selected="{{order.material_type == 'pptr'}}">пленка прозрачная</option>
+                                <option value="mps" ng-selected="{{order.material_type == 'mps'}}">бумага металлизир.</option>
+                                <option value="pps" ng-selected="{{order.material_type == 'pps'}}">пленка металлизир.</option>
+                              </select>
+                            <br><br>
+                            <p>Порез (мм)</p>
                                 <input ng-model="order.material_width" value="{{order.material_width}}" class="form" style="text-align: center" name="material_width">
-                          <br><br>
+                            <br><br>
                 </div>
 
-                <div class="block3">
+                <div class="block3" style="background: orange">
                     <p>Красочность</p>
                     <br><br>
                         <p class="block5" ng-repeat="inks in order.inks1"> <!-- Массив Opaque + CMYK + IndiChrome -->
@@ -54,26 +63,27 @@
                         </p>
                 </div>
                 
-                <div class="block3">
+                <div class="block3" style="width: 140px; background: orange">
                           <p>Высечка</p>
                           <br><br>
 							<select class="form2" name="cut_type">
 								<option value="ready" ng-selected="{{order.cut_type == 'ready'}}">готовая</option>
 								<option value="new" ng-selected="{{order.cut_type == 'new'}}">заказная</option>
-                                    <option value="porez" ng-selected="{{order.cut_type == 'porez'}}">порез</option>
+                                <option value="porez" ng-selected="{{order.cut_type == 'porez'}}">порез</option>
 								<option value="plotter" ng-selected="{{order.cut_type == 'plotter'}}">плоттер</option>
 								<option value="no_cut" ng-selected="{{order.cut_type == 'no_cut'}}">без высекания</option>
 							</select>
                            <br><br>
                            <p>№
 							<input ng-model="order.cut_number" value="{{order.cut_number}}" class="form1" style="text-align: center" name="cut_number" type="text">
-                           </p><br>
-                           <p style="text-align: center">
-                                    <img ng-src="T:\svg\{{order.cut_number}}.svg" width="auto" height="60"></img>
+                           </p>
+                           <p style="text-align: center; padding: 12px 0px">
+                                    <object type="image/svg+xml" data="T:\svg\{{order.cut_number}}.svg" class="logo">
+                                    </object>
                            </p>
                 </div>
                 
-                <div class="block3">
+                <div class="block3" style="background: orange">
                             <p>Отделка</p>
                                 <br>
                             <p>Лакирование<br>
@@ -98,17 +108,17 @@
                                     <option value="rotation" ng-model="order.kongrev" ng-selected="{{order.kongrev == 'rotation'}}">ротационный</option>
                                 </select>
                     </p>
-                    </div>
+                </div>
         </div>
         
-        <div class="block3">
+        <div class="block3" style="background: orange">
                     <p>Оттиск</p><br>
-                           <p>Размеры этикетки (мм)<br>
+<!--                           <p>Размеры этикетки (мм)<br>
 							<input ng-model="order.size_x" class="form" name="size_x" type="text">
                             x
 							<input ng-model="order.size_y" class="form" name="size_y" type="text">
 						 </p><br>
-                            <p>Этикеток на оттиске<br>
+ -->                           <p>Этикеток на оттиске<br>
 							<input ng-model="order.quantity_X" class="form" name="quantity_X" type="text">
                                     x
 							<input ng-model="order.quantity_Y" class="form" name="quantity_Y" type="text"><br>
@@ -118,15 +128,15 @@
                                     x
 							<input  ng-model="order.print_size_Y" class="form" name="print_size_Y" type="text"><br>
                             </p><br>
-<!--                            <p>Расстояние между этикетками (мм)<br>
+                            <p>Межэтикеточ. расстояние<br>
                                 AQ:
-                                    <input ng-model="order.AQ" class="form" name="AQ" type="text">
+                                    <input ng-model="order.AQ" class="form" style="width: 40px" name="AQ" type="text">
                                 AL:
-                                    <input ng-model="order.AL" class="form" name="AL" type="text"><br>
+                                    <input ng-model="order.AL" class="form" style="width: 40px" name="AL" type="text"><br>
                             </p><br>
--->      </div>
+      </div>
       
-      <div class="block3">
+      <div class="block3" style="width: 190px; background: orange">
                     <p>Намотка</p>
                             <br>
                             <div class="block4">

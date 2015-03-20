@@ -8,6 +8,7 @@
         <a class="header" ng-bind="order.number"></a>
         <a class="header"><strong>{{order.customer}}</strong></a>
         <a class="header" ng-bind="order.name"></a>
+        <a class="header"><strong>{{order.size_x}}x{{order.size_y}} мм</strong></a>
 </div>
 
 <!-- События по заказу -->
@@ -31,7 +32,7 @@
 
 <div class="block">
        <a href ng-click="show_tech = !show_tech" class="block-header"><strong>Технология</strong></a>
-            <div ng-hide="show_tech" ng-include="technology" class="block2">
+            <div ng-hide="show_tech" ng-include="technology[order.print_type]" class="block2">
             </div>
 </div>
 
@@ -40,7 +41,7 @@
 <div class="block">
      <a href ng-click="show_com = !show_com" class="block-header"><strong>Комментарии</strong>
      </a>
-     <div ng-show="show_com" class="block2">
+     <div ng-hide="show_com" class="block2">
         <textarea ng-bind="order.comments" class="comment">
         </textarea>
      </div>
