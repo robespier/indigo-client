@@ -1,19 +1,22 @@
-﻿{
-    "name": "indigo-app",
-    "version": "0.0.1",
-    "description": "",
-    "author": "",
-    "main": "view/index.html",
-    "window": {
-        "title": "Мои Заказы",
-        "width": 1220,
-        "height": 900,
-        "min_width": 1220,
-        "min_height": 210,
-        "toolbar": false,
-        "position": "center",
-        "frame": true
-     },
-    "dependencies": {
-    }
+{
+  "name": "indigo-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robespier/indigo-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robespier/indigo-client/issues"
+  },
+  "homepage": "https://github.com/robespier/indigo-client#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.28.3"
+  }
 }
