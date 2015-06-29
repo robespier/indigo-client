@@ -2,9 +2,9 @@
                     <p>Параметры</p><br>
                         <p>Печать<br>
                               <select class="form2" name="print_type">
-                                <option value="digital" ng-selected="{{order.print_type == 'digital'}}">цифровая</option>
-								<option value="flexo" ng-selected="{{order.print_type == 'flexo'}}">флексо</option>
-								<option value="combo" ng-selected="{{order.print_type == 'combo'}}">комбинированная</option>
+                                <option value="digital" ng-model="order.print_type" ng-change="changePrintType()" ng-selected="{{order.print_type == 'digital'}}">цифровая</option>
+								<option value="flexo" ng-model="order.print_type" ng-change="changePrintType()" ng-selected="{{order.print_type == 'flexo'}}">флексо</option>
+								<option value="combo" ng-model="order.print_type" ng-change="changePrintType()" ng-selected="{{order.print_type == 'combo'}}">комбинированная</option>
                               </select>
                         </p><br>
                         <p>Печатная машина<br>

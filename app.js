@@ -13,7 +13,7 @@
         .run(function($rootScope) {     
             $rootScope.order = {};
         })
-app.controller('OrderController', ['$scope', '$location', '$routeParams', 'Orders', 'order_status', 'label_status', 'sample_ink', 'sample_pms', function($scope, $location, $routeParams, Orders, order_status, label_status, sample_ink, sample_pms) {
+app.controller('OrderController', ['$scope', '$location', '$routeParams', 'Orders', 'order_status', 'label_status', 'sample_ink', 'sample_pms', 'materials', function($scope, $location, $routeParams, Orders, order_status, label_status, sample_ink, sample_pms, materials) {
         $scope.sortparam = "date"; // параметр сортировки заказов
         $scope.status = ""; // состояние заказа
         $scope.order_status = order_status;
@@ -65,4 +65,7 @@ app.controller('OrderController', ['$scope', '$location', '$routeParams', 'Order
             combo: 'combo.html'
         };
         $scope.label_list = "label_list.html";
+        $scope.labelOpen = function() {
+            currentLabelPath = this.label.file_path;
+        };
 }]);

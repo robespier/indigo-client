@@ -41,7 +41,7 @@
 <div class="block">
      <a href ng-click="show_com = !show_com" class="block-header"><strong>Комментарии</strong>
      </a>
-     <div ng-hide="show_com" class="block2">
+     <div ng-show="show_com" class="block2">
         <textarea ng-bind="order.comments" class="comment">
         </textarea>
      </div>
