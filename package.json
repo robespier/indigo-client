@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/robespier/indigo-client#readme",
   "devDependencies": {
+    "asar": "^0.7.2",
     "electron-prebuilt": "^0.28.3"
   }
 }
