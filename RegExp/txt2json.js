@@ -12,7 +12,25 @@ fs.readFile('Crystal Reports - rep_order_tmap_oper.txt', function (err, data) {
   var text = data.toString();
   
   // В бой вступают регулярки
+  var parser = [
+      {field: 'order_number', matcher: /\d{3}.\d{5}/, index: 0},
+      {field: 'customer', matcher: /Заказчик: ([^\t]*)/},
+      {field: 'order_name', matcher: /\/ ([^\t]*)/},
+      {field: 'manager', matcher: /Менеджер: ([^\t]*)/},
+      {field: 'master', matcher: /Технолог: (.*)/},
+      {field: 'designer', matcher: /КАРТА (.*)/},
+  ];
   
+  var result = {};
+  
+  parser.forEach(function(p) {
+      var m = p.matcher.exec(text);
+      // Индекс совпадения, по умолчанию 1
+      var r = (typeof(p.index) === 'undefined') ? 1 : p.index;
+      result[p.field] = m[r];
+  });
+  
+  /**
   var r1 = /\d{3}.\d{5}/;
   var r2 = /Заказчик: ([^\t]*)/;
   var r3 = /\/ ([^\t]*)/;
@@ -36,5 +54,17 @@ fs.readFile('Crystal Reports - rep_order_tmap_oper.txt', function (err, data) {
          master: master[1],
          designer: designer[1]
   };
+  */
+  
   console.log(result);
+  
+  /**
+   * Пишем красивешный json в файл
+   */
+  fs.writeFileSync('result.json', JSON.stringify(result, null, '\t'));
+  
+  /**
+   * Cloud9 не завершает процесс автоматически, поможем товарищу!
+   */
+  process.exit();
 });
