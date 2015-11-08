@@ -11,11 +11,31 @@ fs.readFile('Crystal Reports - rep_order_tmap_oper.txt', function (err, data) {
   // data имеет тип Buffer, переводим в string
   var text = data.toString();
   
-  // В бой вступают регулярки
+  /**
+   * В бой вступают регулярки
+   * 
+   * Интерфейс объектов парсера:
+   * 
+   * @param {string} field Имя поля в результирующем json;
+   * @param {RegExp} matcher Регулярка, определяющая значение;
+   * @param {number} [index] Индекс значения в массиве совпадений, опционально;
+   * @param {function} [postProcess] Пост-обработка значения, опционально;
+   */
   var parser = [
       {field: 'order_number', matcher: /Заказ №	([^\t]*)/},
       {field: 'customer', matcher: /Заказчик: ([^\t|\r]*)/},
-      {field: 'order_name', matcher: /\/ ([^\t|\r]*)/}, // Наименование заказа
+      {
+        field: 'order_name',
+        matcher: /\/ ([^\t|\r]*)/,
+        postProcess: function(m) {
+          // С выходным значением ничего не делаем...
+          return m;
+          // ...хотя можно что угодно, например:
+          //return m.split(', ');
+          //return m.toUpperCase();
+          //return m.replace(/ /g,'_');
+        }
+      }, // Наименование заказа
       {field: 'manager', matcher: /Менеджер: ([^\t|\s]*)/},
       {field: 'master', matcher: /Технолог: (.*)/},
       {field: 'designer', matcher: /КАРТА (.*)/}, // Дизайнер
@@ -29,7 +49,11 @@ fs.readFile('Crystal Reports - rep_order_tmap_oper.txt', function (err, data) {
       var m = p.matcher.exec(text);
       // Индекс совпадения, по умолчанию 1
       var r = (typeof(p.index) === 'undefined') ? 1 : p.index;
-      result[p.field] = m[r];
+      var value = m[r];
+      if (typeof(p.postProcess) === 'function') {
+        value = p.postProcess(m[r]);
+      }
+      result[p.field] = value;
   });
   
   /**
