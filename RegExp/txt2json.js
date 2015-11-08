@@ -6,8 +6,14 @@ var fs = require('fs');
  */
 var asystem = require('a-system');
 
+/**
+ * Параметры
+ */
+var infile = 'Crystal Reports - rep_order_tmap_oper.txt';
+var outfile = 'result.json';
+
 // Считывание содержимого файла в память
-fs.readFile('Crystal Reports - rep_order_tmap_oper.txt', function (err, data) {
+fs.readFile(infile, function (err, data) {
 
   // Если произошла ошибка, то мы генерируем исключение,
   // и работа приложения завершается
@@ -24,7 +30,7 @@ fs.readFile('Crystal Reports - rep_order_tmap_oper.txt', function (err, data) {
   /**
    * Пишем красивешный json в файл
    */
-  fs.writeFileSync('result.json', JSON.stringify(result, null, '\t'));
+  fs.writeFileSync(outfile, JSON.stringify(result, null, '\t'));
   
   /**
    * Cloud9 не завершает процесс автоматически, поможем товарищу!
