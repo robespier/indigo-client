@@ -13,12 +13,14 @@ fs.readFile('Crystal Reports - rep_order_tmap_oper.txt', function (err, data) {
   
   // В бой вступают регулярки
   var parser = [
-      {field: 'order_number', matcher: /\d{3}.\d{5}/, index: 0},
-      {field: 'customer', matcher: /Заказчик: ([^\t]*)/},
-      {field: 'order_name', matcher: /\/ ([^\t]*)/},
-      {field: 'manager', matcher: /Менеджер: ([^\t]*)/},
+      {field: 'order_number', matcher: /Заказ №	([^\t]*)/},
+      {field: 'customer', matcher: /Заказчик: ([^\t|\r]*)/},
+      {field: 'order_name', matcher: /\/ ([^\t|\r]*)/}, // Наименование заказа
+      {field: 'manager', matcher: /Менеджер: ([^\t|\s]*)/},
       {field: 'master', matcher: /Технолог: (.*)/},
-      {field: 'designer', matcher: /КАРТА (.*)/},
+      {field: 'designer', matcher: /КАРТА (.*)/}, // Дизайнер
+      {field: 'profile', matcher: /профиль\t(.*)/}, // ICC-профиль
+      {field: 'cut', matcher: /Высечка ([^\s]*)/},
   ];
   
   var result = {};
