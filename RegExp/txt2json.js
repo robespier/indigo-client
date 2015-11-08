@@ -2,6 +2,15 @@
 var fs = require('fs');
 
 /**
+ * !!! WARNING !!! OS DEPENDENCIES !!!
+ * 
+ * Ubuntu/Debian sudo apt-get install poppler-utils.
+ * MacOSX sudo port install poppler or brew install xpdf.
+ * Windows download and install Xpdf. http://www.foolabs.com/xpdf/download.html
+ */
+var pdf2txt = require('pdftotextjs');
+
+/**
  * Блядь, куда всё делось? Сюда: node_modules/a-system/index.js
  */
 var asystem = require('a-system');
@@ -32,7 +41,9 @@ fs.watch('print', function(event, filename) {
  * Конвертим PDF в текст
  */
 function convertPDF(filename) {
-  throw 'not implemented yet!';
+  var rawPDF = new pdf2txt(filename);
+  var text = rawPDF.getTextSync();
+  fs.writeFileSync(filename + '.txt', text);
 }
 
 function parse(infile) {
