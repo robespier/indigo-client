@@ -21,7 +21,9 @@
     "asar": "^0.7.2",
     "electron-prebuilt": "^0.28.3",
     "grunt": "^0.4.5",
-    "should": "^7.1.1"
+    "lodash": "^3.10.1",
+    "should": "^7.1.1",
+    "xml2js": "^0.4.15"
   },
   "dependencies": {
     "pdftotextjs": "^0.3.1"

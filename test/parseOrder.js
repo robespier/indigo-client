@@ -44,22 +44,24 @@ var expectations = [
     {
         order_number: '315Б04063',
         customer: 'Алькор Чел.обл.',
-        order_name: 'Глинянный горшок Стакан 95.300 и',
+        order_name: 'Глинянный горшок Стакан 95.300 и 95.400.4',
         manager: 'Попова Е. Ю.',
         master: 'Роженко Ю.',
         designer: 'Сергеев Р. В.',
         profile: 'Siegwerk_PVC_156_fast',
-        cut: 'Нет'
+        cut_type: 'Нет',
+        cut_number: '1081Т'
     },
     {
         order_number: '414Ц04308',
         customer: 'КФХ Семенов В.О.',
-        order_name: 'напиток безалкогольный низкокалорийный среднегазированный',
+        order_name: 'напитки Саврушка 1,5л в ассортименте 7 видов',
         manager: 'Шестакова С. Л.',
-        master: 'ОШИБКА ПАРСИНГА',
+        master: null,
         designer: 'Сергеев Р. В.',
-        profile: 'ОШИБКА ПАРСИНГА',
-        cut: 'ОШИБКА ПАРСИНГА'
+        profile: null,
+        cut_type: 'Новая',
+        cut_number: '1084093'
     },
     {
         order_number: '415Н04428',
@@ -69,7 +71,8 @@ var expectations = [
         master: 'Роженко Ю.',
         designer: 'Сергеев Р. В.',
         profile: 'Siegwerk_MPSilver_156_kodak',
-        cut: '1108321'
+        cut_type: 'Старая',
+        cut_number: '1108321'
     },
     {
         order_number: '415Н04489',
@@ -79,11 +82,12 @@ var expectations = [
         master: 'Роженко Ю.',
         designer: 'Сергеев Р. В.',
         profile: 'Siegwerk_MPSilver_156_fast',
-        cut: 'новая'
+        cut_type: 'Новая',
+        cut_number: null
     }
 ];
 
-describe('ASystem.parseOrder', function() {
+describe.skip('ASystem.parseOrder', function() {
 
     before(function(done) {
         var prepSequence = [cleanupPrint()];
@@ -121,7 +125,8 @@ describe('ASystem.parseOrder', function() {
                 'master',
                 'designer',
                 'profile',
-                'cut'
+                'cut_type',
+                'cut_number'
             ]);
         })
         
