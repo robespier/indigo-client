@@ -122,13 +122,6 @@ describe.only('ASystem: parse JSON orders', function() {
         });
     });
 
-    /**
-     * Избыточный
-     * 
-    it(`Order ${order} has expected length`, function() {
-        Object.keys(result).length.should.equal(9);
-    });*/
-
     it(`Order ${order} should have required properties`, function() {
       result.should.have.keys([
         'order_number',
@@ -144,9 +137,38 @@ describe.only('ASystem: parse JSON orders', function() {
       ]);
     })
 
-    // Хочешь счастья? Закомментируй следующие три строчки
     it(`Order ${order} parsed as expected`, function() {
       expectations[index].should.deepEqual(result);
     });
+  });
+  
+  /**
+   * Подсовываем парсеру заведомо неверные значения, смотрим, как справится.
+   * Подпорченый заказ лежат в parseOrder/validators-tests.json
+   * Валидаторы полей должны вопить в этом случае.
+   * При пополнении валидаторов его тоже ЖЕЛАТЕЛЬНО обновлять
+   * 
+   * P.S. Про гремлинов см. Википедию 
+   * P.P.S. Забыл, что ES6 и var уже не модно. С этого коммита -- let и const.
+   *        Без `use strict` в текущей версии ноды (v4.1.1) let не сработает
+   */
+  it('Fields validators do not sleep :)', function() {
+    'use strict';
+    const wrongSrc = path.join(__dirname, 'parseOrder/validators-tests.json');
+    const wrongParsings = fs.readFileSync(wrongSrc).toString();
+    const result = asystem.parseJsonOrder(wrongParsings);
+    const badReaction = "PARSING ERROR";
+    const expected = {
+      "designer": badReaction,
+      "order_name": "Неоколлаген Артро",
+      "order_number": badReaction,
+      "master": badReaction,
+      "manager": badReaction,
+      "customer": "Артлайф",
+      "printing": badReaction,
+      "profile": "Siegwerk_MPSilver_156_fast",
+      "cut_type": null
+    };
+    expected.should.deepEqual(result);
   });
 });
