@@ -66,6 +66,17 @@ var expectations = [{
   //cut_number: '1084093',
   printing: "160000"
 }, {
+  order_number: '415-04711',
+  customer: 'ИП Штуккерт А.А.',
+  order_name: 'Нодепресс 180 кап., Артроцельс 180 кап., Гепоцельс 180 кап.',
+  manager: 'Лотфуллина Э. М.',
+  master: 'Воронцова М. Ф.',
+  designer: 'Сергеев Р. В.',
+  profile: 'Siegwerk_Sem_156_kodak',
+  cut_type: 'Старая',
+  //cut_number: 1120424,
+  printing: '12000'
+}, {
   order_number: '415Н04428',
   customer: 'Артлайф',
   order_name: 'Дискавери Сила № 1, Дискавери Сила № 2',
