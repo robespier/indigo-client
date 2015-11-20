@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "coverage": "node_modules/istanbul/lib/cli.js cover --root test/src _mocha",
     "start": "electron .",
     "test": "mocha"
   },
@@ -21,6 +22,7 @@
     "asar": "^0.7.2",
     "electron-prebuilt": "^0.28.3",
     "grunt": "^0.4.5",
+    "istanbul": "^0.4.0",
     "lodash": "^3.10.1",
     "should": "^7.1.1",
     "xml2js": "^0.4.15"
