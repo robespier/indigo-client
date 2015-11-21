@@ -6,7 +6,7 @@
   "scripts": {
     "coverage": "node_modules/istanbul/lib/cli.js cover --root test/src _mocha",
     "start": "electron .",
-    "test": "mocha"
+    "test": "mocha -s 1500"
   },
   "repository": {
     "type": "git",
