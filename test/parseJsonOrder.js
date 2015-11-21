@@ -54,6 +54,10 @@ var expectations = [{
   cut_type: 'Нет',
   //cut_number: '1081Т',
   printing: "1000",
+  order_parts: [{
+    title: 'Проба Стакан 95.300/95.400.4 глинянный горшок два варианта "полоски" и "гладкий"',
+    passport: '2117048',
+  }],
 }, {
   order_number: '414Ц04308',
   customer: 'КФХ Семенов В.О.',
@@ -64,7 +68,33 @@ var expectations = [{
   profile: null,
   cut_type: 'Новая',
   //cut_number: '1084093',
-  printing: "160000"
+  printing: "160000",
+  order_parts: [{
+    title: 'напиток безалкогольный низкокалорийный среднегазированный Апельсин 1,5л',
+    passport: 'D4327004',
+  }, {
+    title: 'напиток безалкогольный низкокалорийный среднегазированный Малина 1,5л',
+    passport: 'D4327004',
+  }, {
+    title: 'напиток безалкогольный низкокалорийный среднегазированный Зеленый чай 1,5л',
+    passport: 'D4327004',
+  }, {
+    title: 'напиток безалкогольный низкокалорийный среднегазированный Квас 1,5л',
+    passport: 'D4327004',
+  }, {
+    title: 'напиток безалкогольный низкокалорийный среднегазированный Груша-Дюшес 1,5л',
+    passport: 'D4327004',
+  }, {
+    title: 'вода газированная Саврушка 1,5л',
+    passport: 'D4327004',
+  }, {
+    title: 'вода негазированная Саврушка 1,5л',
+    passport: 'D4327004',
+  }, {
+    title: 'лимонад Саврушка 1,5л',
+    passport: 'D4327004',
+    passfile: '4327003',
+  }]
 }, {
   order_number: '415-04711',
   customer: 'ИП Штуккерт А.А.',
@@ -74,8 +104,21 @@ var expectations = [{
   designer: 'Сергеев Р. В.',
   profile: 'Siegwerk_Sem_156_kodak',
   cut_type: 'Старая',
-  //cut_number: 1120424,
-  printing: '12000'
+//  cut_number: '1120424',
+  printing: '12000',
+  order_parts: [{
+    title: 'Нодепресс 180 кап.',
+    passport: '6006511',
+    passfile: 'Д6090009',
+  }, {
+    title: 'Артроцельс 180 кап',
+    passport: '6006511',
+    passfile: 'Д6090009',
+  }, {
+    title: 'Гепоцельс 180 кап.',
+    passport: '6006511',
+    passfile: 'Д6090009',
+  }]
 }, {
   order_number: '415Н04428',
   customer: 'Артлайф',
@@ -85,8 +128,17 @@ var expectations = [{
   designer: 'Сергеев Р. В.',
   profile: 'Siegwerk_MPSilver_156_kodak',
   cut_type: 'Старая',
-  //cut_number: '1108321',
-  printing: "20000"
+//  cut_number: '1108321',
+  printing: "20000",
+  order_parts: [{
+    title: 'Дискавери Сила № 1',
+    passport: '6006504',
+    passfile: 'D6006728',
+  }, {
+    title: 'Дискавери Сила № 2',
+    passport: '6006504',
+    passfile: 'D6006729',
+  }]
 }, {
   order_number: '415Н04489',
   customer: 'Артлайф',
@@ -97,7 +149,12 @@ var expectations = [{
   profile: 'Siegwerk_MPSilver_156_fast',
   cut_type: 'Новая',
   //cut_number: null,
-  printing: '7000'
+  printing: '7000',
+  order_parts: [{
+    title: 'Неоколлаген Артро',
+    passport: '6006502',
+    passfile: 'D6006674',
+  }]
 }];
 
 describe.only('ASystem: parse JSON orders', function() {
@@ -145,6 +202,7 @@ describe.only('ASystem: parse JSON orders', function() {
         'cut_type',
         //'cut_number',
         'printing',
+        'order_parts',
       ]);
     })
 
@@ -178,7 +236,12 @@ describe.only('ASystem: parse JSON orders', function() {
       "customer": "Артлайф",
       "printing": badReaction,
       "profile": "Siegwerk_MPSilver_156_fast",
-      "cut_type": null
+      "cut_type": null,
+      "order_parts": [{
+        "passfile": "D6006674",
+        "passport": "6006502",
+        "title": "Неоколлаген Артро"
+      }]
     };
     expected.should.deepEqual(result);
   });
