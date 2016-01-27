@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager ./ Indigo-client --platform=win32 --arch=x64 --version=0.28.2 --asar --overwrite"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/robespier/indigo-client#readme",
   "devDependencies": {
     "asar": "^0.7.2",
+    "electron-packager": "^5.0.0",
     "electron-prebuilt": "^0.28.3"
   }
 }
